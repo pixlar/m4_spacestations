@@ -1,0 +1,92 @@
+{
+  "metadata" : {
+    "name" : "m4_protectoratestation",
+    "species" : "human",
+    "rules" : [
+    ],
+    "anchor" : [ "protectoratespacestationbase1" ],
+    "gravity" : 60,
+    "maxRadius" : 1000000,
+    "maxParts" : 100,
+    "protected" : true
+  },
+
+  "parts" : [
+
+    // STATION LAYOUTS
+    {
+      "name" : "protectoratespacestationbase1",
+      "rules" : [
+        [ "doNotCombineWith", [ "protectoratespacestationbase1" ] ]
+      ],
+      "def" : [ "tmx", "protectoratespacestationbase1.json" ],
+      "chance" : 1
+    },
+    // ROOMS
+    {
+      "name" : "stationRoomComputers",
+      "rules" : [
+        [ "maxSpawnCount", [4] ]
+      ],
+      "def" : [ "tmx", "stationRoomComputers.json" ],
+      "chance" : 1
+    },
+    {
+      "name" : "stationRoomEmpty",
+      "rules" : [
+        [ "maxSpawnCount", [8] ]
+      ],
+      "def" : [ "tmx", "stationRoomEmpty.json" ],
+      "chance" : 1
+    },
+    {
+      "name" : "stationRoomHylotl",
+      "rules" : [
+        [ "maxSpawnCount", [4] ]
+      ],
+      "def" : [ "tmx", "stationRoomHylotl.json" ],
+      "chance" : 1
+    },
+    {
+      "name" : "stationRoomMemorial",
+      "rules" : [
+        [ "maxSpawnCount", [1] ]
+      ],
+      "def" : [ "tmx", "stationRoomMemorial.json" ],
+      "chance" : 1
+    },
+    {
+      "name" : "stationRoomMerchants",
+      "rules" : [
+        [ "maxSpawnCount", [2] ]
+      ],
+      "def" : [ "tmx", "stationRoomMerchants.json" ],
+      "chance" : 1
+    },
+    {
+      "name" : "stationRoomCrafting",
+      "rules" : [
+        [ "maxSpawnCount", [1] ]
+      ],
+      "def" : [ "tmx", "stationRoomCrafting.json" ],
+      "chance" : 1
+    },
+    // STATION COMMAND
+    {
+      "name" : "stationCommand",
+      "rules" : [
+        [ "maxSpawnCount", [1] ]
+      ],
+      "def" : [ "tmx", "stationCommand.json" ],
+      "chance" : 1
+    },
+    {
+      "name" : "stationCommand2",
+      "rules" : [
+        [ "maxSpawnCount", [1] ]
+      ],
+      "def" : [ "tmx", "stationCommand2.json" ],
+      "chance" : 1
+    }
+  ]
+}

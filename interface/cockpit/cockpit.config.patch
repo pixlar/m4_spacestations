@@ -150,5 +150,43 @@
   "op": "add",
   "path": "/planetTypeToDescription/mazetechspace7",
   "value": ["A mysterious high-tech labyrinth of unknown origin. ^red;No breathable atmosphere!"]
+},
+//-------------------------------------------------------------------------------------------
+//M4 Protectorate Station
+//-------------------------------------------------------------------------------------------
+{
+  "op": "add",
+  "path": "/planetTypeToDescription/m4_protectoratestation1",
+  "value": ["A Protectorate Space Base."]
+},
+{
+  "op": "add",
+  "path": "/planetTypeToDescription/m4_protectoratestation2",
+  "value": ["A Protectorate Space Base."]
+},
+{
+  "op": "add",
+  "path": "/planetTypeToDescription/m4_protectoratestation3",
+  "value": ["A Protectorate Space Base."]
+},
+{
+  "op": "add",
+  "path": "/planetTypeToDescription/m4_protectoratestation4",
+  "value": ["A Protectorate Space Base."]
+},
+{
+  "op": "add",
+  "path": "/planetTypeToDescription/m4_protectoratestation5",
+  "value": ["A Protectorate Space Base."]
+},
+{
+  "op": "add",
+  "path": "/planetTypeToDescription/m4_protectoratestation6",
+  "value": ["A Protectorate Space Base."]
+},
+{
+  "op": "add",
+  "path": "/planetTypeToDescription/m4_protectoratestation7",
+  "value": ["A Protectorate Space Base."]
 }
 ]

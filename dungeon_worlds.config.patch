@@ -318,5 +318,86 @@
   "dungeonBaseHeight" : 4096,
   "ambientLightLevel" : [0, 0, 0],
   "musicTrack" : "/music/temple-of-kluex.ogg"
+}},
+
+//-------------------------------------------------------------------------------------------
+//M4 Protectorate Station
+//-------------------------------------------------------------------------------------------
+{ "op": "add", "path": "/m4_protectoratestation1", "value": {
+  "primaryDungeon" : "m4_protectoratestation",
+  "threatLevel" : 1,
+  "airless" : false,
+  "breathable" : true,
+  "gravity" : 50,
+  "worldSize" : [4096, 8192],
+  "dungeonBaseHeight" : 4096,
+  "ambientLightLevel" : [80, 80, 80],
+  "musicTrack" : "/music/temple-of-kluex.ogg"
+}},
+{ "op": "add", "path": "/m4_protectoratestation2", "value": {
+  "primaryDungeon" : "m4_protectoratestation",
+  "threatLevel" : 2,
+  "airless" : false,
+  "breathable" : true,
+  "gravity" : 50,
+  "worldSize" : [4096, 8192],
+  "dungeonBaseHeight" : 4096,
+  "ambientLightLevel" : [80, 80, 80],
+  "musicTrack" : "/music/temple-of-kluex.ogg"
+}},
+{ "op": "add", "path": "/m4_protectoratestation3", "value": {
+  "primaryDungeon" : "m4_protectoratestation",
+  "threatLevel" : 3,
+  "airless" : false,
+  "breathable" : true,
+  "gravity" : 50,
+  "worldSize" : [4096, 8192],
+  "dungeonBaseHeight" : 4096,
+  "ambientLightLevel" : [80, 80, 80],
+  "musicTrack" : "/music/temple-of-kluex.ogg"
+}},
+{ "op": "add", "path": "/m4_protectoratestation4", "value": {
+  "primaryDungeon" : "m4_protectoratestation",
+  "threatLevel" : 4,
+  "airless" : false,
+  "breathable" : true,
+  "gravity" : 50,
+  "worldSize" : [4096, 8192],
+  "dungeonBaseHeight" : 4096,
+  "ambientLightLevel" : [80, 80, 80],
+  "musicTrack" : "/music/temple-of-kluex.ogg"
+}},
+{ "op": "add", "path": "/m4_protectoratestation5", "value": {
+  "primaryDungeon" : "m4_protectoratestation",
+  "threatLevel" : 5,
+  "airless" : false,
+  "breathable" : true,
+  "gravity" : 50,
+  "worldSize" : [4096, 8192],
+  "dungeonBaseHeight" : 4096,
+  "ambientLightLevel" : [80, 80, 80],
+  "musicTrack" : "/music/temple-of-kluex.ogg"
+}},
+{ "op": "add", "path": "/m4_protectoratestation6", "value": {
+  "primaryDungeon" : "m4_protectoratestation",
+  "threatLevel" : 6,
+  "airless" : false,
+  "breathable" : true,
+  "gravity" : 50,
+  "worldSize" : [4096, 8192],
+  "dungeonBaseHeight" : 4096,
+  "ambientLightLevel" : [80, 80, 80],
+  "musicTrack" : "/music/temple-of-kluex.ogg"
+}},
+{ "op": "add", "path": "/m4_protectoratestation7", "value": {
+  "primaryDungeon" : "m4_protectoratestation",
+  "threatLevel" : 7,
+  "airless" : false,
+  "breathable" : true,
+  "gravity" : 50,
+  "worldSize" : [4096, 8192],
+  "dungeonBaseHeight" : 4096,
+  "ambientLightLevel" : [80, 80, 80],
+  "musicTrack" : "/music/temple-of-kluex.ogg"
 }}
 ]
