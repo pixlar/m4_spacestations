@@ -332,7 +332,7 @@
   "worldSize" : [4096, 8192],
   "dungeonBaseHeight" : 4096,
   "ambientLightLevel" : [80, 80, 80],
-  "musicTrack" : "/music/temple-of-kluex.ogg"
+  "musicTrack" : "/music/planetarium.ogg"
 }},
 { "op": "add", "path": "/m4_protectoratestation2", "value": {
   "primaryDungeon" : "m4_protectoratestation",
@@ -343,7 +343,7 @@
   "worldSize" : [4096, 8192],
   "dungeonBaseHeight" : 4096,
   "ambientLightLevel" : [80, 80, 80],
-  "musicTrack" : "/music/temple-of-kluex.ogg"
+  "musicTrack" : "/music/planetarium.ogg"
 }},
 { "op": "add", "path": "/m4_protectoratestation3", "value": {
   "primaryDungeon" : "m4_protectoratestation",
@@ -354,7 +354,7 @@
   "worldSize" : [4096, 8192],
   "dungeonBaseHeight" : 4096,
   "ambientLightLevel" : [80, 80, 80],
-  "musicTrack" : "/music/temple-of-kluex.ogg"
+  "musicTrack" : "/music/planetarium.ogg"
 }},
 { "op": "add", "path": "/m4_protectoratestation4", "value": {
   "primaryDungeon" : "m4_protectoratestation",
@@ -365,7 +365,7 @@
   "worldSize" : [4096, 8192],
   "dungeonBaseHeight" : 4096,
   "ambientLightLevel" : [80, 80, 80],
-  "musicTrack" : "/music/temple-of-kluex.ogg"
+  "musicTrack" : "/music/planetarium.ogg"
 }},
 { "op": "add", "path": "/m4_protectoratestation5", "value": {
   "primaryDungeon" : "m4_protectoratestation",
@@ -376,7 +376,7 @@
   "worldSize" : [4096, 8192],
   "dungeonBaseHeight" : 4096,
   "ambientLightLevel" : [80, 80, 80],
-  "musicTrack" : "/music/temple-of-kluex.ogg"
+  "musicTrack" : "/music/planetarium.ogg"
 }},
 { "op": "add", "path": "/m4_protectoratestation6", "value": {
   "primaryDungeon" : "m4_protectoratestation",
@@ -387,7 +387,7 @@
   "worldSize" : [4096, 8192],
   "dungeonBaseHeight" : 4096,
   "ambientLightLevel" : [80, 80, 80],
-  "musicTrack" : "/music/temple-of-kluex.ogg"
+  "musicTrack" : "/music/planetarium.ogg"
 }},
 { "op": "add", "path": "/m4_protectoratestation7", "value": {
   "primaryDungeon" : "m4_protectoratestation",
@@ -398,6 +398,6 @@
   "worldSize" : [4096, 8192],
   "dungeonBaseHeight" : 4096,
   "ambientLightLevel" : [80, 80, 80],
-  "musicTrack" : "/music/temple-of-kluex.ogg"
+  "musicTrack" : "/music/planetarium.ogg"
 }}
 ]
