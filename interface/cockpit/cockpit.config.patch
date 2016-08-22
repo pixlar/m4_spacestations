@@ -1,0 +1,154 @@
+[
+//-------------------------------------------------------------------------------------------
+//Underground Ornate Maze
+//-------------------------------------------------------------------------------------------
+{
+  "op": "add",
+  "path": "/planetTypeToDescription/mazeornatespace1",
+  "value": ["A mysterious ornate labyrinth of unknown origin. ^red;No breathable atmosphere!"]
+},
+{
+  "op": "add",
+  "path": "/planetTypeToDescription/mazeornatespace2",
+  "value": ["A mysterious ornate labyrinth of unknown origin. ^red;No breathable atmosphere!"]
+},
+{
+  "op": "add",
+  "path": "/planetTypeToDescription/mazeornatespace3",
+  "value": ["A mysterious ornate labyrinth of unknown origin. ^red;No breathable atmosphere!"]
+},
+{
+  "op": "add",
+  "path": "/planetTypeToDescription/mazeornatespace4",
+  "value": ["A mysterious ornate labyrinth of unknown origin. ^red;No breathable atmosphere!"]
+},
+{
+  "op": "add",
+  "path": "/planetTypeToDescription/mazeornatespace5",
+  "value": ["A mysterious ornate labyrinth of unknown origin. ^red;No breathable atmosphere!"]
+},
+{
+  "op": "add",
+  "path": "/planetTypeToDescription/mazeornatespace6",
+  "value": ["A mysterious ornate labyrinth of unknown origin. ^red;No breathable atmosphere!"]
+},
+{
+  "op": "add",
+  "path": "/planetTypeToDescription/mazeornatespace7",
+  "value": ["A mysterious ornate labyrinth of unknown origin. ^red;No breathable atmosphere!"]
+},
+//-------------------------------------------------------------------------------------------
+//Underground Plant Maze
+//-------------------------------------------------------------------------------------------
+{
+  "op": "add",
+  "path": "/planetTypeToDescription/mazeplantspace1",
+  "value": ["A mysterious plant-covered labyrinth of unknown origin. ^red;No breathable atmosphere!"]
+},
+{
+  "op": "add",
+  "path": "/planetTypeToDescription/mazeplantspace2",
+  "value": ["A mysterious plant-covered labyrinth of unknown origin. ^red;No breathable atmosphere!"]
+},
+{
+  "op": "add",
+  "path": "/planetTypeToDescription/mazeplantspace3",
+  "value": ["A mysterious plant-covered labyrinth of unknown origin. ^red;No breathable atmosphere!"]
+},
+{
+  "op": "add",
+  "path": "/planetTypeToDescription/mazeplantspace4",
+  "value": ["A mysterious plant-covered labyrinth of unknown origin. ^red;No breathable atmosphere!"]
+},
+{
+  "op": "add",
+  "path": "/planetTypeToDescription/mazeplantspace5",
+  "value": ["A mysterious plant-covered labyrinth of unknown origin. ^red;No breathable atmosphere!"]
+},
+{
+  "op": "add",
+  "path": "/planetTypeToDescription/mazeplantspace6",
+  "value": ["A mysterious plant-covered labyrinth of unknown origin. ^red;No breathable atmosphere!"]
+},
+{
+  "op": "add",
+  "path": "/planetTypeToDescription/mazeplantspace7",
+  "value": ["A mysterious plant-covered labyrinth of unknown origin. ^red;No breathable atmosphere!"]
+},
+//-------------------------------------------------------------------------------------------
+//Underground Stone Maze
+//-------------------------------------------------------------------------------------------
+{
+  "op": "add",
+  "path": "/planetTypeToDescription/mazestonespace1",
+  "value": ["A mysterious stone labyrinth of unknown origin. ^red;No breathable atmosphere!"]
+},
+{
+  "op": "add",
+  "path": "/planetTypeToDescription/mazestonespace2",
+  "value": ["A mysterious stone labyrinth of unknown origin. ^red;No breathable atmosphere!"]
+},
+{
+  "op": "add",
+  "path": "/planetTypeToDescription/mazestonespace3",
+  "value": ["A mysterious stone labyrinth of unknown origin. ^red;No breathable atmosphere!"]
+},
+{
+  "op": "add",
+  "path": "/planetTypeToDescription/mazestonespace4",
+  "value": ["A mysterious stone labyrinth of unknown origin. ^red;No breathable atmosphere!"]
+},
+{
+  "op": "add",
+  "path": "/planetTypeToDescription/mazestonespace5",
+  "value": ["A mysterious stone labyrinth of unknown origin. ^red;No breathable atmosphere!"]
+},
+{
+  "op": "add",
+  "path": "/planetTypeToDescription/mazestonespace6",
+  "value": ["A mysterious stone labyrinth of unknown origin. ^red;No breathable atmosphere!"]
+},
+{
+  "op": "add",
+  "path": "/planetTypeToDescription/mazestonespace7",
+  "value": ["A mysterious stone labyrinth of unknown origin. ^red;No breathable atmosphere!"]
+},
+//-------------------------------------------------------------------------------------------
+//Underground Tech Maze
+//-------------------------------------------------------------------------------------------
+{
+  "op": "add",
+  "path": "/planetTypeToDescription/mazetechspace1",
+  "value": ["A mysterious high-tech labyrinth of unknown origin. ^red;No breathable atmosphere!"]
+},
+{
+  "op": "add",
+  "path": "/planetTypeToDescription/mazetechspace2",
+  "value": ["A mysterious high-tech labyrinth of unknown origin. ^red;No breathable atmosphere!"]
+},
+{
+  "op": "add",
+  "path": "/planetTypeToDescription/mazetechspace3",
+  "value": ["A mysterious high-tech labyrinth of unknown origin. ^red;No breathable atmosphere!"]
+},
+{
+  "op": "add",
+  "path": "/planetTypeToDescription/mazetechspace4",
+  "value": ["A mysterious high-tech labyrinth of unknown origin. ^red;No breathable atmosphere!"]
+},
+{
+  "op": "add",
+  "path": "/planetTypeToDescription/mazetechspace5",
+  "value": ["A mysterious high-tech labyrinth of unknown origin. ^red;No breathable atmosphere!"]
+},
+{
+  "op": "add",
+  "path": "/planetTypeToDescription/mazetechspace6",
+  "value": ["A mysterious high-tech labyrinth of unknown origin. ^red;No breathable atmosphere!"]
+},
+{
+  "op": "add",
+  "path": "/planetTypeToDescription/mazetechspace7",
+  "value": ["A mysterious high-tech labyrinth of unknown origin. ^red;No breathable atmosphere!"]
+}
+]

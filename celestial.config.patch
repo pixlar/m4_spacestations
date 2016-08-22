@@ -1,0 +1,910 @@
+[
+{
+  "op": "replace",
+  "path": "/systemTypes/White/orbitRegions",
+  "value": [
+        {
+          "regionName" : "Tier1",
+          "orbitRange" : [1, 6],
+          "bodyProbability" : 1.0,
+          "planetaryTypes" : [
+            {"weight" : 0.6, "item" : "Tier2"},
+            {"weight" : 0.1, "item" : "Barren"},
+            {"weight" : 0.1, "item" : "AsteroidField"},
+            {"weight" : 0.16, "item" : "EmptySpace"},
+            {"weight" : 0.04, "item" : "Tier2SpaceStation"}
+          ],
+          "satelliteTypes" : [
+            {"weight" : 0.03, "item" : "Tier1"},
+            {"weight" : 0.06, "item" : "Tier2"},
+            {"weight" : 0.01, "item" : "Moon"},
+            {"weight" : 0.72, "item" : "EmptySpace"},
+            {"weight" : 0.18, "item" : "Tier2SpaceStation"}
+          ]
+        },
+        {
+          "regionName" : "Tier1Gas",
+          "orbitRange" : [7, 11],
+          "bodyProbability" : 1.0,
+          "planetaryTypes" : [
+            {"weight" : 0.6, "item" : "GasGiant"},
+            {"weight" : 0.2, "item" : "AsteroidField"},
+            {"weight" : 0.16, "item" : "EmptySpace"},
+            {"weight" : 0.04, "item" : "Tier2SpaceStation"}
+          ],
+          "satelliteTypes" : [
+            {"weight" : 0.27, "item" : "Tier1"},
+            {"weight" : 0.54, "item" : "Tier2"},
+            {"weight" : 0.09, "item" : "Moon"},
+            {"weight" : 0.08, "item" : "EmptySpace"},
+            {"weight" : 0.02, "item" : "Tier2SpaceStation"}
+          ]
+        },
+        {
+          "regionName" : "Moon",
+          "orbitRange" : [12, 12],
+          "bodyProbability" : 1.0,
+          "planetaryTypes" : [
+            {"weight" : 1.0, "item" : "Moon"}
+          ],
+          "satelliteTypes" : [
+            {"weight" : 1.0, "item" : "AncientGateway"}
+          ]
+        }
+      ]
+},
+{
+  "op": "replace",
+  "path": "/systemTypes/Orange/orbitRegions",
+  "value": [
+        {
+          "regionName" : "Tier3",
+          "orbitRange" : [1, 6],
+          "bodyProbability" : 1.0,
+          "planetaryTypes" : [
+            {"weight" : 0.6, "item" : "Tier3"},
+            {"weight" : 0.1, "item" : "Barren"},
+            {"weight" : 0.1, "item" : "AsteroidField"},
+            {"weight" : 0.16, "item" : "EmptySpace"},
+            {"weight" : 0.04, "item" : "Tier3SpaceStation"}
+          ],
+          "satelliteTypes" : [
+            {"weight" : 0.015, "item" : "Tier2"},
+            {"weight" : 0.06, "item" : "Tier3"},
+            {"weight" : 0.015, "item" : "Tier4"},
+            {"weight" : 0.01, "item" : "Moon"},
+            {"weight" : 0.72, "item" : "EmptySpace"},
+            {"weight" : 0.18, "item" : "Tier3SpaceStation"}
+          ]
+        },
+        {
+          "regionName" : "Tier1Gas",
+          "orbitRange" : [7, 11],
+          "bodyProbability" : 1.0,
+          "planetaryTypes" : [
+            {"weight" : 0.6, "item" : "GasGiant"},
+            {"weight" : 0.2, "item" : "AsteroidField"},
+            {"weight" : 0.16, "item" : "EmptySpace"},
+            {"weight" : 0.04, "item" : "Tier3SpaceStation"}
+          ],
+          "satelliteTypes" : [
+            {"weight" : 0.13, "item" : "Tier2"},
+            {"weight" : 0.54, "item" : "Tier3"},
+            {"weight" : 0.13, "item" : "Tier4"},
+            {"weight" : 0.1, "item" : "Moon"},
+            {"weight" : 0.08, "item" : "EmptySpace"},
+            {"weight" : 0.02, "item" : "Tier3SpaceStation"}
+          ]
+        },
+        {
+          "regionName" : "Moon",
+          "orbitRange" : [12, 12],
+          "bodyProbability" : 1.0,
+          "planetaryTypes" : [
+            {"weight" : 1.0, "item" : "Moon"}
+          ],
+          "satelliteTypes" : [
+            {"weight" : 1.0, "item" : "AncientGateway"}
+          ]
+        }
+      ]
+},
+{
+  "op": "replace",
+  "path": "/systemTypes/Yellow/orbitRegions",
+  "value": [
+        {
+          "regionName" : "Tier4",
+          "orbitRange" : [1, 6],
+          "bodyProbability" : 1.0,
+          "planetaryTypes" : [
+            {"weight" : 0.6, "item" : "Tier4"},
+            {"weight" : 0.1, "item" : "Barren"},
+            {"weight" : 0.1, "item" : "AsteroidField"},
+            {"weight" : 0.16, "item" : "EmptySpace"},
+            {"weight" : 0.04, "item" : "Tier4SpaceStation"}
+          ],
+          "satelliteTypes" : [
+            {"weight" : 0.015, "item" : "Tier3"},
+            {"weight" : 0.06, "item" : "Tier4"},
+            {"weight" : 0.015, "item" : "Tier5"},
+            {"weight" : 0.01, "item" : "Moon"},
+            {"weight" : 0.72, "item" : "EmptySpace"},
+            {"weight" : 0.18, "item" : "Tier4SpaceStation"}
+          ]
+        },
+        {
+          "regionName" : "Tier4Gas",
+          "orbitRange" : [7, 11],
+          "bodyProbability" : 1.0,
+          "planetaryTypes" : [
+            {"weight" : 0.6, "item" : "GasGiant"},
+            {"weight" : 0.2, "item" : "AsteroidField"},
+            {"weight" : 0.16, "item" : "EmptySpace"},
+            {"weight" : 0.04, "item" : "Tier4SpaceStation"}
+          ],
+          "satelliteTypes" : [
+            {"weight" : 0.13, "item" : "Tier3"},
+            {"weight" : 0.54, "item" : "Tier4"},
+            {"weight" : 0.13, "item" : "Tier5"},
+            {"weight" : 0.1, "item" : "Moon"},
+            {"weight" : 0.08, "item" : "EmptySpace"},
+            {"weight" : 0.02, "item" : "Tier4SpaceStation"}
+          ]
+        },
+        {
+          "regionName" : "Moon",
+          "orbitRange" : [12, 12],
+          "bodyProbability" : 1.0,
+          "planetaryTypes" : [
+            {"weight" : 1.0, "item" : "Moon"}
+          ],
+          "satelliteTypes" : [
+            {"weight" : 1.0, "item" : "AncientGateway"}
+          ]
+        }
+      ]
+},
+{
+  "op": "replace",
+  "path": "/systemTypes/Blue/orbitRegions",
+  "value": [
+        {
+          "regionName" : "Tier5",
+          "orbitRange" : [1, 6],
+          "bodyProbability" : 1.0,
+          "planetaryTypes" : [
+            {"weight" : 0.6, "item" : "Tier5"},
+            {"weight" : 0.1, "item" : "Barren"},
+            {"weight" : 0.1, "item" : "AsteroidField"},
+            {"weight" : 0.16, "item" : "EmptySpace"},
+            {"weight" : 0.04, "item" : "Tier5SpaceStation"}
+          ],
+          "satelliteTypes" : [
+            {"weight" : 0.015, "item" : "Tier4"},
+            {"weight" : 0.06, "item" : "Tier5"},
+            {"weight" : 0.015, "item" : "Tier6"},
+            {"weight" : 0.01, "item" : "Moon"},
+            {"weight" : 0.72, "item" : "EmptySpace"},
+            {"weight" : 0.18, "item" : "Tier5SpaceStation"}
+          ]
+        },
+        {
+          "regionName" : "Tier5Gas",
+          "orbitRange" : [7, 11],
+          "bodyProbability" : 1.0,
+          "planetaryTypes" : [
+            {"weight" : 0.6, "item" : "GasGiant"},
+            {"weight" : 0.2, "item" : "AsteroidField"},
+            {"weight" : 0.16, "item" : "EmptySpace"},
+            {"weight" : 0.04, "item" : "Tier5SpaceStation"}
+          ],
+          "satelliteTypes" : [
+            {"weight" : 0.13, "item" : "Tier4"},
+            {"weight" : 0.54, "item" : "Tier5"},
+            {"weight" : 0.13, "item" : "Tier6"},
+            {"weight" : 0.1, "item" : "Moon"},
+            {"weight" : 0.08, "item" : "EmptySpace"},
+            {"weight" : 0.02, "item" : "Tier5SpaceStation"}
+          ]
+        },
+        {
+          "regionName" : "Moon",
+          "orbitRange" : [12, 12],
+          "bodyProbability" : 1.0,
+          "planetaryTypes" : [
+            {"weight" : 1.0, "item" : "Moon"}
+          ],
+          "satelliteTypes" : [
+            {"weight" : 1.0, "item" : "AncientGateway"}
+          ]
+        }
+      ]
+},
+{
+  "op": "replace",
+  "path": "/systemTypes/Red/orbitRegions",
+  "value": [
+        {
+          "regionName" : "Tier1",
+          "orbitRange" : [1, 6],
+          "bodyProbability" : 1.0,
+          "planetaryTypes" : [
+            {"weight" : 0.6, "item" : "Tier6"},
+            {"weight" : 0.1, "item" : "Barren"},
+            {"weight" : 0.1, "item" : "AsteroidField"},
+            {"weight" : 0.16, "item" : "EmptySpace"},
+            {"weight" : 0.04, "item" : "Tier6SpaceStation"}
+          ],
+          "satelliteTypes" : [
+            {"weight" : 0.03, "item" : "Tier5"},
+            {"weight" : 0.06, "item" : "Tier6"},
+            {"weight" : 0.01, "item" : "Moon"},
+            {"weight" : 0.72, "item" : "EmptySpace"},
+            {"weight" : 0.18, "item" : "Tier6SpaceStation"}
+          ]
+        },
+        {
+          "regionName" : "Tier1Gas",
+          "orbitRange" : [7, 11],
+          "bodyProbability" : 1.0,
+          "planetaryTypes" : [
+            {"weight" : 0.6, "item" : "GasGiant"},
+            {"weight" : 0.2, "item" : "AsteroidField"},
+            {"weight" : 0.16, "item" : "EmptySpace"},
+            {"weight" : 0.04, "item" : "Tier6SpaceStation"}
+          ],
+          "satelliteTypes" : [
+            {"weight" : 0.27, "item" : "Tier5"},
+            {"weight" : 0.54, "item" : "Tier6"},
+            {"weight" : 0.09, "item" : "Moon"},
+            {"weight" : 0.08, "item" : "EmptySpace"},
+            {"weight" : 0.02, "item" : "Tier6SpaceStation"}
+          ]
+        },
+        {
+          "regionName" : "Moon",
+          "orbitRange" : [12, 12],
+          "bodyProbability" : 1.0,
+          "planetaryTypes" : [
+            {"weight" : 1.0, "item" : "Moon"}
+          ],
+          "satelliteTypes" : [
+            {"weight" : 1.0, "item" : "AncientGateway"}
+          ]
+        }
+      ]
+},
+{
+  "op": "add",
+  "path": "/planetaryTypes/Tier1SpaceStation",
+  "value": {
+      "satelliteProbability" : 0.0,
+
+      "baseParameters" : {
+        "worldType" : "FloatingDungeon",
+        "description" : "Tier 1 Space Station",
+        "smallImage" : "/celestial/satellite.png",
+
+        "image" : "/celestial/satellite.png",
+        "imageScale" : 0.1,
+        "smallImageScale" : 0.1,
+
+        "dynamicsImages" : "/celestial/satellite.png",
+        "dynamicsRange" : [0, 0]
+      },
+
+      "variationParameters" : []
+    }
+},
+{
+  "op": "add",
+  "path": "/satelliteTypes/Tier1SpaceStation",
+  "value": {
+      "baseParameters" : {
+        "worldType" : "FloatingDungeon",
+        "description" : "Tier 1 Space Station",
+        "smallImage" : "/celestial/satellite.png",
+
+        "image" : "/celestial/satellite.png",
+        "imageScale" : 0.1,
+        "smallImageScale" : 0.1,
+
+        "dynamicsImages" : "/celestial/satellite.png",
+        "dynamicsRange" : [0, 0]
+      },
+
+      "variationParameters" : []
+    }
+},
+{
+  "op": "add",
+  "path": "/planetaryTypes/Tier2SpaceStation",
+  "value": {
+      "satelliteProbability" : 0.0,
+
+      "baseParameters" : {
+        "worldType" : "FloatingDungeon",
+        "description" : "Tier 2 Space Station",
+        "smallImage" : "/celestial/satellite.png",
+
+        "image" : "/celestial/satellite.png",
+        "imageScale" : 0.1,
+        "smallImageScale" : 0.1,
+
+        "dynamicsImages" : "/celestial/satellite.png",
+        "dynamicsRange" : [0, 0]
+      },
+
+      "variationParameters" : []
+    }
+},
+{
+  "op": "add",
+  "path": "/satelliteTypes/Tier2SpaceStation",
+  "value": {
+      "baseParameters" : {
+        "worldType" : "FloatingDungeon",
+        "description" : "Tier 2 Space Station",
+        "smallImage" : "/celestial/satellite.png",
+
+        "image" : "/celestial/satellite.png",
+        "imageScale" : 0.1,
+        "smallImageScale" : 0.1,
+
+        "dynamicsImages" : "/celestial/satellite.png",
+        "dynamicsRange" : [0, 0]
+      },
+
+      "variationParameters" : []
+    }
+},
+{
+  "op": "add",
+  "path": "/planetaryTypes/Tier3SpaceStation",
+  "value": {
+      "satelliteProbability" : 0.0,
+
+      "baseParameters" : {
+        "worldType" : "FloatingDungeon",
+        "description" : "Tier 3 Space Station",
+        "smallImage" : "/celestial/satellite.png",
+
+        "image" : "/celestial/satellite.png",
+        "imageScale" : 0.1,
+        "smallImageScale" : 0.1,
+
+        "dynamicsImages" : "/celestial/satellite.png",
+        "dynamicsRange" : [0, 0]
+      },
+
+      "variationParameters" : []
+    }
+},
+{
+  "op": "add",
+  "path": "/satelliteTypes/Tier3SpaceStation",
+  "value": {
+      "baseParameters" : {
+        "worldType" : "FloatingDungeon",
+        "description" : "Tier 3 Space Station",
+        "smallImage" : "/celestial/satellite.png",
+
+        "image" : "/celestial/satellite.png",
+        "imageScale" : 0.1,
+        "smallImageScale" : 0.1,
+
+        "dynamicsImages" : "/celestial/satellite.png",
+        "dynamicsRange" : [0, 0]
+      },
+
+      "variationParameters" : []
+    }
+},
+{
+  "op": "add",
+  "path": "/planetaryTypes/Tier4SpaceStation",
+  "value": {
+      "satelliteProbability" : 0.0,
+
+      "baseParameters" : {
+        "worldType" : "FloatingDungeon",
+        "description" : "Tier 4 Space Station",
+        "smallImage" : "/celestial/satellite.png",
+
+        "image" : "/celestial/satellite.png",
+        "imageScale" : 0.1,
+        "smallImageScale" : 0.1,
+
+        "dynamicsImages" : "/celestial/satellite.png",
+        "dynamicsRange" : [0, 0]
+      },
+
+      "variationParameters" : []
+    }
+},
+{
+  "op": "add",
+  "path": "/satelliteTypes/Tier4SpaceStation",
+  "value": {
+      "baseParameters" : {
+        "worldType" : "FloatingDungeon",
+        "description" : "Tier 4 Space Station",
+        "smallImage" : "/celestial/satellite.png",
+
+        "image" : "/celestial/satellite.png",
+        "imageScale" : 0.1,
+        "smallImageScale" : 0.1,
+
+        "dynamicsImages" : "/celestial/satellite.png",
+        "dynamicsRange" : [0, 0]
+      },
+
+      "variationParameters" : []
+    }
+},
+{
+  "op": "add",
+  "path": "/planetaryTypes/Tier5SpaceStation",
+  "value": {
+      "satelliteProbability" : 0.0,
+
+      "baseParameters" : {
+        "worldType" : "FloatingDungeon",
+        "description" : "Tier 5 Space Station",
+        "smallImage" : "/celestial/satellite.png",
+
+        "image" : "/celestial/satellite.png",
+        "imageScale" : 0.1,
+        "smallImageScale" : 0.1,
+
+        "dynamicsImages" : "/celestial/satellite.png",
+        "dynamicsRange" : [0, 0]
+      },
+
+      "variationParameters" : []
+    }
+},
+{
+  "op": "add",
+  "path": "/satelliteTypes/Tier5SpaceStation",
+  "value": {
+      "baseParameters" : {
+        "worldType" : "FloatingDungeon",
+        "description" : "Tier 5 Space Station",
+        "smallImage" : "/celestial/satellite.png",
+
+        "image" : "/celestial/satellite.png",
+        "imageScale" : 0.1,
+        "smallImageScale" : 0.1,
+
+        "dynamicsImages" : "/celestial/satellite.png",
+        "dynamicsRange" : [0, 0]
+      },
+
+      "variationParameters" : []
+    }
+},
+{
+  "op": "add",
+  "path": "/planetaryTypes/Tier6SpaceStation",
+  "value": {
+      "satelliteProbability" : 0.0,
+
+      "baseParameters" : {
+        "worldType" : "FloatingDungeon",
+        "description" : "Tier 6 Space Station",
+        "smallImage" : "/celestial/satellite.png",
+
+        "image" : "/celestial/satellite.png",
+        "imageScale" : 0.1,
+        "smallImageScale" : 0.1,
+
+        "dynamicsImages" : "/celestial/satellite.png",
+        "dynamicsRange" : [0, 0]
+      },
+
+      "variationParameters" : []
+    }
+},
+{
+  "op": "add",
+  "path": "/satelliteTypes/Tier6SpaceStation",
+  "value": {
+      "baseParameters" : {
+        "worldType" : "FloatingDungeon",
+        "description" : "Tier 6 Space Station",
+        "smallImage" : "/celestial/satellite.png",
+
+        "image" : "/celestial/satellite.png",
+        "imageScale" : 0.1,
+        "smallImageScale" : 0.1,
+
+        "dynamicsImages" : "/celestial/satellite.png",
+        "dynamicsRange" : [0, 0]
+      },
+
+      "variationParameters" : []
+    }
+},
+{
+  "op": "add",
+  "path": "/planetaryTypes/Tier7SpaceStation",
+  "value": {
+      "satelliteProbability" : 0.0,
+
+      "baseParameters" : {
+        "worldType" : "FloatingDungeon",
+        "description" : "Tier 7 Space Station",
+        "smallImage" : "/celestial/satellite.png",
+
+        "image" : "/celestial/satellite.png",
+        "imageScale" : 0.1,
+        "smallImageScale" : 0.1,
+
+        "dynamicsImages" : "/celestial/satellite.png",
+        "dynamicsRange" : [0, 0]
+      },
+
+      "variationParameters" : []
+    }
+},
+{
+  "op": "add",
+  "path": "/satelliteTypes/Tier7SpaceStation",
+  "value": {
+      "baseParameters" : {
+        "worldType" : "FloatingDungeon",
+        "description" : "Tier 7 Space Station",
+        "smallImage" : "/celestial/satellite.png",
+
+        "image" : "/celestial/satellite.png",
+        "imageScale" : 0.1,
+        "smallImageScale" : 0.1,
+
+        "dynamicsImages" : "/celestial/satellite.png",
+        "dynamicsRange" : [0, 0]
+      },
+
+      "variationParameters" : []
+    }
+},
+
+//Underground Mazes
+//-------------------------------------------------------------------------------------------
+//Tier 1
+//-------------------------------------------------------------------------------------------
+//Planets
+
+{ "op": "add", "path": "/planetaryTypes/Tier1SpaceStation/variationParameters/-", "value": {
+  "dungeonWorld" : "mazeornatespace1",
+  "worldSize" : "mazeornatespace1",
+  "atmosphere" : false
+}},
+{ "op": "add", "path": "/planetaryTypes/Tier1SpaceStation/variationParameters/-", "value": {
+  "dungeonWorld" : "mazeplantspace1",
+  "worldSize" : "mazeplantspace1",
+  "atmosphere" : false
+}},
+{ "op": "add", "path": "/planetaryTypes/Tier1SpaceStation/variationParameters/-", "value": {
+  "dungeonWorld" : "mazestonespace1",
+  "worldSize" : "mazestonespace1",
+  "atmosphere" : false
+}},
+{ "op": "add", "path": "/planetaryTypes/Tier1SpaceStation/variationParameters/-", "value": {
+  "dungeonWorld" : "mazetechspace1",
+  "worldSize" : "mazetechspace1",
+  "atmosphere" : false
+}},
+
+//Satellites
+
+{ "op": "add", "path": "/satelliteTypes/Tier1SpaceStation/variationParameters/-", "value": {
+  "dungeonWorld" : "mazeornatespace1",
+  "worldSize" : "mazeornatespace1",
+  "atmosphere" : false
+}},
+{ "op": "add", "path": "/satelliteTypes/Tier1SpaceStation/variationParameters/-", "value": {
+  "dungeonWorld" : "mazeplantspace1",
+  "worldSize" : "mazeplantspace1",
+  "atmosphere" : false
+}},
+{ "op": "add", "path": "/satelliteTypes/Tier1SpaceStation/variationParameters/-", "value": {
+  "dungeonWorld" : "mazestonespace1",
+  "worldSize" : "mazestonespace1",
+  "atmosphere" : false
+}},
+{ "op": "add", "path": "/satelliteTypes/Tier1SpaceStation/variationParameters/-", "value": {
+  "dungeonWorld" : "mazetechspace1",
+  "worldSize" : "mazetechspace1",
+  "atmosphere" : false
+}},
+
+//Tier 2
+//-------------------------------------------------------------------------------------------
+//Planets
+
+{ "op": "add", "path": "/planetaryTypes/Tier2SpaceStation/variationParameters/-", "value": {
+  "dungeonWorld" : "mazeornatespace2",
+  "worldSize" : "mazeornatespace2",
+  "atmosphere" : false
+}},
+{ "op": "add", "path": "/planetaryTypes/Tier2SpaceStation/variationParameters/-", "value": {
+  "dungeonWorld" : "mazeplantspace2",
+  "worldSize" : "mazeplantspace2",
+  "atmosphere" : false
+}},
+{ "op": "add", "path": "/planetaryTypes/Tier2SpaceStation/variationParameters/-", "value": {
+  "dungeonWorld" : "mazestonespace2",
+  "worldSize" : "mazestonespace2",
+  "atmosphere" : false
+}},
+{ "op": "add", "path": "/planetaryTypes/Tier2SpaceStation/variationParameters/-", "value": {
+  "dungeonWorld" : "mazetechspace2",
+  "worldSize" : "mazetechspace2",
+  "atmosphere" : false
+}},
+
+//Satellites
+
+{ "op": "add", "path": "/satelliteTypes/Tier2SpaceStation/variationParameters/-", "value": {
+  "dungeonWorld" : "mazeornatespace2",
+  "worldSize" : "mazeornatespace2",
+  "atmosphere" : false
+}},
+{ "op": "add", "path": "/satelliteTypes/Tier2SpaceStation/variationParameters/-", "value": {
+  "dungeonWorld" : "mazeplantspace2",
+  "worldSize" : "mazeplantspace2",
+  "atmosphere" : false
+}},
+{ "op": "add", "path": "/satelliteTypes/Tier2SpaceStation/variationParameters/-", "value": {
+  "dungeonWorld" : "mazestonespace2",
+  "worldSize" : "mazestonespace2",
+  "atmosphere" : false
+}},
+{ "op": "add", "path": "/satelliteTypes/Tier2SpaceStation/variationParameters/-", "value": {
+  "dungeonWorld" : "mazetechspace2",
+  "worldSize" : "mazetechspace2",
+  "atmosphere" : false
+}},
+
+//Tier 3
+//-------------------------------------------------------------------------------------------
+//Planets
+
+{ "op": "add", "path": "/planetaryTypes/Tier3SpaceStation/variationParameters/-", "value": {
+  "dungeonWorld" : "mazeornatespace3",
+  "worldSize" : "mazeornatespace3",
+  "atmosphere" : false
+}},
+{ "op": "add", "path": "/planetaryTypes/Tier3SpaceStation/variationParameters/-", "value": {
+  "dungeonWorld" : "mazeplantspace3",
+  "worldSize" : "mazeplantspace3",
+  "atmosphere" : false
+}},
+{ "op": "add", "path": "/planetaryTypes/Tier3SpaceStation/variationParameters/-", "value": {
+  "dungeonWorld" : "mazestonespace3",
+  "worldSize" : "mazestonespace3",
+  "atmosphere" : false
+}},
+{ "op": "add", "path": "/planetaryTypes/Tier3SpaceStation/variationParameters/-", "value": {
+  "dungeonWorld" : "mazetechspace3",
+  "worldSize" : "mazetechspace3",
+  "atmosphere" : false
+}},
+
+//Satellites
+
+{ "op": "add", "path": "/satelliteTypes/Tier3SpaceStation/variationParameters/-", "value": {
+  "dungeonWorld" : "mazeornatespace3",
+  "worldSize" : "mazeornatespace3",
+  "atmosphere" : false
+}},
+{ "op": "add", "path": "/satelliteTypes/Tier3SpaceStation/variationParameters/-", "value": {
+  "dungeonWorld" : "mazeplantspace3",
+  "worldSize" : "mazeplantspace3",
+  "atmosphere" : false
+}},
+{ "op": "add", "path": "/satelliteTypes/Tier3SpaceStation/variationParameters/-", "value": {
+  "dungeonWorld" : "mazestonespace3",
+  "worldSize" : "mazestonespace3",
+  "atmosphere" : false
+}},
+{ "op": "add", "path": "/satelliteTypes/Tier3SpaceStation/variationParameters/-", "value": {
+  "dungeonWorld" : "mazetechspace3",
+  "worldSize" : "mazetechspace3",
+  "atmosphere" : false
+}},
+
+//Tier 4
+//-------------------------------------------------------------------------------------------
+//Planets
+
+{ "op": "add", "path": "/planetaryTypes/Tier4SpaceStation/variationParameters/-", "value": {
+  "dungeonWorld" : "mazeornatespace4",
+  "worldSize" : "mazeornatespace4",
+  "atmosphere" : false
+}},
+{ "op": "add", "path": "/planetaryTypes/Tier4SpaceStation/variationParameters/-", "value": {
+  "dungeonWorld" : "mazeplantspace4",
+  "worldSize" : "mazeplantspace4",
+  "atmosphere" : false
+}},
+{ "op": "add", "path": "/planetaryTypes/Tier4SpaceStation/variationParameters/-", "value": {
+  "dungeonWorld" : "mazestonespace4",
+  "worldSize" : "mazestonespace4",
+  "atmosphere" : false
+}},
+{ "op": "add", "path": "/planetaryTypes/Tier4SpaceStation/variationParameters/-", "value": {
+  "dungeonWorld" : "mazetechspace4",
+  "worldSize" : "mazetechspace4",
+  "atmosphere" : false
+}},
+
+//Satellites
+
+{ "op": "add", "path": "/satelliteTypes/Tier4SpaceStation/variationParameters/-", "value": {
+  "dungeonWorld" : "mazeornatespace4",
+  "worldSize" : "mazeornatespace4",
+  "atmosphere" : false
+}},
+{ "op": "add", "path": "/satelliteTypes/Tier4SpaceStation/variationParameters/-", "value": {
+  "dungeonWorld" : "mazeplantspace4",
+  "worldSize" : "mazeplantspace4",
+  "atmosphere" : false
+}},
+{ "op": "add", "path": "/satelliteTypes/Tier4SpaceStation/variationParameters/-", "value": {
+  "dungeonWorld" : "mazestonespace4",
+  "worldSize" : "mazestonespace4",
+  "atmosphere" : false
+}},
+{ "op": "add", "path": "/satelliteTypes/Tier4SpaceStation/variationParameters/-", "value": {
+  "dungeonWorld" : "mazetechspace4",
+  "worldSize" : "mazetechspace4",
+  "atmosphere" : false
+}},
+
+//Tier 5
+//-------------------------------------------------------------------------------------------
+//Planets
+
+{ "op": "add", "path": "/planetaryTypes/Tier5SpaceStation/variationParameters/-", "value": {
+  "dungeonWorld" : "mazeornatespace5",
+  "worldSize" : "mazeornatespace5",
+  "atmosphere" : false
+}},
+{ "op": "add", "path": "/planetaryTypes/Tier5SpaceStation/variationParameters/-", "value": {
+  "dungeonWorld" : "mazeplantspace5",
+  "worldSize" : "mazeplantspace5",
+  "atmosphere" : false
+}},
+{ "op": "add", "path": "/planetaryTypes/Tier5SpaceStation/variationParameters/-", "value": {
+  "dungeonWorld" : "mazestonespace5",
+  "worldSize" : "mazestonespace5",
+  "atmosphere" : false
+}},
+{ "op": "add", "path": "/planetaryTypes/Tier5SpaceStation/variationParameters/-", "value": {
+  "dungeonWorld" : "mazetechspace5",
+  "worldSize" : "mazetechspace5",
+  "atmosphere" : false
+}},
+
+//Satellites
+
+{ "op": "add", "path": "/satelliteTypes/Tier5SpaceStation/variationParameters/-", "value": {
+  "dungeonWorld" : "mazeornatespace5",
+  "worldSize" : "mazeornatespace5",
+  "atmosphere" : false
+}},
+{ "op": "add", "path": "/satelliteTypes/Tier5SpaceStation/variationParameters/-", "value": {
+  "dungeonWorld" : "mazeplantspace5",
+  "worldSize" : "mazeplantspace5",
+  "atmosphere" : false
+}},
+{ "op": "add", "path": "/satelliteTypes/Tier5SpaceStation/variationParameters/-", "value": {
+  "dungeonWorld" : "mazestonespace5",
+  "worldSize" : "mazestonespace5",
+  "atmosphere" : false
+}},
+{ "op": "add", "path": "/satelliteTypes/Tier5SpaceStation/variationParameters/-", "value": {
+  "dungeonWorld" : "mazetechspace5",
+  "worldSize" : "mazetechspace5",
+  "atmosphere" : false
+}},
+
+//Tier 6
+//-------------------------------------------------------------------------------------------
+//Planets
+
+{ "op": "add", "path": "/planetaryTypes/Tier6SpaceStation/variationParameters/-", "value": {
+  "dungeonWorld" : "mazeornatespace6",
+  "worldSize" : "mazeornatespace6",
+  "atmosphere" : false
+}},
+{ "op": "add", "path": "/planetaryTypes/Tier6SpaceStation/variationParameters/-", "value": {
+  "dungeonWorld" : "mazeplantspace6",
+  "worldSize" : "mazeplantspace6",
+  "atmosphere" : false
+}},
+{ "op": "add", "path": "/planetaryTypes/Tier6SpaceStation/variationParameters/-", "value": {
+  "dungeonWorld" : "mazestonespace6",
+  "worldSize" : "mazestonespace6",
+  "atmosphere" : false
+}},
+{ "op": "add", "path": "/planetaryTypes/Tier6SpaceStation/variationParameters/-", "value": {
+  "dungeonWorld" : "mazetechspace6",
+  "worldSize" : "mazetechspace6",
+  "atmosphere" : false
+}},
+
+//Satellites
+
+{ "op": "add", "path": "/satelliteTypes/Tier6SpaceStation/variationParameters/-", "value": {
+  "dungeonWorld" : "mazeornatespace6",
+  "worldSize" : "mazeornatespace6",
+  "atmosphere" : false
+}},
+{ "op": "add", "path": "/satelliteTypes/Tier6SpaceStation/variationParameters/-", "value": {
+  "dungeonWorld" : "mazeplantspace6",
+  "worldSize" : "mazeplantspace6",
+  "atmosphere" : false
+}},
+{ "op": "add", "path": "/satelliteTypes/Tier6SpaceStation/variationParameters/-", "value": {
+  "dungeonWorld" : "mazestonespace6",
+  "worldSize" : "mazestonespace6",
+  "atmosphere" : false
+}},
+{ "op": "add", "path": "/satelliteTypes/Tier6SpaceStation/variationParameters/-", "value": {
+  "dungeonWorld" : "mazetechspace6",
+  "worldSize" : "mazetechspace6",
+  "atmosphere" : false
+}},
+
+//Tier 7
+//-------------------------------------------------------------------------------------------
+//Planets
+
+{ "op": "add", "path": "/planetaryTypes/Tier7SpaceStation/variationParameters/-", "value": {
+  "dungeonWorld" : "mazeornatespace7",
+  "worldSize" : "mazeornatespace7",
+  "atmosphere" : false
+}},
+{ "op": "add", "path": "/planetaryTypes/Tier7SpaceStation/variationParameters/-", "value": {
+  "dungeonWorld" : "mazeplantspace7",
+  "worldSize" : "mazeplantspace7",
+  "atmosphere" : false
+}},
+{ "op": "add", "path": "/planetaryTypes/Tier7SpaceStation/variationParameters/-", "value": {
+  "dungeonWorld" : "mazestonespace7",
+  "worldSize" : "mazestonespace7",
+  "atmosphere" : false
+}},
+{ "op": "add", "path": "/planetaryTypes/Tier7SpaceStation/variationParameters/-", "value": {
+  "dungeonWorld" : "mazetechspace7",
+  "worldSize" : "mazetechspace7",
+  "atmosphere" : false
+}},
+
+//Satellites
+
+{ "op": "add", "path": "/satelliteTypes/Tier7SpaceStation/variationParameters/-", "value": {
+  "dungeonWorld" : "mazeornatespace7",
+  "worldSize" : "mazeornatespace7",
+  "atmosphere" : false
+}},
+{ "op": "add", "path": "/satelliteTypes/Tier7SpaceStation/variationParameters/-", "value": {
+  "dungeonWorld" : "mazeplantspace7",
+  "worldSize" : "mazeplantspace7",
+  "atmosphere" : false
+}},
+{ "op": "add", "path": "/satelliteTypes/Tier7SpaceStation/variationParameters/-", "value": {
+  "dungeonWorld" : "mazestonespace7",
+  "worldSize" : "mazestonespace7",
+  "atmosphere" : false
+}},
+{ "op": "add", "path": "/satelliteTypes/Tier7SpaceStation/variationParameters/-", "value": {
+  "dungeonWorld" : "mazetechspace7",
+  "worldSize" : "mazetechspace7",
+  "atmosphere" : false
+}}
+]
