@@ -1,0 +1,101 @@
+{
+  "metadata" : {
+    "name" : "m4_hylotlstation",
+    "species" : "hylotl",
+    "rules" : [
+    ],
+    "anchor" : [ "hylotlbase1" ],
+    "gravity" : 60,
+    "maxRadius" : 1000000,
+    "maxParts" : 30,
+    "protected" : true
+  },
+
+  "parts" : [
+
+    // STATION LAYOUTS
+    {
+      "name" : "hylotlbase1",
+      "rules" : [
+        [ "doNotCombineWith", [ "hylotlbase1" ] ],
+        [ "maxSpawnCount", [1] ]
+      ],
+      "def" : [ "tmx", "hylotlbase1.json" ],
+      "chance" : 1
+    },
+    // ROOMS
+    {
+      "name" : "stationRoomComputers",
+      "rules" : [
+        [ "maxSpawnCount", [4] ]
+      ],
+      "def" : [ "tmx", "/dungeons/stations/m4_protectoratestation/stationRoomComputers.json" ],
+      "chance" : 1
+    },
+    {
+      "name" : "stationRoomEmpty",
+      "rules" : [
+        [ "maxSpawnCount", [8] ]
+      ],
+      "def" : [ "tmx", "/dungeons/stations/m4_protectoratestation/stationRoomEmpty.json" ],
+      "chance" : 1
+    },
+    {
+      "name" : "stationRoomHylotl",
+      "rules" : [
+        [ "maxSpawnCount", [4] ]
+      ],
+      "def" : [ "tmx", "/dungeons/stations/m4_protectoratestation/stationRoomHylotl.json" ],
+      "chance" : 1
+    },
+    {
+      "name" : "stationRoomMemorial",
+      "rules" : [
+        [ "maxSpawnCount", [1] ]
+      ],
+      "def" : [ "tmx", "/dungeons/stations/m4_protectoratestation/stationRoomMemorial.json" ],
+      "chance" : 1
+    },
+    {
+      "name" : "stationRoomMerchants",
+      "rules" : [
+        [ "maxSpawnCount", [2] ]
+      ],
+      "def" : [ "tmx", "/dungeons/stations/m4_protectoratestation/stationRoomMerchants.json" ],
+      "chance" : 1
+    },
+    {
+      "name" : "stationRoomCrafting",
+      "rules" : [
+        [ "maxSpawnCount", [1] ]
+      ],
+      "def" : [ "tmx", "/dungeons/stations/m4_protectoratestation/stationRoomCrafting.json" ],
+      "chance" : 1
+    },
+    //EXTENTIONS
+    {
+      "name" : "hylotlextention1",
+      "rules" : [
+        [ "maxSpawnCount", [3] ]
+      ],
+      "def" : [ "tmx", "hylotlextention1.json" ],
+      "chance" : 1
+    },
+    
+    // ENDS
+    {
+      "name" : "hylotlbottom1",
+      "rules" : [
+      ],
+      "def" : [ "tmx", "hylotlbottom1.json" ],
+      "chance" : 1
+    },
+    {
+      "name" : "hylotltop1",
+      "rules" : [
+      ],
+      "def" : [ "tmx", "hylotltop1.json" ],
+      "chance" : 1
+    }
+  ]
+}

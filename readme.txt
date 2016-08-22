@@ -7,3 +7,6 @@ This mod is built on the Space Station Dungeons Base and Examples from the satel
 
 M4's Space Stations by Kelsey Warzeski (magewish4)
 https://github.com/pixlar/m4_spacestations
+
+I use the m4_ prefix on the station dungeons so that if any other modders or Chucklefish builds their own space stations, there will be no compatibility issues.
+I request that other modders not use the m4_ prefix.

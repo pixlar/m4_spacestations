@@ -570,7 +570,7 @@
     }
 },
 
-//Underground Mazes
+//Protectorate Station and Tech Maze
 //-------------------------------------------------------------------------------------------
 //Tier 1
 //-------------------------------------------------------------------------------------------
@@ -766,6 +766,122 @@
 { "op": "add", "path": "/satelliteTypes/Tier7SpaceStation/variationParameters/-", "value": {
   "dungeonWorld" : "m4_protectoratestation7",
   "worldSize" : "m4_protectoratestation7",
+  "atmosphere" : true
+}},
+
+
+//Hylotl Station
+//-------------------------------------------------------------------------------------------
+//Tier 1
+//-------------------------------------------------------------------------------------------
+//Planets
+{ "op": "add", "path": "/planetaryTypes/Tier1SpaceStation/variationParameters/-", "value": {
+  "dungeonWorld" : "m4_hylotlstation1",
+  "worldSize" : "m4_hylotlstation1",
+  "atmosphere" : true
+}},
+
+//Satellites
+{ "op": "add", "path": "/satelliteTypes/Tier1SpaceStation/variationParameters/-", "value": {
+  "dungeonWorld" : "m4_hylotlstation1",
+  "worldSize" : "m4_hylotlstation1",
+  "atmosphere" : true
+}},
+
+
+//Tier 2
+//-------------------------------------------------------------------------------------------
+//Planets
+{ "op": "add", "path": "/planetaryTypes/Tier2SpaceStation/variationParameters/-", "value": {
+  "dungeonWorld" : "m4_hylotlstation2",
+  "worldSize" : "m4_hylotlstation2",
+  "atmosphere" : true
+}},
+
+//Satellites
+{ "op": "add", "path": "/satelliteTypes/Tier1SpaceStation/variationParameters/-", "value": {
+  "dungeonWorld" : "m4_hylotlstation2",
+  "worldSize" : "m4_hylotlstation2",
+  "atmosphere" : true
+}},
+
+//Tier 3
+//-------------------------------------------------------------------------------------------
+//Planets
+{ "op": "add", "path": "/planetaryTypes/Tier3SpaceStation/variationParameters/-", "value": {
+  "dungeonWorld" : "m4_hylotlstation3",
+  "worldSize" : "m4_hylotlstation3",
+  "atmosphere" : true
+}},
+
+//Satellites
+{ "op": "add", "path": "/satelliteTypes/Tier3SpaceStation/variationParameters/-", "value": {
+  "dungeonWorld" : "m4_hylotlstation3",
+  "worldSize" : "m4_hylotlstation3",
+  "atmosphere" : true
+}},
+
+//Tier 4
+//-------------------------------------------------------------------------------------------
+//Planets
+{ "op": "add", "path": "/planetaryTypes/Tier4SpaceStation/variationParameters/-", "value": {
+  "dungeonWorld" : "m4_hylotlstation4",
+  "worldSize" : "m4_hylotlstation4",
+  "atmosphere" : true
+}},
+
+//Satellites
+{ "op": "add", "path": "/satelliteTypes/Tier4SpaceStation/variationParameters/-", "value": {
+  "dungeonWorld" : "m4_hylotlstation4",
+  "worldSize" : "m4_hylotlstation4",
+  "atmosphere" : true
+}},
+
+//Tier 5
+//-------------------------------------------------------------------------------------------
+//Planets
+{ "op": "add", "path": "/planetaryTypes/Tier5SpaceStation/variationParameters/-", "value": {
+  "dungeonWorld" : "m4_hylotlstation5",
+  "worldSize" : "m4_hylotlstation5",
+  "atmosphere" : true
+}},
+
+//Satellites
+{ "op": "add", "path": "/satelliteTypes/Tier5SpaceStation/variationParameters/-", "value": {
+  "dungeonWorld" : "m4_hylotlstation5",
+  "worldSize" : "m4_hylotlstation5",
+  "atmosphere" : true
+}},
+
+//Tier 6
+//-------------------------------------------------------------------------------------------
+//Planets
+{ "op": "add", "path": "/planetaryTypes/Tier6SpaceStation/variationParameters/-", "value": {
+  "dungeonWorld" : "m4_hylotlstation6",
+  "worldSize" : "m4_hylotlstation6",
+  "atmosphere" : true
+}},
+
+//Satellites
+{ "op": "add", "path": "/satelliteTypes/Tier6SpaceStation/variationParameters/-", "value": {
+  "dungeonWorld" : "m4_hylotlstation6",
+  "worldSize" : "m4_hylotlstation6",
+  "atmosphere" : true
+}},
+
+//Tier 7
+//-------------------------------------------------------------------------------------------
+//Planets
+{ "op": "add", "path": "/planetaryTypes/Tier6SpaceStation/variationParameters/-", "value": {
+  "dungeonWorld" : "m4_hylotlstation7",
+  "worldSize" : "m4_hylotlstation7",
+  "atmosphere" : true
+}},
+
+//Satellites
+{ "op": "add", "path": "/satelliteTypes/Tier7SpaceStation/variationParameters/-", "value": {
+  "dungeonWorld" : "m4_hylotlstation7",
+  "worldSize" : "m4_hylotlstation7",
   "atmosphere" : true
 }}
 ]

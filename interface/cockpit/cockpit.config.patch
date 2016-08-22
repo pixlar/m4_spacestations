@@ -188,5 +188,43 @@
   "op": "add",
   "path": "/planetTypeToDescription/m4_protectoratestation7",
   "value": ["A Protectorate Space Base."]
+},
+//-------------------------------------------------------------------------------------------
+//M4 Hylotl Station
+//-------------------------------------------------------------------------------------------
+{
+  "op": "add",
+  "path": "/planetTypeToDescription/m4_hylotlstation1",
+  "value": ["A Hylotl Space Base."]
+},
+{
+  "op": "add",
+  "path": "/planetTypeToDescription/m4_hylotlstation2",
+  "value": ["A Hylotl Space Base."]
+},
+{
+  "op": "add",
+  "path": "/planetTypeToDescription/m4_hylotlstation3",
+  "value": ["A Hylotl Space Base."]
+},
+{
+  "op": "add",
+  "path": "/planetTypeToDescription/m4_hylotlstation4",
+  "value": ["A Hylotl Space Base."]
+},
+{
+  "op": "add",
+  "path": "/planetTypeToDescription/m4_hylotlstation5",
+  "value": ["A Hylotl Space Base."]
+},
+{
+  "op": "add",
+  "path": "/planetTypeToDescription/m4_hylotlstation6",
+  "value": ["A Hylotl Space Base."]
+},
+{
+  "op": "add",
+  "path": "/planetTypeToDescription/m4_hylotlstation7",
+  "value": ["A Hylotl Space Base."]
 }
 ]
