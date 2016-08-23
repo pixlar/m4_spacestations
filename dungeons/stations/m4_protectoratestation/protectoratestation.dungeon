@@ -57,6 +57,30 @@
       "chance" : 1
     },
     {
+      "name" : "stationRoomApex",
+      "rules" : [
+        [ "maxSpawnCount", [2] ]
+      ],
+      "def" : [ "tmx", "stationRoomApex.json" ],
+      "chance" : 1
+    },
+    {
+      "name" : "stationRoomFloran",
+      "rules" : [
+        [ "maxSpawnCount", [2] ]
+      ],
+      "def" : [ "tmx", "stationRoomFloran.json" ],
+      "chance" : 1
+    },
+    {
+      "name" : "stationRoomGlitch",
+      "rules" : [
+        [ "maxSpawnCount", [2] ]
+      ],
+      "def" : [ "tmx", "stationRoomGlitch.json" ],
+      "chance" : 1
+    },
+    {
       "name" : "stationRoomMemorial",
       "rules" : [
         [ "maxSpawnCount", [1] ]
@@ -65,9 +89,17 @@
       "chance" : 1
     },
     {
+      "name" : "stationRoomView",
+      "rules" : [
+        [ "maxSpawnCount", [5] ]
+      ],
+      "def" : [ "tmx", "stationRoomView.json" ],
+      "chance" : 1
+    },
+    {
       "name" : "stationRoomMerchants",
       "rules" : [
-        [ "maxSpawnCount", [2] ]
+        [ "maxSpawnCount", [1] ]
       ],
       "def" : [ "tmx", "stationRoomMerchants.json" ],
       "chance" : 1
@@ -75,9 +107,33 @@
     {
       "name" : "stationRoomMerchants2",
       "rules" : [
-        [ "maxSpawnCount", [2] ]
+        [ "maxSpawnCount", [1] ]
       ],
       "def" : [ "tmx", "stationRoomMerchants2.json" ],
+      "chance" : 1
+    },
+    {
+      "name" : "stationRoomTerramart",
+      "rules" : [
+        [ "maxSpawnCount", [1] ]
+      ],
+      "def" : [ "tmx", "stationRoomTerramart.json" ],
+      "chance" : 1
+    },
+    {
+      "name" : "stationRoomExpress",
+      "rules" : [
+        [ "maxSpawnCount", [1] ]
+      ],
+      "def" : [ "tmx", "stationRoomExpress.json" ],
+      "chance" : 1
+    },
+    {
+      "name" : "stationRoomFrog",
+      "rules" : [
+        [ "maxSpawnCount", [1] ]
+      ],
+      "def" : [ "tmx", "stationRoomFrog.json" ],
       "chance" : 1
     },
     {

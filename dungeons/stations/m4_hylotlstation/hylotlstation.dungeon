@@ -7,7 +7,7 @@
     "anchor" : [ "hylotlbase1" ],
     "gravity" : 60,
     "maxRadius" : 1000000,
-    "maxParts" : 30,
+    "maxParts" : 50,
     "protected" : true
   },
 
@@ -31,22 +31,21 @@
         [ "maxSpawnCount", [4] ]
       ],
       "def" : [ "tmx", "/dungeons/stations/m4_protectoratestation/stationRoomComputers.json" ],
-      "chance" : 1
+      "chance" : 3
     },
     {
       "name" : "stationRoomEmpty",
       "rules" : [
-        [ "maxSpawnCount", [4] ]
       ],
       "def" : [ "tmx", "/dungeons/stations/m4_protectoratestation/stationRoomEmpty.json" ],
-      "chance" : 1
+      "chance" : 3
     },
     {
       "name" : "stationRoomHylotl",
       "rules" : [
       ],
       "def" : [ "tmx", "/dungeons/stations/m4_protectoratestation/stationRoomHylotl.json" ],
-      "chance" : 2
+      "chance" : 4
     },
     {
       "name" : "stationRoomAvian",
@@ -54,6 +53,30 @@
         [ "maxSpawnCount", [2] ]
       ],
       "def" : [ "tmx", "/dungeons/stations/m4_protectoratestation/stationRoomAvian.json" ],
+      "chance" : 1
+    },
+    {
+      "name" : "stationRoomApex",
+      "rules" : [
+        [ "maxSpawnCount", [2] ]
+      ],
+      "def" : [ "tmx", "/dungeons/stations/m4_protectoratestation/stationRoomApex.json" ],
+      "chance" : 1
+    },
+    {
+      "name" : "stationRoomFloran",
+      "rules" : [
+        [ "maxSpawnCount", [1] ]
+      ],
+      "def" : [ "tmx", "/dungeons/stations/m4_protectoratestation/stationRoomFloran.json" ],
+      "chance" : 1
+    },
+    {
+      "name" : "stationRoomGlitch",
+      "rules" : [
+        [ "maxSpawnCount", [2] ]
+      ],
+      "def" : [ "tmx", "/dungeons/stations/m4_protectoratestation/stationRoomGlitch.json" ],
       "chance" : 1
     },
     {
@@ -70,7 +93,7 @@
         [ "maxSpawnCount", [2] ]
       ],
       "def" : [ "tmx", "/dungeons/stations/m4_protectoratestation/stationRoomMerchants.json" ],
-      "chance" : 1
+      "chance" : 2
     },
     {
       "name" : "stationRoomMerchants2",
@@ -78,7 +101,7 @@
         [ "maxSpawnCount", [2] ]
       ],
       "def" : [ "tmx", "/dungeons/stations/m4_protectoratestation/stationRoomMerchants2.json" ],
-      "chance" : 1
+      "chance" : 2
     },
     {
       "name" : "stationRoomCrafting",
@@ -86,7 +109,39 @@
         [ "maxSpawnCount", [1] ]
       ],
       "def" : [ "tmx", "/dungeons/stations/m4_protectoratestation/stationRoomCrafting.json" ],
+      "chance" : 2
+    },
+    {
+      "name" : "stationRoomTerramart",
+      "rules" : [
+        [ "maxSpawnCount", [1] ]
+      ],
+      "def" : [ "tmx", "/dungeons/stations/m4_protectoratestation/stationRoomTerramart.json" ],
       "chance" : 1
+    },
+    {
+      "name" : "stationRoomExpress",
+      "rules" : [
+        [ "maxSpawnCount", [1] ]
+      ],
+      "def" : [ "tmx", "/dungeons/stations/m4_protectoratestation/stationRoomExpress.json" ],
+      "chance" : 1
+    },
+    {
+      "name" : "stationRoomFrog",
+      "rules" : [
+        [ "maxSpawnCount", [1] ]
+      ],
+      "def" : [ "tmx", "/dungeons/stations/m4_protectoratestation/stationRoomFrog.json" ],
+      "chance" : 1
+    },
+    {
+      "name" : "stationRoomView",
+      "rules" : [
+        [ "maxSpawnCount", [5] ]
+      ],
+      "def" : [ "tmx", "/dungeons/stations/m4_protectoratestation/stationRoomView.json" ],
+      "chance" : 3
     },
     
     //EXTENTIONS
@@ -101,7 +156,8 @@
     {
       "name" : "hylotlextention2",
       "rules" : [
-        [ "maxSpawnCount", [3] ]
+        [ "maxSpawnCount", [3] ],
+        [ "doNotConnectToPart", [ "hylotlextention2" ]]
       ],
       "def" : [ "tmx", "hylotlextention2.json" ],
       "chance" : 1
@@ -109,9 +165,18 @@
     {
       "name" : "hylotlextention3",
       "rules" : [
-        [ "maxSpawnCount", [3] ]
+        [ "maxSpawnCount", [3] ],
+        [ "doNotConnectToPart", [ "hylotlextention3" ]]
       ],
       "def" : [ "tmx", "hylotlextention3.json" ],
+      "chance" : 1
+    },
+    {
+      "name" : "hylotlbridge1",
+      "rules" : [
+        [ "doNotConnectToPart", [ "hylotlbridge1" ]]
+      ],
+      "def" : [ "tmx", "hylotlbridge1.json" ],
       "chance" : 1
     },
     
@@ -128,6 +193,20 @@
       "rules" : [
       ],
       "def" : [ "tmx", "hylotltop1.json" ],
+      "chance" : 1
+    },
+    {
+      "name" : "hylotlend1",
+      "rules" : [
+      ],
+      "def" : [ "tmx", "hylotlend1.json" ],
+      "chance" : 1
+    },
+    {
+      "name" : "hylotlend2",
+      "rules" : [
+      ],
+      "def" : [ "tmx", "hylotlend2.json" ],
       "chance" : 1
     }
   ]
