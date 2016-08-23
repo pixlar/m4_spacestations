@@ -101,7 +101,7 @@
     {
       "name" : "hylotlextention2",
       "rules" : [
-        [ "maxSpawnCount", [1] ]
+        [ "maxSpawnCount", [3] ]
       ],
       "def" : [ "tmx", "hylotlextention2.json" ],
       "chance" : 1
@@ -109,7 +109,7 @@
     {
       "name" : "hylotlextention3",
       "rules" : [
-        [ "maxSpawnCount", [1] ]
+        [ "maxSpawnCount", [3] ]
       ],
       "def" : [ "tmx", "hylotlextention3.json" ],
       "chance" : 1
