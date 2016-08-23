@@ -175,41 +175,9 @@
                  "y":88
                 }, 
                 {
-                 "gid":4326,
-                 "height":8,
-                 "id":840,
-                 "name":"",
-                 "properties":
-                    {
-
-                    },
-                 "rotation":0,
-                 "type":"",
-                 "visible":true,
-                 "width":8,
-                 "x":48,
-                 "y":104
-                }, 
-                {
-                 "gid":4326,
-                 "height":8,
-                 "id":841,
-                 "name":"",
-                 "properties":
-                    {
-
-                    },
-                 "rotation":0,
-                 "type":"",
-                 "visible":true,
-                 "width":8,
-                 "x":96,
-                 "y":104
-                }, 
-                {
-                 "gid":4326,
-                 "height":8,
-                 "id":843,
+                 "gid":4378,
+                 "height":12,
+                 "id":847,
                  "name":"",
                  "properties":
                     {
@@ -223,9 +191,9 @@
                  "y":104
                 }, 
                 {
-                 "gid":4326,
-                 "height":8,
-                 "id":844,
+                 "gid":4378,
+                 "height":12,
+                 "id":848,
                  "name":"",
                  "properties":
                     {
@@ -239,9 +207,9 @@
                  "y":104
                 }, 
                 {
-                 "gid":4326,
-                 "height":8,
-                 "id":845,
+                 "gid":4378,
+                 "height":12,
+                 "id":849,
                  "name":"",
                  "properties":
                     {
@@ -251,13 +219,13 @@
                  "type":"",
                  "visible":true,
                  "width":8,
-                 "x":232,
-                 "y":104
+                 "x":256,
+                 "y":112
                 }, 
                 {
-                 "gid":4326,
-                 "height":8,
-                 "id":846,
+                 "gid":4378,
+                 "height":12,
+                 "id":851,
                  "name":"",
                  "properties":
                     {
@@ -267,8 +235,8 @@
                  "type":"",
                  "visible":true,
                  "width":8,
-                 "x":280,
-                 "y":104
+                 "x":72,
+                 "y":112
                 }],
          "opacity":1,
          "type":"objectgroup",
@@ -368,7 +336,7 @@
          "x":0,
          "y":0
         }],
- "nextobjectid":847,
+ "nextobjectid":853,
  "orientation":"orthogonal",
  "properties":
     {

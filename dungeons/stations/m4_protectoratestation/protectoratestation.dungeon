@@ -22,6 +22,7 @@
       "def" : [ "tmx", "protectoratespacestationbase1.json" ],
       "chance" : 1
     },
+    
     // ROOMS
     {
       "name" : "stationRoomComputers",
@@ -34,7 +35,7 @@
     {
       "name" : "stationRoomEmpty",
       "rules" : [
-        [ "maxSpawnCount", [8] ]
+        [ "maxSpawnCount", [4] ]
       ],
       "def" : [ "tmx", "stationRoomEmpty.json" ],
       "chance" : 1
@@ -42,7 +43,15 @@
     {
       "name" : "stationRoomHylotl",
       "rules" : [
-        [ "maxSpawnCount", [4] ]
+        [ "maxSpawnCount", [2] ]
+      ],
+      "def" : [ "tmx", "stationRoomHylotl.json" ],
+      "chance" : 1
+    },
+    {
+      "name" : "stationRoomAvian",
+      "rules" : [
+        [ "maxSpawnCount", [2] ]
       ],
       "def" : [ "tmx", "stationRoomHylotl.json" ],
       "chance" : 1
@@ -64,6 +73,14 @@
       "chance" : 1
     },
     {
+      "name" : "stationRoomMerchants2",
+      "rules" : [
+        [ "maxSpawnCount", [2] ]
+      ],
+      "def" : [ "tmx", "stationRoomMerchants.json" ],
+      "chance" : 1
+    },
+    {
       "name" : "stationRoomCrafting",
       "rules" : [
         [ "maxSpawnCount", [1] ]
@@ -71,6 +88,7 @@
       "def" : [ "tmx", "stationRoomCrafting.json" ],
       "chance" : 1
     },
+    
     // STATION COMMAND
     {
       "name" : "stationCommand",
@@ -87,6 +105,16 @@
       ],
       "def" : [ "tmx", "stationCommand2.json" ],
       "chance" : 1
+    },
+    
+    //EXTENTIONS
+    {
+      "name" : "protectoratespacestationext1",
+      "rules" : [
+        [ "maxSpawnCount", [1] ]
+      ],
+      "def" : [ "tmx", "protectoratespacestationext1.json" ],
+      "chance" : 3
     }
   ]
 }

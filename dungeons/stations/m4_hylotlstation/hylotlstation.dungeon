@@ -23,6 +23,7 @@
       "def" : [ "tmx", "hylotlbase1.json" ],
       "chance" : 1
     },
+    
     // ROOMS
     {
       "name" : "stationRoomComputers",
@@ -35,7 +36,7 @@
     {
       "name" : "stationRoomEmpty",
       "rules" : [
-        [ "maxSpawnCount", [8] ]
+        [ "maxSpawnCount", [4] ]
       ],
       "def" : [ "tmx", "/dungeons/stations/m4_protectoratestation/stationRoomEmpty.json" ],
       "chance" : 1
@@ -43,7 +44,14 @@
     {
       "name" : "stationRoomHylotl",
       "rules" : [
-        [ "maxSpawnCount", [4] ]
+      ],
+      "def" : [ "tmx", "/dungeons/stations/m4_protectoratestation/stationRoomHylotl.json" ],
+      "chance" : 2
+    },
+    {
+      "name" : "stationRoomAvian",
+      "rules" : [
+        [ "maxSpawnCount", [2] ]
       ],
       "def" : [ "tmx", "/dungeons/stations/m4_protectoratestation/stationRoomHylotl.json" ],
       "chance" : 1
@@ -65,6 +73,14 @@
       "chance" : 1
     },
     {
+      "name" : "stationRoomMerchants2",
+      "rules" : [
+        [ "maxSpawnCount", [2] ]
+      ],
+      "def" : [ "tmx", "/dungeons/stations/m4_protectoratestation/stationRoomMerchants.json" ],
+      "chance" : 1
+    },
+    {
       "name" : "stationRoomCrafting",
       "rules" : [
         [ "maxSpawnCount", [1] ]
@@ -72,13 +88,30 @@
       "def" : [ "tmx", "/dungeons/stations/m4_protectoratestation/stationRoomCrafting.json" ],
       "chance" : 1
     },
+    
     //EXTENTIONS
     {
       "name" : "hylotlextention1",
       "rules" : [
-        [ "maxSpawnCount", [3] ]
+        [ "maxSpawnCount", [4] ]
       ],
       "def" : [ "tmx", "hylotlextention1.json" ],
+      "chance" : 1
+    },
+    {
+      "name" : "hylotlextention2",
+      "rules" : [
+        [ "maxSpawnCount", [1] ]
+      ],
+      "def" : [ "tmx", "hylotlextention2.json" ],
+      "chance" : 1
+    },
+    {
+      "name" : "hylotlextention3",
+      "rules" : [
+        [ "maxSpawnCount", [1] ]
+      ],
+      "def" : [ "tmx", "hylotlextention3.json" ],
       "chance" : 1
     },
     

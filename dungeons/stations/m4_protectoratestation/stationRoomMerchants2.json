@@ -1,29 +1,29 @@
 { "backgroundcolor":"#000000",
- "height":27,
+ "height":22,
  "layers":[
         {
          "compression":"zlib",
-         "data":"eJzt2M0JgDAMBWBX6VKu4VqeOoOjaQ+FUFJr1JpneYWHBzEkH\/4Up4nrrTUrWcCj9dzbRCYeCWCJ4tjqv5fLKD5WK0u90mcDyV2flpG11og+NaM7dUb10YxG9AkAPvK96O2SI3uiD30QfNJKz+2qJF+jnUP3sc4TKzbZp9zvlfW0fRiyj3Ue+tCnnBfBJwK4IPrIvaq3S47s6Quf2vfqrz6teSw+Z\/mjz5V56EMf+vj4eP9P906v+wcxSM8Xap76bAzzIDuruWRL",
+         "data":"eJx7wsDA8GQU0wyvA2JJIjCx6sjRs26YuTOeCAxS10ciJsXsUXeOunPUnaPuRHanAhGYXHcSa\/ZwCs9Rd466c9SdI8edQ6H9OYopwwD85xNV",
          "encoding":"base64",
-         "height":27,
+         "height":22,
          "name":"back",
          "opacity":0.5,
          "type":"tilelayer",
          "visible":true,
-         "width":72,
+         "width":42,
          "x":0,
          "y":0
         }, 
         {
          "compression":"zlib",
-         "data":"eJztmEEOwyAMBPOVfKrf6Lc45X09thyQUBQWY2i6tXakvQVkjwgCtk2s4nGRRJ6rmr\/p5MzxyU6aw9GPFescxc+TLC0\/rR6trka\/L356tdyJpyZLz541F8VPBvXv\/R8j+cm0PHj3qmh+MvKDkR+M\/GDOLlI132sw7H68\/aRqvtrPTC0szNQkP7ax8oPHyg8eu8pPfSdkYaYmj5+yt0cB9bN6\/URDfjDyg5EfTM\/P6Hn81++ovbDcLxjDcP755\/d51E\/qfSiEgTda3eu7",
+         "data":"eJzt0FEJAEAIREH757KJRa7EiSLzYP+HjVBntWScnJycnD3OXLBLf077ODk5OfW3BwCJGsw=",
          "encoding":"base64",
-         "height":27,
+         "height":22,
          "name":"front",
          "opacity":1,
          "type":"tilelayer",
          "visible":true,
-         "width":72,
+         "width":42,
          "x":0,
          "y":0
         }, 
@@ -47,9 +47,9 @@
          "name":"objects",
          "objects":[
                 {
-                 "gid":5184,
-                 "height":40,
-                 "id":920,
+                 "gid":4419,
+                 "height":24,
+                 "id":826,
                  "name":"",
                  "properties":
                     {
@@ -58,14 +58,14 @@
                  "rotation":0,
                  "type":"",
                  "visible":true,
-                 "width":54,
-                 "x":408,
-                 "y":176
+                 "width":40,
+                 "x":240,
+                 "y":40
                 }, 
                 {
-                 "gid":5184,
-                 "height":40,
-                 "id":921,
+                 "gid":4419,
+                 "height":24,
+                 "id":827,
                  "name":"",
                  "properties":
                     {
@@ -74,14 +74,14 @@
                  "rotation":0,
                  "type":"",
                  "visible":true,
-                 "width":54,
-                 "x":112,
-                 "y":176
+                 "width":40,
+                 "x":56,
+                 "y":40
                 }, 
                 {
-                 "gid":5778,
-                 "height":12,
-                 "id":927,
+                 "gid":4419,
+                 "height":24,
+                 "id":828,
                  "name":"",
                  "properties":
                     {
@@ -90,62 +90,158 @@
                  "rotation":0,
                  "type":"",
                  "visible":true,
-                 "width":8,
-                 "x":448,
-                 "y":128
+                 "width":40,
+                 "x":152,
+                 "y":40
                 }, 
                 {
-                 "gid":5778,
-                 "height":12,
-                 "id":928,
-                 "name":"",
-                 "properties":
-                    {
-
-                    },
-                 "rotation":0,
-                 "type":"",
-                 "visible":true,
-                 "width":8,
-                 "x":32,
-                 "y":128
-                }, 
-                {
-                 "gid":5779,
-                 "height":12,
-                 "id":929,
-                 "name":"",
-                 "properties":
-                    {
-
-                    },
-                 "rotation":0,
-                 "type":"",
-                 "visible":true,
-                 "width":8,
-                 "x":120,
-                 "y":128
-                }, 
-                {
-                 "gid":5779,
-                 "height":12,
-                 "id":930,
-                 "name":"",
-                 "properties":
-                    {
-
-                    },
-                 "rotation":0,
-                 "type":"",
-                 "visible":true,
-                 "width":8,
-                 "x":536,
-                 "y":128
-                }, 
-                {
-                 "gid":3536,
+                 "gid":4085,
                  "height":32,
-                 "id":931,
+                 "id":841,
+                 "name":"",
+                 "properties":
+                    {
+
+                    },
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":80,
+                 "x":128,
+                 "y":88
+                }, 
+                {
+                 "gid":4378,
+                 "height":12,
+                 "id":847,
+                 "name":"",
+                 "properties":
+                    {
+
+                    },
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":8,
+                 "x":72,
+                 "y":112
+                }, 
+                {
+                 "gid":4378,
+                 "height":12,
+                 "id":848,
+                 "name":"",
+                 "properties":
+                    {
+
+                    },
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":8,
+                 "x":136,
+                 "y":104
+                }, 
+                {
+                 "gid":4378,
+                 "height":12,
+                 "id":849,
+                 "name":"",
+                 "properties":
+                    {
+
+                    },
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":8,
+                 "x":192,
+                 "y":104
+                }, 
+                {
+                 "gid":4378,
+                 "height":12,
+                 "id":850,
+                 "name":"",
+                 "properties":
+                    {
+
+                    },
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":8,
+                 "x":256,
+                 "y":112
+                }, 
+                {
+                 "gid":2147488930,
+                 "height":40,
+                 "id":851,
+                 "name":"",
+                 "properties":
+                    {
+
+                    },
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":48,
+                 "x":48,
+                 "y":88
+                }, 
+                {
+                 "gid":2147488930,
+                 "height":40,
+                 "id":853,
+                 "name":"",
+                 "properties":
+                    {
+
+                    },
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":48,
+                 "x":232,
+                 "y":160
+                }, 
+                {
+                 "gid":2147488936,
+                 "height":40,
+                 "id":854,
+                 "name":"",
+                 "properties":
+                    {
+
+                    },
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":48,
+                 "x":48,
+                 "y":160
+                }, 
+                {
+                 "gid":2147488936,
+                 "height":40,
+                 "id":855,
+                 "name":"",
+                 "properties":
+                    {
+
+                    },
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":48,
+                 "x":232,
+                 "y":88
+                }, 
+                {
+                 "gid":2147486722,
+                 "height":40,
+                 "id":856,
                  "name":"",
                  "properties":
                     {
@@ -155,24 +251,8 @@
                  "type":"",
                  "visible":true,
                  "width":32,
-                 "x":448,
-                 "y":48
-                }, 
-                {
-                 "gid":3537,
-                 "height":32,
-                 "id":932,
-                 "name":"",
-                 "properties":
-                    {
-
-                    },
-                 "rotation":0,
-                 "type":"",
-                 "visible":true,
-                 "width":32,
-                 "x":96,
-                 "y":48
+                 "x":152,
+                 "y":160
                 }],
          "opacity":1,
          "type":"objectgroup",
@@ -199,7 +279,39 @@
          "draworder":"topdown",
          "height":0,
          "name":"monsters & npcs",
-         "objects":[],
+         "objects":[
+                {
+                 "height":8,
+                 "id":836,
+                 "name":"",
+                 "properties":
+                    {
+                     "npc":"apex,avian,floran,glitch,human,hylotl,novakid",
+                     "typeName":"merchant"
+                    },
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":8,
+                 "x":112,
+                 "y":64
+                }, 
+                {
+                 "height":8,
+                 "id":846,
+                 "name":"",
+                 "properties":
+                    {
+                     "npc":"apex,avian,floran,glitch,human,hylotl,novakid",
+                     "typeName":"merchant"
+                    },
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":8,
+                 "x":216,
+                 "y":136
+                }],
          "opacity":1,
          "type":"objectgroup",
          "visible":true,
@@ -238,9 +350,9 @@
          "name":"anchors etc",
          "objects":[
                 {
-                 "gid":203,
+                 "gid":239,
                  "height":8,
-                 "id":925,
+                 "id":756,
                  "name":"",
                  "properties":
                     {
@@ -250,24 +362,8 @@
                  "type":"",
                  "visible":true,
                  "width":8,
-                 "x":416,
-                 "y":176
-                }, 
-                {
-                 "gid":204,
-                 "height":8,
-                 "id":926,
-                 "name":"",
-                 "properties":
-                    {
-
-                    },
-                 "rotation":0,
-                 "type":"",
-                 "visible":true,
-                 "width":8,
-                 "x":536,
-                 "y":208
+                 "x":304,
+                 "y":160
                 }],
          "opacity":1,
          "type":"objectgroup",
@@ -288,7 +384,7 @@
          "x":0,
          "y":0
         }],
- "nextobjectid":933,
+ "nextobjectid":857,
  "orientation":"orthogonal",
  "properties":
     {
@@ -303,15 +399,15 @@
         }, 
         {
          "firstgid":191,
+         "source":"..\/..\/..\/tilesets\/packed\/supports.json"
+        }, 
+        {
+         "firstgid":227,
          "source":"..\/..\/..\/tilesets\/packed\/miscellaneous.json"
         }, 
         {
-         "firstgid":211,
+         "firstgid":247,
          "source":"..\/..\/..\/tilesets\/packed\/liquids.json"
-        }, 
-        {
-         "firstgid":239,
-         "source":"..\/..\/..\/tilesets\/packed\/supports.json"
         }, 
         {
          "firstgid":275,
@@ -319,121 +415,61 @@
         }, 
         {
          "firstgid":2040,
-         "source":"..\/..\/..\/tilesets\/packed\/objects-by-race\/ancient.json"
-        }, 
-        {
-         "firstgid":2157,
-         "source":"..\/..\/..\/tilesets\/packed\/objects-by-race\/apex.json"
-        }, 
-        {
-         "firstgid":2525,
-         "source":"..\/..\/..\/tilesets\/packed\/objects-by-race\/avian.json"
-        }, 
-        {
-         "firstgid":2829,
-         "source":"..\/..\/..\/tilesets\/packed\/objects-by-race\/floran.json"
-        }, 
-        {
-         "firstgid":3024,
-         "source":"..\/..\/..\/tilesets\/packed\/objects-by-race\/glitch.json"
-        }, 
-        {
-         "firstgid":3249,
-         "source":"..\/..\/..\/tilesets\/packed\/objects-by-race\/human.json"
-        }, 
-        {
-         "firstgid":3528,
          "source":"..\/..\/..\/tilesets\/packed\/objects-by-race\/hylotl.json"
         }, 
         {
-         "firstgid":3759,
-         "source":"..\/..\/..\/tilesets\/packed\/objects-by-race\/novakid.json"
+         "firstgid":2271,
+         "source":"..\/..\/..\/tilesets\/packed\/objects-by-colonytag\/hylotl.json"
         }, 
         {
-         "firstgid":3785,
+         "firstgid":2490,
+         "source":"..\/..\/..\/tilesets\/packed\/objects-by-category\/breakable.json"
+        }, 
+        {
+         "firstgid":2788,
          "source":"..\/..\/..\/tilesets\/packed\/objects-by-category\/crafting.json"
         }, 
         {
-         "firstgid":3861,
+         "firstgid":2864,
          "source":"..\/..\/..\/tilesets\/packed\/objects-by-category\/decorative.json"
         }, 
         {
-         "firstgid":5162,
+         "firstgid":4165,
          "source":"..\/..\/..\/tilesets\/packed\/objects-by-category\/door.json"
         }, 
         {
-         "firstgid":5278,
-         "source":"..\/..\/..\/tilesets\/packed\/objects-by-category\/farmable.json"
-        }, 
-        {
-         "firstgid":5353,
-         "source":"..\/..\/..\/tilesets\/packed\/objects-by-category\/furniture.json"
-        }, 
-        {
-         "firstgid":5679,
+         "firstgid":4281,
          "source":"..\/..\/..\/tilesets\/packed\/objects-by-category\/light.json"
         }, 
         {
-         "firstgid":6096,
-         "source":"..\/..\/..\/tilesets\/packed\/objects-by-category\/other.json"
-        }, 
-        {
-         "firstgid":6392,
+         "firstgid":4698,
          "source":"..\/..\/..\/tilesets\/packed\/objects-by-category\/pot.json"
         }, 
         {
-         "firstgid":6689,
-         "source":"..\/..\/..\/tilesets\/packed\/objects-by-category\/sapling.json"
+         "firstgid":4995,
+         "source":"..\/..\/..\/tilesets\/packed\/objects-by-category\/railpoint.json"
         }, 
         {
-         "firstgid":6690,
-         "source":"..\/..\/..\/tilesets\/packed\/objects-by-category\/spawner.json"
+         "firstgid":4999,
+         "source":"..\/..\/..\/tilesets\/packed\/objects-by-category\/seed.json"
         }, 
         {
-         "firstgid":6705,
+         "firstgid":5075,
          "source":"..\/..\/..\/tilesets\/packed\/objects-by-category\/storage.json"
         }, 
         {
-         "firstgid":6923,
-         "source":"..\/..\/..\/tilesets\/packed\/objects-by-category\/teleporter.json"
+         "firstgid":5293,
+         "source":"..\/..\/..\/tilesets\/packed\/objects-by-category\/teleportmarker.json"
         }, 
         {
-         "firstgid":6955,
-         "source":"..\/..\/..\/tilesets\/packed\/objects-by-category\/tools.json"
-        }, 
-        {
-         "firstgid":6960,
+         "firstgid":5307,
          "source":"..\/..\/..\/tilesets\/packed\/objects-by-category\/trap.json"
         }, 
         {
-         "firstgid":7164,
+         "firstgid":5511,
          "source":"..\/..\/..\/tilesets\/packed\/objects-by-category\/wire.json"
-        }, 
-        {
-         "firstgid":7349,
-         "source":"..\/..\/..\/tilesets\/packed\/objects-by-type\/container.json"
-        }, 
-        {
-         "firstgid":7618,
-         "source":"..\/..\/..\/tilesets\/packed\/objects-by-type\/farmable.json"
-        }, 
-        {
-         "firstgid":7696,
-         "source":"..\/..\/..\/tilesets\/packed\/objects-by-type\/loungeable.json"
-        }, 
-        {
-         "firstgid":7952,
-         "source":"..\/..\/..\/tilesets\/packed\/objects-by-type\/noisy.json"
-        }, 
-        {
-         "firstgid":7993,
-         "source":"..\/..\/..\/tilesets\/packed\/objects-by-type\/teleporter.json"
-        }, 
-        {
-         "firstgid":8018,
-         "source":"..\/..\/..\/tilesets\/packed\/huge-objects.json"
         }],
  "tilewidth":8,
  "version":1,
- "width":72
+ "width":42
 }
