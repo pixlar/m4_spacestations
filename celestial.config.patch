@@ -785,11 +785,6 @@
 
 
 { "op": "add", "path": "/satelliteTypes/Tier1SpaceStation/variationParameters/-", "value": {
-  "dungeonWorld" : "mazetechspace1",
-  "worldSize" : "mazetechspace1",
-  "atmosphere" : false
-}},
-{ "op": "add", "path": "/satelliteTypes/Tier1SpaceStation/variationParameters/-", "value": {
   "dungeonWorld" : "m4_protectoratestation1",
   "worldSize" : "m4_protectoratestation1",
   "atmosphere" : true

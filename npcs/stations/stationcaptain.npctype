@@ -1,0 +1,43 @@
+{
+  "type" : "stationcaptain",
+  "baseType" : "villageguardcaptain",
+
+
+  "scriptConfig" : {
+    "questGenerator" : {
+      "pools" : ["common"],
+      "enableParticipation" : true,
+      "timeLimit" : 30,
+      "nearbyQuestLimit" : 2,
+      "nearbyQuestRange" : 50,
+      "questCountRange" : [1, 4],
+      
+      "graduation" : { }
+      
+    }  
+  },
+
+    "dialog" : {
+      "converse" : {
+        "default" : {
+          "default" : [
+            "Be sure you behave on my station.",
+            "Let's be about it."
+          ]
+        }
+      }
+    },
+
+  "items" : {
+    "override" : [
+      [0, [
+          {
+            "head" : [ { "name" : "berethead", "parameters" : { "colorIndex" : 3 } }, { "name" : "captainshead", "parameters" : { "colorIndex" : 3 } } ],
+            "chest" : [ { "name" : "apexofficerjacket", "parameters" : { "colorIndex" : 1 } },{ "name" : "miniknogchest", "parameters" : { "colorIndex" : 1 } },{ "name" : "protectoratechest", "parameters" : { "colorIndex" : 1 }} ],
+            "legs" : [ { "name" : "apexofficerpants", "parameters" : { "colorIndex" : 1 } },{ "name" : "spacesuitlegs", "parameters" : { "colorIndex" : 1 } } ],
+            "primary" : [ "npcpistol" ]
+          }
+        ] ]
+    ]
+  }
+}

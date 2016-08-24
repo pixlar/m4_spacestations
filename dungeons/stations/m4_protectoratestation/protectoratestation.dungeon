@@ -33,6 +33,22 @@
       "chance" : 1
     },
     {
+      "name" : "stationRoomStorage",
+      "rules" : [
+        [ "maxSpawnCount", [4] ]
+      ],
+      "def" : [ "tmx", "stationRoomStorage.json" ],
+      "chance" : 1
+    },
+    {
+      "name" : "stationRoomLibrary1",
+      "rules" : [
+        [ "maxSpawnCount", [1] ]
+      ],
+      "def" : [ "tmx", "stationRoomLibrary1.json" ],
+      "chance" : 1
+    },
+    {
       "name" : "stationRoomEmpty",
       "rules" : [
         [ "maxSpawnCount", [4] ]
@@ -170,6 +186,14 @@
         [ "maxSpawnCount", [1] ]
       ],
       "def" : [ "tmx", "protectoratespacestationext1.json" ],
+      "chance" : 3
+    },
+    {
+      "name" : "protectoratespacestationdock2",
+      "rules" : [
+        [ "maxSpawnCount", [1] ]
+      ],
+      "def" : [ "tmx", "protectoratespacestationdock2.json" ],
       "chance" : 3
     }
   ]

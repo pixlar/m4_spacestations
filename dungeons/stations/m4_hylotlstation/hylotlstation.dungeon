@@ -143,6 +143,22 @@
       "def" : [ "tmx", "/dungeons/stations/m4_protectoratestation/stationRoomView.json" ],
       "chance" : 3
     },
+    {
+      "name" : "stationRoomStorage",
+      "rules" : [
+        [ "maxSpawnCount", [4] ]
+      ],
+      "def" : [ "tmx", "/dungeons/stations/m4_protectoratestation/stationRoomStorage.json" ],
+      "chance" : 1
+    },
+    {
+      "name" : "stationRoomLibrary1",
+      "rules" : [
+        [ "maxSpawnCount", [2] ]
+      ],
+      "def" : [ "tmx", "/dungeons/stations/m4_protectoratestation/stationRoomLibrary1.json" ],
+      "chance" : 1
+    },
     
     //EXTENTIONS
     {
@@ -190,6 +206,13 @@
     },
     {
       "name" : "hylotltop1",
+      "rules" : [
+      ],
+      "def" : [ "tmx", "hylotltop1.json" ],
+      "chance" : 1
+    },
+    {
+      "name" : "hylotltop2",
       "rules" : [
       ],
       "def" : [ "tmx", "hylotltop1.json" ],

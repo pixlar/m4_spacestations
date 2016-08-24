@@ -16,7 +16,7 @@
         }, 
         {
          "compression":"zlib",
-         "data":"eJztzsEJAAAIxLDbf00XcQgRFFLoP4k2qyNzcnJycnJemJOTk\/ObU7MamzYeyw==",
+         "data":"eJzt1cEJACAIBVBX6BxB+8\/RJi3SApUaGl\/ww78lPTwUUcYzE6RWzlr0d2tmrJxR9plOolZiOKPsM53\/nd2hg+luhovnjobirJXz5T+SWlHeJYkVwSmxojg5K5LzZkVznqyIzp0145sFu10Ffg==",
          "encoding":"base64",
          "height":22,
          "name":"front",
@@ -47,25 +47,25 @@
          "name":"objects",
          "objects":[
                 {
-                 "gid":4419,
-                 "height":24,
-                 "id":826,
+                 "gid":5167,
+                 "height":40,
+                 "id":843,
                  "name":"",
                  "properties":
                     {
-
+                     "parameters":"{ \"treasurePools\" : [ \"aviannativevillageLore\" ] }"
                     },
                  "rotation":0,
                  "type":"",
                  "visible":true,
-                 "width":40,
-                 "x":240,
-                 "y":40
+                 "width":32,
+                 "x":32,
+                 "y":88
                 }, 
                 {
-                 "gid":4419,
-                 "height":24,
-                 "id":827,
+                 "gid":5183,
+                 "height":40,
+                 "id":844,
                  "name":"",
                  "properties":
                     {
@@ -74,62 +74,78 @@
                  "rotation":0,
                  "type":"",
                  "visible":true,
-                 "width":40,
-                 "x":56,
-                 "y":40
+                 "width":24,
+                 "x":128,
+                 "y":88
                 }, 
                 {
-                 "gid":4419,
-                 "height":24,
-                 "id":828,
+                 "gid":5290,
+                 "height":40,
+                 "id":845,
                  "name":"",
                  "properties":
                     {
-
+                     "parameters":"{ \"treasurePools\" : [ \"hylotlcityLore\" ] }"
                     },
                  "rotation":0,
                  "type":"",
                  "visible":true,
-                 "width":40,
+                 "width":32,
+                 "x":40,
+                 "y":160
+                }, 
+                {
+                 "gid":5748,
+                 "height":40,
+                 "id":846,
+                 "name":"",
+                 "properties":
+                    {
+                     "parameters":"{ \"treasurePools\" : [ \"apexcityLore\" ] }"
+                    },
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":32,
                  "x":152,
-                 "y":40
+                 "y":88
                 }, 
                 {
-                 "gid":4383,
-                 "height":12,
-                 "id":840,
+                 "gid":6156,
+                 "height":40,
+                 "id":847,
                  "name":"",
                  "properties":
                     {
-
+                     "parameters":"{ \"treasurePools\" : [ \"floranhutvillageLore\" ] }"
                     },
                  "rotation":0,
                  "type":"",
                  "visible":true,
-                 "width":8,
+                 "width":32,
                  "x":72,
-                 "y":96
+                 "y":160
                 }, 
                 {
-                 "gid":4383,
-                 "height":12,
-                 "id":841,
+                 "gid":6345,
+                 "height":40,
+                 "id":848,
                  "name":"",
                  "properties":
                     {
-
+                     "parameters":"{ \"treasurePools\" : [ \"humancampLore\" ] }"
                     },
                  "rotation":0,
                  "type":"",
                  "visible":true,
-                 "width":8,
+                 "width":32,
                  "x":168,
-                 "y":96
+                 "y":160
                 }, 
                 {
-                 "gid":4383,
-                 "height":12,
-                 "id":842,
+                 "gid":600,
+                 "height":40,
+                 "id":849,
                  "name":"",
                  "properties":
                     {
@@ -138,9 +154,73 @@
                  "rotation":0,
                  "type":"",
                  "visible":true,
-                 "width":8,
-                 "x":256,
-                 "y":96
+                 "width":32,
+                 "x":64,
+                 "y":88
+                }, 
+                {
+                 "gid":600,
+                 "height":40,
+                 "id":850,
+                 "name":"",
+                 "properties":
+                    {
+
+                    },
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":32,
+                 "x":96,
+                 "y":88
+                }, 
+                {
+                 "gid":600,
+                 "height":40,
+                 "id":851,
+                 "name":"",
+                 "properties":
+                    {
+
+                    },
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":32,
+                 "x":136,
+                 "y":160
+                }, 
+                {
+                 "gid":600,
+                 "height":40,
+                 "id":852,
+                 "name":"",
+                 "properties":
+                    {
+
+                    },
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":32,
+                 "x":104,
+                 "y":160
+                }, 
+                {
+                 "gid":2147484054,
+                 "height":18,
+                 "id":853,
+                 "name":"",
+                 "properties":
+                    {
+
+                    },
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":40,
+                 "x":264,
+                 "y":88
                 }],
          "opacity":1,
          "type":"objectgroup",
@@ -240,7 +320,7 @@
          "x":0,
          "y":0
         }],
- "nextobjectid":843,
+ "nextobjectid":854,
  "orientation":"orthogonal",
  "properties":
     {
@@ -324,6 +404,18 @@
         {
          "firstgid":5511,
          "source":"..\/..\/..\/tilesets\/packed\/objects-by-category\/wire.json"
+        }, 
+        {
+         "firstgid":5696,
+         "source":"..\/..\/..\/tilesets\/packed\/objects-by-race\/apex.json"
+        }, 
+        {
+         "firstgid":6064,
+         "source":"..\/..\/..\/tilesets\/packed\/objects-by-race\/floran.json"
+        }, 
+        {
+         "firstgid":6259,
+         "source":"..\/..\/..\/tilesets\/packed\/objects-by-race\/human.json"
         }],
  "tilewidth":8,
  "version":1,
