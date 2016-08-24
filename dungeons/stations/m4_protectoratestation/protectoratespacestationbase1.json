@@ -2269,6 +2269,70 @@
                  "width":8,
                  "x":368,
                  "y":888
+                }, 
+                {
+                 "gid":4162,
+                 "height":12,
+                 "id":1503,
+                 "name":"",
+                 "properties":
+                    {
+
+                    },
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":8,
+                 "x":584,
+                 "y":976
+                }, 
+                {
+                 "gid":4162,
+                 "height":12,
+                 "id":1504,
+                 "name":"",
+                 "properties":
+                    {
+
+                    },
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":8,
+                 "x":584,
+                 "y":1056
+                }, 
+                {
+                 "gid":4159,
+                 "height":12,
+                 "id":1505,
+                 "name":"",
+                 "properties":
+                    {
+
+                    },
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":8,
+                 "x":368,
+                 "y":1112
+                }, 
+                {
+                 "gid":4159,
+                 "height":12,
+                 "id":1506,
+                 "name":"",
+                 "properties":
+                    {
+
+                    },
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":8,
+                 "x":360,
+                 "y":920
                 }],
          "opacity":1,
          "type":"objectgroup",
@@ -2871,7 +2935,7 @@
                  "properties":
                     {
                      "npc":"apex,avian,glitch,human,hylotl,floran,novakid",
-                     "typeName":"villager"
+                     "typeName":"stationcivilian"
                     },
                  "rotation":0,
                  "type":"",
@@ -2887,7 +2951,7 @@
                  "properties":
                     {
                      "npc":"apex,avian,glitch,human,hylotl,floran,novakid",
-                     "typeName":"villager"
+                     "typeName":"stationcivilian"
                     },
                  "rotation":0,
                  "type":"",
@@ -2903,7 +2967,7 @@
                  "properties":
                     {
                      "npc":"apex,avian,glitch,human,hylotl,floran,novakid",
-                     "typeName":"villager"
+                     "typeName":"stationcivilian"
                     },
                  "rotation":0,
                  "type":"",
@@ -2919,7 +2983,7 @@
                  "properties":
                     {
                      "npc":"apex,avian,glitch,human,hylotl,floran,novakid",
-                     "typeName":"villager"
+                     "typeName":"stationcivilian"
                     },
                  "rotation":0,
                  "type":"",
@@ -2935,7 +2999,7 @@
                  "properties":
                     {
                      "npc":"apex,avian,glitch,human,hylotl,floran,novakid",
-                     "typeName":"villager"
+                     "typeName":"stationcivilian"
                     },
                  "rotation":0,
                  "type":"",
@@ -2951,7 +3015,7 @@
                  "properties":
                     {
                      "npc":"apex,avian,glitch,human,hylotl,floran,novakid",
-                     "typeName":"villager"
+                     "typeName":"stationcivilian"
                     },
                  "rotation":0,
                  "type":"",
@@ -2967,7 +3031,7 @@
                  "properties":
                     {
                      "npc":"apex,avian,glitch,human,hylotl,floran,novakid",
-                     "typeName":"villageguard"
+                     "typeName":"protectorateguard"
                     },
                  "rotation":0,
                  "type":"",
@@ -2983,7 +3047,7 @@
                  "properties":
                     {
                      "npc":"apex,avian,glitch,human,hylotl,floran,novakid",
-                     "typeName":"villageguard"
+                     "typeName":"protectorateguard"
                     },
                  "rotation":0,
                  "type":"",
@@ -2999,7 +3063,7 @@
                  "properties":
                     {
                      "npc":"apex,avian,glitch,human,hylotl,floran,novakid",
-                     "typeName":"villageguard"
+                     "typeName":"protectorateguard"
                     },
                  "rotation":0,
                  "type":"",
@@ -3015,7 +3079,7 @@
                  "properties":
                     {
                      "npc":"apex,avian,glitch,human,hylotl,floran,novakid",
-                     "typeName":"villageguard"
+                     "typeName":"protectorateguard"
                     },
                  "rotation":0,
                  "type":"",
@@ -3031,7 +3095,7 @@
                  "properties":
                     {
                      "npc":"apex,avian,glitch,human,hylotl,floran,novakid",
-                     "typeName":"villageguard"
+                     "typeName":"protectorateguard"
                     },
                  "rotation":0,
                  "type":"",
@@ -3042,28 +3106,12 @@
                 }, 
                 {
                  "height":8,
-                 "id":1496,
-                 "name":"",
-                 "properties":
-                    {
-                     "npc":"apex,avian,glitch,human,hylotl,floran,novakid",
-                     "typeName":"villageguard"
-                    },
-                 "rotation":0,
-                 "type":"",
-                 "visible":true,
-                 "width":8,
-                 "x":2096,
-                 "y":512
-                }, 
-                {
-                 "height":8,
                  "id":1497,
                  "name":"",
                  "properties":
                     {
                      "npc":"apex,avian,glitch,human,hylotl,floran,novakid",
-                     "typeName":"villageguard"
+                     "typeName":"protectorateguard"
                     },
                  "rotation":0,
                  "type":"",
@@ -3363,7 +3411,7 @@
                  "visible":true,
                  "width":8,
                  "x":1504,
-                 "y":1136
+                 "y":1144
                 }, 
                 {
                  "gid":239,
@@ -3416,7 +3464,7 @@
          "x":0,
          "y":0
         }],
- "nextobjectid":1503,
+ "nextobjectid":1507,
  "orientation":"orthogonal",
  "properties":
     {

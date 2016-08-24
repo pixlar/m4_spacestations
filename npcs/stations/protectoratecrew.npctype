@@ -1,0 +1,19 @@
+{
+  "type" : "protectoratecrew",
+  "baseType" : "stationcivilian",
+
+
+  "matchColorIndices" : true,
+  "items" : {
+    "override" : [
+      [0, [
+          {
+            "chest" : [ { "name" : "protectoratechest", "parameters" : {  "colorIndex" : [2, 5, 6, 7, 8, 9, 11] }} ],
+            "legs" : [ { "name" : "protectoratepants", "parameters" : {  "colorIndex" : [2, 5, 6, 7, 8, 9, 11] } } ],
+            "primary" : [ "npcwrench", "medkit", "broom" ],
+            "sheathedprimary" : [ "npcpistol", "npcshortsword", "greenstim", "orangestim", "yellowstim", "bluestim" ]
+          }
+        ] ]
+    ]
+  }
+}

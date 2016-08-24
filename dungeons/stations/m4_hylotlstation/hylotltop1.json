@@ -199,7 +199,39 @@
          "draworder":"topdown",
          "height":0,
          "name":"monsters & npcs",
-         "objects":[],
+         "objects":[
+                {
+                 "height":8,
+                 "id":933,
+                 "name":"",
+                 "properties":
+                    {
+                     "npc":"hylotl",
+                     "typeName":"villageguard"
+                    },
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":8,
+                 "x":120,
+                 "y":160
+                }, 
+                {
+                 "height":8,
+                 "id":934,
+                 "name":"",
+                 "properties":
+                    {
+                     "npc":"hylotl",
+                     "typeName":"stationcivilian"
+                    },
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":8,
+                 "x":488,
+                 "y":160
+                }],
          "opacity":1,
          "type":"objectgroup",
          "visible":true,
@@ -288,7 +320,7 @@
          "x":0,
          "y":0
         }],
- "nextobjectid":933,
+ "nextobjectid":935,
  "orientation":"orthogonal",
  "properties":
     {

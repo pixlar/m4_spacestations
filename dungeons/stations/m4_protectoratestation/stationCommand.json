@@ -703,7 +703,7 @@
                  "properties":
                     {
                      "npc":"apex,avian,floran,glitch,human,hylotl,novakid",
-                     "typeName":"outpostcivilian"
+                     "typeName":"protectoratecrew"
                     },
                  "rotation":0,
                  "type":"",
@@ -719,7 +719,7 @@
                  "properties":
                     {
                      "npc":"apex,avian,floran,glitch,human,hylotl,novakid",
-                     "typeName":"spacepioneervisitor"
+                     "typeName":"protectoratecrew"
                     },
                  "rotation":0,
                  "type":"",
@@ -735,7 +735,7 @@
                  "properties":
                     {
                      "npc":"apex,avian,floran,glitch,human,hylotl,novakid",
-                     "typeName":"outpostcivilian"
+                     "typeName":"stationcaptain"
                     },
                  "rotation":0,
                  "type":"",
@@ -751,7 +751,7 @@
                  "properties":
                     {
                      "npc":"apex,avian,floran,glitch,human,hylotl,novakid",
-                     "typeName":"astronaut"
+                     "typeName":"protectoratecrew"
                     },
                  "rotation":0,
                  "type":"",
@@ -767,7 +767,7 @@
                  "properties":
                     {
                      "npc":"apex,avian,floran,glitch,human,hylotl,novakid",
-                     "typeName":"humanbunker"
+                     "typeName":"protectoratecrew"
                     },
                  "rotation":0,
                  "type":"",

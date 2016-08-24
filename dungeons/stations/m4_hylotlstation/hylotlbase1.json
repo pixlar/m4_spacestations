@@ -631,7 +631,55 @@
          "draworder":"topdown",
          "height":0,
          "name":"monsters & npcs",
-         "objects":[],
+         "objects":[
+                {
+                 "height":8,
+                 "id":970,
+                 "name":"",
+                 "properties":
+                    {
+                     "npc":"hylotl",
+                     "typeName":"villageguard"
+                    },
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":8,
+                 "x":400,
+                 "y":256
+                }, 
+                {
+                 "height":8,
+                 "id":971,
+                 "name":"",
+                 "properties":
+                    {
+                     "npc":"hylotl",
+                     "typeName":"villageguard"
+                    },
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":8,
+                 "x":160,
+                 "y":256
+                }, 
+                {
+                 "height":8,
+                 "id":972,
+                 "name":"",
+                 "properties":
+                    {
+                     "npc":"hylotl",
+                     "typeName":"villageguard"
+                    },
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":8,
+                 "x":496,
+                 "y":56
+                }],
          "opacity":1,
          "type":"objectgroup",
          "visible":true,
@@ -768,7 +816,7 @@
          "x":0,
          "y":0
         }],
- "nextobjectid":970,
+ "nextobjectid":973,
  "orientation":"orthogonal",
  "properties":
     {
