@@ -789,11 +789,12 @@
 }},
 
 { "op": "add", "path": "/planetaryTypes/Tier2SpaceStation/variationParameters/-", "value": {
-  "dungeonWorld" : "mazetechspace2",
-  "worldSize" : "mazetechspace2",
-  "atmosphere" : false
+  "dungeonWorld" : "m4_protectoratestation2",
+  "worldSize" : "m4_protectoratestation2",
+  "atmosphere" : true
 }},
-{ "op": "add", "path": "/planetaryTypes/Tier2SpaceStation/variationParameters/-", "value": {
+
+{ "op": "add", "path": "/satelliteTypes/Tier2SpaceStation/variationParameters/-", "value": {
   "dungeonWorld" : "m4_protectoratestation2",
   "worldSize" : "m4_protectoratestation2",
   "atmosphere" : true
@@ -803,11 +804,6 @@
   "dungeonWorld" : "mazetechspace2",
   "worldSize" : "mazetechspace2",
   "atmosphere" : false
-}},
-{ "op": "add", "path": "/satelliteTypes/Tier1SpaceStation/variationParameters/-", "value": {
-  "dungeonWorld" : "m4_protectoratestation2",
-  "worldSize" : "m4_protectoratestation2",
-  "atmosphere" : true
 }},
 
 
@@ -905,7 +901,7 @@
   "worldSize" : "m4_hylotlstation2",
   "atmosphere" : true
 }},
-{ "op": "add", "path": "/satelliteTypes/Tier1SpaceStation/variationParameters/-", "value": {
+{ "op": "add", "path": "/satelliteTypes/Tier2SpaceStation/variationParameters/-", "value": {
   "dungeonWorld" : "m4_hylotlstation2",
   "worldSize" : "m4_hylotlstation2",
   "atmosphere" : true
