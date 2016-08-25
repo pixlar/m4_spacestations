@@ -226,5 +226,43 @@
   "op": "add",
   "path": "/planetTypeToDescription/m4_hylotlstation7",
   "value": ["A Hylotl Space Base."]
+},
+//-------------------------------------------------------------------------------------------
+//M4 Glitch Station
+//-------------------------------------------------------------------------------------------
+{
+  "op": "add",
+  "path": "/planetTypeToDescription/m4_glitchstation1",
+  "value": ["A Glitch Space Station."]
+},
+{
+  "op": "add",
+  "path": "/planetTypeToDescription/m4_glitchstation2",
+  "value": ["A Glitch Space Station."]
+},
+{
+  "op": "add",
+  "path": "/planetTypeToDescription/m4_glitchstation3",
+  "value": ["A Glitch Space Station."]
+},
+{
+  "op": "add",
+  "path": "/planetTypeToDescription/m4_glitchstation4",
+  "value": ["A Glitch Space Station."]
+},
+{
+  "op": "add",
+  "path": "/planetTypeToDescription/m4_glitchstation5",
+  "value": ["A Glitch Space Station."]
+},
+{
+  "op": "add",
+  "path": "/planetTypeToDescription/m4_glitchstation6",
+  "value": ["A Glitch Space Station."]
+},
+{
+  "op": "add",
+  "path": "/planetTypeToDescription/m4_glitchstation7",
+  "value": ["A Glitch Space Station."]
 }
 ]

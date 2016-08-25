@@ -241,5 +241,87 @@
   "dungeonBaseHeight" : 4096,
   "ambientLightLevel" : [80, 80, 80],
   "musicTrack" : "/music/planetarium.ogg"
+}},
+
+
+//-------------------------------------------------------------------------------------------
+//M4 glitch Station
+//-------------------------------------------------------------------------------------------
+{ "op": "add", "path": "/m4_glitchstation1", "value": {
+  "primaryDungeon" : "m4_glitchstation",
+  "threatLevel" : 1,
+  "airless" : false,
+  "breathable" : true,
+  "gravity" : 50,
+  "worldSize" : [4096, 8192],
+  "dungeonBaseHeight" : 4096,
+  "ambientLightLevel" : [80, 80, 80],
+  "musicTrack" : "/music/planetarium.ogg"
+}},
+{ "op": "add", "path": "/m4_glitchstation2", "value": {
+  "primaryDungeon" : "m4_glitchstation",
+  "threatLevel" : 2,
+  "airless" : false,
+  "breathable" : true,
+  "gravity" : 50,
+  "worldSize" : [4096, 8192],
+  "dungeonBaseHeight" : 4096,
+  "ambientLightLevel" : [80, 80, 80],
+  "musicTrack" : "/music/planetarium.ogg"
+}},
+{ "op": "add", "path": "/m4_glitchstation3", "value": {
+  "primaryDungeon" : "m4_glitchstation",
+  "threatLevel" : 3,
+  "airless" : false,
+  "breathable" : true,
+  "gravity" : 50,
+  "worldSize" : [4096, 8192],
+  "dungeonBaseHeight" : 4096,
+  "ambientLightLevel" : [80, 80, 80],
+  "musicTrack" : "/music/planetarium.ogg"
+}},
+{ "op": "add", "path": "/m4_glitchstation4", "value": {
+  "primaryDungeon" : "m4_glitchstation",
+  "threatLevel" : 4,
+  "airless" : false,
+  "breathable" : true,
+  "gravity" : 50,
+  "worldSize" : [4096, 8192],
+  "dungeonBaseHeight" : 4096,
+  "ambientLightLevel" : [80, 80, 80],
+  "musicTrack" : "/music/planetarium.ogg"
+}},
+{ "op": "add", "path": "/m4_glitchstation5", "value": {
+  "primaryDungeon" : "m4_glitchstation",
+  "threatLevel" : 5,
+  "airless" : false,
+  "breathable" : true,
+  "gravity" : 50,
+  "worldSize" : [4096, 8192],
+  "dungeonBaseHeight" : 4096,
+  "ambientLightLevel" : [80, 80, 80],
+  "musicTrack" : "/music/planetarium.ogg"
+}},
+{ "op": "add", "path": "/m4_glitchstation6", "value": {
+  "primaryDungeon" : "m4_glitchstation",
+  "threatLevel" : 6,
+  "airless" : false,
+  "breathable" : true,
+  "gravity" : 50,
+  "worldSize" : [4096, 8192],
+  "dungeonBaseHeight" : 4096,
+  "ambientLightLevel" : [80, 80, 80],
+  "musicTrack" : "/music/planetarium.ogg"
+}},
+{ "op": "add", "path": "/m4_glitchstation7", "value": {
+  "primaryDungeon" : "m4_glitchstation",
+  "threatLevel" : 7,
+  "airless" : false,
+  "breathable" : true,
+  "gravity" : 50,
+  "worldSize" : [4096, 8192],
+  "dungeonBaseHeight" : 4096,
+  "ambientLightLevel" : [80, 80, 80],
+  "musicTrack" : "/music/planetarium.ogg"
 }}
 ]
