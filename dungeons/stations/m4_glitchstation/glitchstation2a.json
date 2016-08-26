@@ -1,11 +1,11 @@
 { "backgroundcolor":"#000000",
- "height":58,
+ "height":47,
  "layers":[
         {
          "compression":"zlib",
-         "data":"eJzt1UEKgCAQhlFP4uk7Wgdx03KCphizeD98G0F8O1uzaP2lOHKO7ejq+d17HBx\/cMyK4xuOWa7sODg4ODg4ODg4ODg4ONZ27EHVjujNs6ocGQOHJOlpq6zqH8k2AE6w8pQ=",
+         "data":"eJztzssJwCAQBFArSRO2bGkWkksOHjbkh4rhDcxlYZmXkkTZJpXjmaMcvXt\/+8fB8QfHqHKs4WiTO+7mi20ODg4ODg4ODg4ODo4zRw3a2xFtcnBwfHPM6A7mDf+7",
          "encoding":"base64",
-         "height":58,
+         "height":47,
          "name":"back",
          "opacity":0.5,
          "type":"tilelayer",
@@ -16,9 +16,9 @@
         }, 
         {
          "compression":"zlib",
-         "data":"eJztltEJwCAMRDtJl+j+Y3SCLtKvggRjouaMlHtwf0WeQa8exz5cySk9zqTUPFbPoeWxCnrQgx70QHnI3EqQfdrqfm0\/0f8Xy7XmMbp\/7X+r7dX6poeRM7ijR+ucrvSIgh70QHpE9jqqP2Z7PMpjh3n0Qg96ID08ucEePX1guSDnIddtuSD7tPa+1FwyzmnNJeu+SJfMe1u6ZPdH+U74wzw8sRxmPUbfNYj74u11K+Waj4jHIwrp8ZHt4ZkHIYQQMssLVs+ABw==",
+         "data":"eJzt1sEJwCAMBVAn6RLdfwwn6CI9FUIwJmq+kZJAbkWeQX8t5Zy6g5s6rqBuOXbPoefYVelIRzrSgXLwrkIj87SX\/dJ+vP8vmrXlmN2\/9L+V9qp9M1IzZ\/BER++c7nR4VTrSgXR45joqP1Zz3MtxwjxGKx3pQDosXcGOkTzQLMh58HV7FmSett6XkiXinLYsUfeFWyLvLbVE5wd9J\/xhHpbWDKuO2XcN4r5Yc11ruubD2uLwKu74KtphmUdEvQITgAc=",
          "encoding":"base64",
-         "height":58,
+         "height":47,
          "name":"front",
          "opacity":1,
          "type":"tilelayer",
