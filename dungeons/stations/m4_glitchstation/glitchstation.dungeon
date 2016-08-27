@@ -30,6 +30,13 @@
       "def" : [ "tmx", "glitchstation1b.json" ],
       "chance" : 1
     },
+    {
+      "name" : "glitchstation1c",
+      "rules" : [
+      ],
+      "def" : [ "tmx", "glitchstation1c.json" ],
+      "chance" : 1
+    },
     
     //CENTER PIECES
     {
@@ -49,6 +56,13 @@
       "rules" : [
       ],
       "def" : [ "tmx", "glitchstation2a.json" ],
+      "chance" : 1
+    },
+    {
+      "name" : "glitchstation2b",
+      "rules" : [
+      ],
+      "def" : [ "tmx", "glitchstation2b.json" ],
       "chance" : 1
     },
     
