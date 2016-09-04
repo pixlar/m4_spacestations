@@ -1,6 +1,7 @@
 {
-  "name" : "M4's Space Stations",
-  "version" : "0.5",
+  "name" : "M4's Space Stations - TrueSpace Compatible",
+  "version" : "0.6",
+  "requires: ["TrueSpace"],
 	"author" : "magewish4",
 	"description" : "Space Stations! Based on Shadow Wolf TJC's Satellites Mod."
 }
