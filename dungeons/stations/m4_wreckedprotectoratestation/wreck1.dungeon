@@ -1,0 +1,53 @@
+{
+  "metadata" : {
+    "name" : "m4_wreckstation",
+    "species" : "human",
+    "rules" : [
+    ],
+    "anchor" : [ "start1a" ],
+    "gravity" : 60,
+    "maxRadius" : 1000000,
+    "maxParts" : 6,
+    "protected" : true
+  },
+
+  "parts" : [
+
+    // STATION BASE
+    {
+      "name" : "start1a",
+      "rules" : [
+        [ "maxSpawnCount", [1] ]
+      ],
+      "def" : [ "tmx", "start1a.json" ],
+      "chance" : 1
+    },
+    //LEFT BYPASS
+    {
+      "name" : "tank1a",
+      "rules" : [
+        [ "maxSpawnCount", [1] ]
+      ],
+      "def" : [ "tmx", "tank1a.json" ],
+      "chance" : 1
+    },
+    // PLATFORMING
+    {
+      "name" : "platform1a",
+      "rules" : [
+        [ "maxSpawnCount", [1] ]
+      ],
+      "def" : [ "tmx", "platform1a.json" ],
+      "chance" : 1
+    },
+    // FINAL CORRIDOR
+    {
+      "name" : "end1a",
+      "rules" : [
+        [ "maxSpawnCount", [1] ]
+      ],
+      "def" : [ "tmx", "end1a.json" ],
+      "chance" : 1
+    }
+  ]
+}

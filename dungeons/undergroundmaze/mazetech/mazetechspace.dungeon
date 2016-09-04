@@ -7,7 +7,7 @@
     "anchor" : [ "entrytop", "entryleft", "entryright" ],
     "gravity" : 80,
     "maxRadius" : 8192,
-    "maxParts" : 100,
+    "maxParts" : 35,
     "protected" : true
   },
 
