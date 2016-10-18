@@ -1,0 +1,25 @@
+{
+  "globalTagDefaults" : {
+    "species" : "human"
+  },
+
+  "animatedParts" : {
+    "parts" : {
+      "ship" : {
+        "properties" : {
+          "centered" : false,
+          "image" : "<ship>ship.png",
+          "transformationGroups" : [ "shiptransform" ]
+        }
+      }
+    }
+  },
+  "transformationGroups" : {
+    "shiptransform" : {}
+  },
+  
+    "sounds" : {
+    "arrive" : ["/sfx/interface/hyperspace_end_shortened.ogg"],
+    "depart" : ["/sfx/interface/hyperspace_start.ogg"]
+  }
+}

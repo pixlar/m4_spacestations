@@ -1,0 +1,19 @@
+{
+  "type" : "basicshipcrew",
+  "baseType" : "stationcivilian",
+
+
+  "matchColorIndices" : true,
+  "items" : {
+    "override" : [
+      [0, [
+          {
+            "chest" : [ { "name" : "spacesuitchest", "parameters" : {  "colorIndex" : [2, 5, 6, 7, 8, 9, 11] }} ],
+            "legs" : [ { "name" : "spacesuitlegs", "parameters" : {  "colorIndex" : [2, 5, 6, 7, 8, 9, 11] } } ],
+            "primary" : [ "npcwrench", "broom", "npcpistol" ],
+            "sheathedprimary" : ["npcshortsword", "greenstim", "orangestim", "yellowstim", "bluestim" ]
+          }
+        ] ]
+    ]
+  }
+}

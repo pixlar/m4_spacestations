@@ -1,0 +1,48 @@
+{
+  "objectName" : "postbuyer",
+  "colonyTags" : ["commerce"],
+  "rarity" : "Common",
+  "objectType" : "container",
+  "tooltipKind" : "container",
+  "category" : "other",
+  "description" : "I can sell stuff!",
+  "shortdescription" : "Trading Post Buyer",
+  "race" : "generic",
+  "printable" : false,
+
+  "lightColor" : [190, 170, 150],
+
+  "apexDescription" : "I can buy what others are selling!",
+  "avianDescription" : "I can buy what others are selling!",
+  "floranDescription" : "I can buy what others are selling!",
+  "glitchDescription" : "I can buy what others are selling!",
+  "humanDescription" : "I can buy what others are selling!",
+  "hylotlDescription" : "I can buy what others are selling!",
+  "novakidDescription" : "I can buy what others are selling!",
+
+  "inventoryIcon" : "icon.png",
+  "orientations" : [
+    {
+      "dualImage" : "trade2.png",
+
+      "imagePosition" : [-16, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+
+    }
+  ],
+  "soundEffect" : "/sfx/objects/hubbub.ogg",
+  
+  "prices" : [0,0,0,0,0,0],
+
+  "scripts" : [ "buyer.lua" ],
+  "scriptDelta" : 0,
+  "slotCount" : 8,
+  "uiConfig" : "/objects/m4_stations/tradingpost/buyer.config",
+  "frameCooldown" : 5,
+  "autoCloseCooldown" : 3600
+
+}

@@ -1,0 +1,115 @@
+{
+  "objectName" : "visitingship",
+  "rarity" : "Common",
+  "category" : "decorative",
+  "price" : 50,
+  "scannable" : false,
+  "printable" : false,
+
+  "description" : "A Ship visiting the Space Station",
+  "shortdescription" : "Visiting Ship",
+  "race" : "protectorate",
+
+  "apexDescription" : "A space ship is visiting the station",
+  "avianDescription" : "A space ship is visiting the station",
+  "floranDescription" : "A space ship is visiting the station",
+  "glitchDescription" : "A space ship is visiting the station",
+  "humanDescription" : "A space ship is visiting the station",
+  "hylotlDescription" : "A space ship is visiting the station",
+  "novakidDescription" : "A space ship is visiting the station",
+
+  "keepAlive" : true,
+
+  "orientations" : [
+    {
+      "image" : "humanship.png",
+      "imagePosition" : [-96, 0],
+
+      "metaBoundBox" : [-20, -10, 20, 10],
+      "anchors" : []
+    }
+  ],
+  "visitTime" : 50,
+  "shipTypes" : [
+  	{
+  		"shipType" : "human",
+  		"crew" : [
+  			["human", "shipcaptain"],
+  			["human", "basicshipcrew"],
+  			["human", "basicshipcrew"],
+  			["human", "protectoratecrew"],
+  			["human", "basicshipcrew"]
+  		]
+  	},
+  	{
+  		"shipType" : "avian",
+  		"crew" : [
+  			["avian", "shipcaptain"],
+  			["avian", "basicshipcrew"],
+  			["avian", "basicshipcrew"],
+  			["avian", "stargazer"],
+  			["avian", "basicshipcrew"]
+  		]
+  	},
+  	{
+  		"shipType" : "apex",
+  		"crew" : [
+  			["apex", "shipcaptain"],
+  			["apex", "basicshipcrew"],
+  			["apex", "basicshipcrew"],
+  			["apex", "apexresearchlab"],
+  			["apex", "basicshipcrew"]
+  		]
+  	},
+  	{
+  		"shipType" : "floran",
+  		"crew" : [
+  			["floran", "shipcaptain"],
+  			["floran", "basicshipcrew"],
+  			["floran", "basicshipcrew"],
+  			["floran", "tar"],
+  			["floran", "basicshipcrew"]
+  		]
+  	},
+  	{
+  		"shipType" : "glitch",
+  		"crew" : [
+  			["glitch", "shipcaptain"],
+  			["glitch", "basicshipcrew"],
+  			["glitch", "basicshipcrew"],
+  			["glitch", "glitchsewer"],
+  			["glitch", "basicshipcrew"]
+  		]
+  	},
+  	{
+  		"shipType" : "hylotl",
+  		"crew" : [
+  			["hylotl", "shipcaptain"],
+  			["hylotl", "basicshipcrew"],
+  			["hylotl", "basicshipcrew"],
+  			["hylotl", "merchant"],
+  			["hylotl", "basicshipcrew"]
+  		]
+  	},
+  	{
+  		"shipType" : "novakid",
+  		"crew" : [
+  			["novakid", "shipcaptain"],
+  			["novakid", "basicshipcrew"],
+  			["novakid", "basicshipcrew"],
+  			["novakid", "cabin"],
+  			["novakid", "basicshipcrew"]
+  		]
+  	},
+  	{
+  		"shipType" : "none",
+  		"crew" : [ ]
+  	}
+  ],
+
+  "animation" : "visitingship.animation",
+  "animationPosition" : [-96, 0],
+
+  "scripts" : ["visitingship.lua"],
+  "scriptDelta" : 5
+}

@@ -2239,22 +2239,6 @@
                  "y":1152
                 }, 
                 {
-                 "gid":5616,
-                 "height":197,
-                 "id":1499,
-                 "name":"",
-                 "properties":
-                    {
-
-                    },
-                 "rotation":0,
-                 "type":"",
-                 "visible":true,
-                 "width":543,
-                 "x":40,
-                 "y":1088
-                }, 
-                {
                  "gid":5338,
                  "height":16,
                  "id":1501,
@@ -2333,6 +2317,37 @@
                  "width":8,
                  "x":360,
                  "y":920
+                }, 
+                {
+                 "height":8,
+                 "id":1508,
+                 "name":"",
+                 "properties":
+                    {
+                     "object":"visitingship"
+                    },
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":8,
+                 "x":64,
+                 "y":1096
+                }, 
+                {
+                 "height":80,
+                 "id":1509,
+                 "name":"",
+                 "properties":
+                    {
+                     "parameters":"{\"locationType\":\"m4_protectoratestation.dockingbay1\"}",
+                     "stagehand":"questlocation"
+                    },
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":272,
+                 "x":720,
+                 "y":1072
                 }],
          "opacity":1,
          "type":"objectgroup",
@@ -3464,7 +3479,7 @@
          "x":0,
          "y":0
         }],
- "nextobjectid":1507,
+ "nextobjectid":1510,
  "orientation":"orthogonal",
  "properties":
     {

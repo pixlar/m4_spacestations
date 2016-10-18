@@ -1,0 +1,14 @@
+[{
+	"op": "add",
+	"path": "/m4_protectoratestation",
+	"value": {
+    "dockingbay1" : {
+      "name" : "entrance to docking bay one",
+      "tags" : [ "station", "friendly" ]
+    },
+    "commandcenter" : {
+      "name" : "station command",
+      "tags" : [ "station", "friendly" ]
+    }
+}
+}]

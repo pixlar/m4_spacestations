@@ -1,0 +1,53 @@
+{
+  "objectName" : "postseller",
+  "colonyTags" : ["commerce"],
+  "rarity" : "Common",
+  "category" : "other",
+  "description" : "I can buy what others are selling!",
+  "shortdescription" : "Trading Post Seller",
+  "race" : "generic",
+  "printable" : false,
+
+  "lightColor" : [190, 170, 150],
+
+  "apexDescription" : "I can buy what others are selling!",
+  "avianDescription" : "I can buy what others are selling!",
+  "floranDescription" : "I can buy what others are selling!",
+  "glitchDescription" : "I can buy what others are selling!",
+  "humanDescription" : "I can buy what others are selling!",
+  "hylotlDescription" : "I can buy what others are selling!",
+  "novakidDescription" : "I can buy what others are selling!",
+
+  "inventoryIcon" : "icon.png",
+  "orientations" : [
+    {
+      "dualImage" : "trade1.png",
+
+      "imagePosition" : [-16, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+
+    }
+  ],
+  "soundEffect" : "/sfx/objects/hubbub.ogg",
+
+  "scripts" : [ "seller.lua" ],
+  "scriptDelta" : 0,
+
+  "interactData" : {
+    "config" : "/interface/windowconfig/craftingfurniturestore.config",
+    "paneLayoutOverride" : {
+      "windowtitle" : {
+        "title" : "The Trading Post",
+        "subtitle" : "Buy what others are selling!",
+        "icon" : {
+          "file" : "/interface/crafting/frogfurnishing.png"
+        }
+      }
+    },
+    "filter" : []
+  }
+}
