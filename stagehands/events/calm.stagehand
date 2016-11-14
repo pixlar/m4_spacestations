@@ -1,0 +1,15 @@
+{
+  // stationevents will spawn an event stagehand that handles the event
+  // at event end, the event resets the timer on the stationevents stagehand and kills itself
+  "type" : "calm",
+  "messages" : ["All is Well!",
+  				"Attention, everyone. I would like to remind everyone that the defense lasers are not toys.",
+  				"This is you daily reminder to check your oxygen mask.",
+  				"Another human refugee camp has been found! Medical parties prepare to head out.",
+  				"Will all officers please prepare for a Floran diplomatic party. Please bring knives."],
+
+  "scripts" : ["/stagehands/events/calm.lua"],
+  "scriptDelta" : 30,
+
+  "broadcastArea" : [-30, -30, 30, 30]
+}

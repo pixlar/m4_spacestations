@@ -1,0 +1,52 @@
+{
+  "type" : "piratecaptain",
+  "baseType" : "hostile",
+
+  "identity" : {
+    "hairGroup" : "hair",
+    "hairType" : "2",
+    "fluffGroup" : "fluff",
+    "fluffType" : "5",
+    "beaksGroup" : "beaks",
+    "beaksType" : "7"
+  },
+
+  "scriptConfig" : {
+    "reactions" : {
+      "spontaneous" : [
+      ]
+    },
+
+    "personalities" : [
+        [1.0, { "personality" : "normal", "reactions" : {} }]
+    ],
+	"dialog" : {
+      "attack" : {
+        "default" : {
+          "default" : [
+            "You will learn to fear the name Dread Parrot <selfname>!!"
+          ]
+        }
+      }
+    }
+  },
+
+  "items" : {
+    "override" : [
+      [0, [
+          {
+            "head" : [ { "name" : "buccaneerhead" } ],
+            "chest" : [ { "name" : "buccaneerchest" } ],
+            "legs" : [ { "name" : "buccaneerlegs" } ],
+            "back" : [ { "name" : "simplecapeback", "parameters" : { "colorIndex" : 1 } } ],
+            "primary" : [
+              "rareassaultrifle"
+            ],
+            "sheathedprimary" : [
+              "npcbroadsword"
+            ]
+          }
+        ] ]
+    ]
+  }
+}

@@ -8,7 +8,7 @@ function init()
 	rotationTime = config.getParameter("visitTime")
 	storage.currentState = "idle"
 	animator.resetTransformationGroup("shiptransform")
-	self.dock = nearestDock()
+	storage.dock = nearestDock()
 	if storage.crew == nil then
 		storage.crew = {}
 	end
@@ -16,12 +16,12 @@ function init()
 		recallAllCrewmembers()
 		local newship = selectShip()
 		storage.currentship = newship
-		displayShip(newship.shipType)
 		setDeparture()
-		if self.dock ~= nil then
+		if storage.dock ~= nil then
 			spawnAllCrew()
 		end
 	end
+	displayShip(storage.currentship.shipType)
 	sb.logInfo("ship in: "..storage.currentship.shipType)
 	self.crewIDs = {}
 	updateCrew()
@@ -36,16 +36,16 @@ function update(dt)
 			departShip()
 		end
 	elseif storage.currentState == "arriving" then
-		local percentTrans = (os.time() - self.dockingStart)/dockingTime
+		local percentTrans = (os.time() - storage.dockingStart)/dockingTime
 		animator.translateTransformationGroup("shiptransform", {.2, 0})
-		if os.time() >= (self.dockingStart + dockingTime) then
+		if os.time() >= (storage.dockingStart + dockingTime) then
 			storage.currentState = "idle"
 			spawnAllCrew()
 		end
 	elseif storage.currentState == "departing" then
-		local percentTrans = 1 - (os.time() - self.dockingStart)/dockingTime
+		local percentTrans = 1 - (os.time() - storage.dockingStart)/dockingTime
 		animator.translateTransformationGroup("shiptransform", {-.2, 0})
-		if os.time() >= self.dockingStart + dockingTime then
+		if os.time() >= storage.dockingStart + dockingTime then
 			storage.currentState = "empty"
 		end
 	elseif storage.currentState == "empty" then
@@ -81,7 +81,7 @@ function arriveShip(shipName)
 	end
 	setDeparture()
 	storage.currentState = "arriving"
-	self.dockingStart = os.time()
+	storage.dockingStart = os.time()
 	return true
 end
 
@@ -92,7 +92,7 @@ function departShip()
 	end
 	storage.shipDepart = nil
 	storage.currentState = "departing"
-	self.dockingStart = os.time()
+	storage.dockingStart = os.time()
 	return true
 end
 
@@ -111,8 +111,8 @@ function nearestDock()
 end
 
 function spawnAllCrew()
-	self.dock = nearestDock()
-	if self.dock == nil then
+	storage.dock = nearestDock()
+	if storage.dock == nil then
 		sb.logError("No Dock Availible")
 		return false
 	end
@@ -121,11 +121,11 @@ function spawnAllCrew()
 		return false
 	end
 	storage.crew = {}
-	sb.logInfo("spawning in dock at "..util.tableToString(self.dock))
+	sb.logInfo("spawning in dock at "..util.tableToString(storage.dock))
 	for _,crewperson in ipairs(storage.currentship.crew) do
 		local randLocate = {}
-		randLocate[1] = dock[1]
-		randLocate[2] = dock[2]
+		randLocate[1] = util.randomIntInRange({dock[1],dock[3]})
+		randLocate[2] = util.randomIntInRange({dock[2],dock[4]})
 		sb.logInfo("random location is at "..util.tableToString(randLocate))
 		spawnCrewmember(crewperson[1], crewperson[2], randLocate)
 	end

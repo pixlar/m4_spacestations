@@ -1,0 +1,612 @@
+[
+ {
+  "op": "add",
+  "path": "/apexarmourrecipes",
+  "value": [
+    [0, [
+      { "item" : { "name" : "apextier1chest-recipe" }, "rarity" : 0.1 },
+      { "item" : { "name" : "apextier1head-recipe" }, "rarity" : 0.1 },
+      { "item" : { "name" : "apextier1pants-recipe" }, "rarity" : 0.1 }
+    ]],
+    [1.9, [
+      { "item" : { "name" : "apextier1chest-recipe" }, "rarity" : 0.1 },
+      { "item" : { "name" : "apextier1head-recipe" }, "rarity" : 0.1 },
+      { "item" : { "name" : "apextier1pants-recipe" }, "rarity" : 0.1 },
+      { "item" : { "name" : "apextier2chest-recipe" }, "rarity" : 0.1 },
+      { "item" : { "name" : "apextier2head-recipe" }, "rarity" : 0.1 },
+      { "item" : { "name" : "apextier2pants-recipe" }, "rarity" : 0.1 }
+    ]],
+    [2.9, [
+      { "item" : { "name" : "apextier1chest-recipe" }, "rarity" : 0.1 },
+      { "item" : { "name" : "apextier1head-recipe" }, "rarity" : 0.1 },
+      { "item" : { "name" : "apextier1pants-recipe" }, "rarity" : 0.1 },
+      { "item" : { "name" : "apextier2chest-recipe" }, "rarity" : 0.1 },
+      { "item" : { "name" : "apextier2head-recipe" }, "rarity" : 0.1 },
+      { "item" : { "name" : "apextier2pants-recipe" }, "rarity" : 0.1 },
+      { "item" : { "name" : "apextier3chest-recipe" }, "rarity" : 0.1 },
+      { "item" : { "name" : "apextier3head-recipe" }, "rarity" : 0.1 },
+      { "item" : { "name" : "apextier3pants-recipe" }, "rarity" : 0.1 }
+    ]],
+    [3.9, [
+      { "item" : { "name" : "apextier1chest-recipe" }, "rarity" : 0.1 },
+      { "item" : { "name" : "apextier1head-recipe" }, "rarity" : 0.1 },
+      { "item" : { "name" : "apextier1pants-recipe" }, "rarity" : 0.1 },
+      { "item" : { "name" : "apextier2chest-recipe" }, "rarity" : 0.1 },
+      { "item" : { "name" : "apextier2head-recipe" }, "rarity" : 0.1 },
+      { "item" : { "name" : "apextier2pants-recipe" }, "rarity" : 0.1 },
+      { "item" : { "name" : "apextier3chest-recipe" }, "rarity" : 0.1 },
+      { "item" : { "name" : "apextier3head-recipe" }, "rarity" : 0.1 },
+      { "item" : { "name" : "apextier3pants-recipe" }, "rarity" : 0.1 },
+      { "item" : { "name" : "apextier4chest-recipe" }, "rarity" : 0.1 },
+      { "item" : { "name" : "apextier4head-recipe" }, "rarity" : 0.1 },
+      { "item" : { "name" : "apextier4pants-recipe" }, "rarity" : 0.1 }
+    ]],
+    [4.9, [
+      { "item" : { "name" : "apextier1chest-recipe" }, "rarity" : 0.1 },
+      { "item" : { "name" : "apextier1head-recipe" }, "rarity" : 0.1 },
+      { "item" : { "name" : "apextier1pants-recipe" }, "rarity" : 0.1 },
+      { "item" : { "name" : "apextier2chest-recipe" }, "rarity" : 0.1 },
+      { "item" : { "name" : "apextier2head-recipe" }, "rarity" : 0.1 },
+      { "item" : { "name" : "apextier2pants-recipe" }, "rarity" : 0.1 },
+      { "item" : { "name" : "apextier3chest-recipe" }, "rarity" : 0.1 },
+      { "item" : { "name" : "apextier3head-recipe" }, "rarity" : 0.1 },
+      { "item" : { "name" : "apextier3pants-recipe" }, "rarity" : 0.1 },
+      { "item" : { "name" : "apextier4chest-recipe" }, "rarity" : 0.1 },
+      { "item" : { "name" : "apextier4head-recipe" }, "rarity" : 0.1 },
+      { "item" : { "name" : "apextier4pants-recipe" }, "rarity" : 0.1 },
+      { "item" : { "name" : "apextier5achest-recipe" }, "rarity" : 0.1 },
+      { "item" : { "name" : "apextier5ahead-recipe" }, "rarity" : 0.1 },
+      { "item" : { "name" : "apextier5apants-recipe" }, "rarity" : 0.1 },
+      { "item" : { "name" : "apextier5mchest-recipe" }, "rarity" : 0.1 },
+      { "item" : { "name" : "apextier5mhead-recipe" }, "rarity" : 0.1 },
+      { "item" : { "name" : "apextier5mpants-recipe" }, "rarity" : 0.1 },
+      { "item" : { "name" : "apextier5schest-recipe" }, "rarity" : 0.1 },
+      { "item" : { "name" : "apextier5shead-recipe" }, "rarity" : 0.1 },
+      { "item" : { "name" : "apextier5spants-recipe" }, "rarity" : 0.1 }
+    ]]
+  ]
+ },
+ {
+  "op": "add",
+  "path": "/avianarmourrecipes",
+  "value": [
+    [0, [
+      { "item" : { "name" : "aviantier1chest-recipe" }, "rarity" : 0.1 },
+      { "item" : { "name" : "aviantier1head-recipe" }, "rarity" : 0.1 },
+      { "item" : { "name" : "aviantier1pants-recipe" }, "rarity" : 0.1 }
+    ]],
+    [1.9, [
+      { "item" : { "name" : "aviantier1chest-recipe" }, "rarity" : 0.1 },
+      { "item" : { "name" : "aviantier1head-recipe" }, "rarity" : 0.1 },
+      { "item" : { "name" : "aviantier1pants-recipe" }, "rarity" : 0.1 },
+      { "item" : { "name" : "aviantier2chest-recipe" }, "rarity" : 0.1 },
+      { "item" : { "name" : "aviantier2head-recipe" }, "rarity" : 0.1 },
+      { "item" : { "name" : "aviantier2pants-recipe" }, "rarity" : 0.1 }
+    ]],
+    [2.9, [
+      { "item" : { "name" : "aviantier1chest-recipe" }, "rarity" : 0.1 },
+      { "item" : { "name" : "aviantier1head-recipe" }, "rarity" : 0.1 },
+      { "item" : { "name" : "aviantier1pants-recipe" }, "rarity" : 0.1 },
+      { "item" : { "name" : "aviantier2chest-recipe" }, "rarity" : 0.1 },
+      { "item" : { "name" : "aviantier2head-recipe" }, "rarity" : 0.1 },
+      { "item" : { "name" : "aviantier2pants-recipe" }, "rarity" : 0.1 },
+      { "item" : { "name" : "aviantier3chest-recipe" }, "rarity" : 0.1 },
+      { "item" : { "name" : "aviantier3head-recipe" }, "rarity" : 0.1 },
+      { "item" : { "name" : "aviantier3pants-recipe" }, "rarity" : 0.1 }
+    ]],
+    [3.9, [
+      { "item" : { "name" : "aviantier1chest-recipe" }, "rarity" : 0.1 },
+      { "item" : { "name" : "aviantier1head-recipe" }, "rarity" : 0.1 },
+      { "item" : { "name" : "aviantier1pants-recipe" }, "rarity" : 0.1 },
+      { "item" : { "name" : "aviantier2chest-recipe" }, "rarity" : 0.1 },
+      { "item" : { "name" : "aviantier2head-recipe" }, "rarity" : 0.1 },
+      { "item" : { "name" : "aviantier2pants-recipe" }, "rarity" : 0.1 },
+      { "item" : { "name" : "aviantier3chest-recipe" }, "rarity" : 0.1 },
+      { "item" : { "name" : "aviantier3head-recipe" }, "rarity" : 0.1 },
+      { "item" : { "name" : "aviantier3pants-recipe" }, "rarity" : 0.1 },
+      { "item" : { "name" : "aviantier4chest-recipe" }, "rarity" : 0.1 },
+      { "item" : { "name" : "aviantier4head-recipe" }, "rarity" : 0.1 },
+      { "item" : { "name" : "aviantier4pants-recipe" }, "rarity" : 0.1 }
+    ]],
+    [4.9, [
+      { "item" : { "name" : "aviantier1chest-recipe" }, "rarity" : 0.1 },
+      { "item" : { "name" : "aviantier1head-recipe" }, "rarity" : 0.1 },
+      { "item" : { "name" : "aviantier1pants-recipe" }, "rarity" : 0.1 },
+      { "item" : { "name" : "aviantier2chest-recipe" }, "rarity" : 0.1 },
+      { "item" : { "name" : "aviantier2head-recipe" }, "rarity" : 0.1 },
+      { "item" : { "name" : "aviantier2pants-recipe" }, "rarity" : 0.1 },
+      { "item" : { "name" : "aviantier3chest-recipe" }, "rarity" : 0.1 },
+      { "item" : { "name" : "aviantier3head-recipe" }, "rarity" : 0.1 },
+      { "item" : { "name" : "aviantier3pants-recipe" }, "rarity" : 0.1 },
+      { "item" : { "name" : "aviantier4chest-recipe" }, "rarity" : 0.1 },
+      { "item" : { "name" : "aviantier4head-recipe" }, "rarity" : 0.1 },
+      { "item" : { "name" : "aviantier4pants-recipe" }, "rarity" : 0.1 },
+      { "item" : { "name" : "aviantier5achest-recipe" }, "rarity" : 0.1 },
+      { "item" : { "name" : "aviantier5ahead-recipe" }, "rarity" : 0.1 },
+      { "item" : { "name" : "aviantier5apants-recipe" }, "rarity" : 0.1 },
+      { "item" : { "name" : "aviantier5mchest-recipe" }, "rarity" : 0.1 },
+      { "item" : { "name" : "aviantier5mhead-recipe" }, "rarity" : 0.1 },
+      { "item" : { "name" : "aviantier5mpants-recipe" }, "rarity" : 0.1 },
+      { "item" : { "name" : "aviantier5schest-recipe" }, "rarity" : 0.1 },
+      { "item" : { "name" : "aviantier5shead-recipe" }, "rarity" : 0.1 },
+      { "item" : { "name" : "aviantier5spants-recipe" }, "rarity" : 0.1 }
+    ]]
+  ]
+ },
+ {
+  "op": "add",
+  "path": "/floranarmourrecipes",
+  "value": [
+    [0, [
+      { "item" : { "name" : "florantier1chest-recipe" }, "rarity" : 0.1 },
+      { "item" : { "name" : "florantier1head-recipe" }, "rarity" : 0.1 },
+      { "item" : { "name" : "florantier1pants-recipe" }, "rarity" : 0.1 }
+    ]],
+    [1.9, [
+      { "item" : { "name" : "florantier1chest-recipe" }, "rarity" : 0.1 },
+      { "item" : { "name" : "florantier1head-recipe" }, "rarity" : 0.1 },
+      { "item" : { "name" : "florantier1pants-recipe" }, "rarity" : 0.1 },
+      { "item" : { "name" : "florantier2chest-recipe" }, "rarity" : 0.1 },
+      { "item" : { "name" : "florantier2head-recipe" }, "rarity" : 0.1 },
+      { "item" : { "name" : "florantier2pants-recipe" }, "rarity" : 0.1 }
+    ]],
+    [2.9, [
+      { "item" : { "name" : "florantier1chest-recipe" }, "rarity" : 0.1 },
+      { "item" : { "name" : "florantier1head-recipe" }, "rarity" : 0.1 },
+      { "item" : { "name" : "florantier1pants-recipe" }, "rarity" : 0.1 },
+      { "item" : { "name" : "florantier2chest-recipe" }, "rarity" : 0.1 },
+      { "item" : { "name" : "florantier2head-recipe" }, "rarity" : 0.1 },
+      { "item" : { "name" : "florantier2pants-recipe" }, "rarity" : 0.1 },
+      { "item" : { "name" : "florantier3chest-recipe" }, "rarity" : 0.1 },
+      { "item" : { "name" : "florantier3head-recipe" }, "rarity" : 0.1 },
+      { "item" : { "name" : "florantier3pants-recipe" }, "rarity" : 0.1 }
+    ]],
+    [3.9, [
+      { "item" : { "name" : "florantier1chest-recipe" }, "rarity" : 0.1 },
+      { "item" : { "name" : "florantier1head-recipe" }, "rarity" : 0.1 },
+      { "item" : { "name" : "florantier1pants-recipe" }, "rarity" : 0.1 },
+      { "item" : { "name" : "florantier2chest-recipe" }, "rarity" : 0.1 },
+      { "item" : { "name" : "florantier2head-recipe" }, "rarity" : 0.1 },
+      { "item" : { "name" : "florantier2pants-recipe" }, "rarity" : 0.1 },
+      { "item" : { "name" : "florantier3chest-recipe" }, "rarity" : 0.1 },
+      { "item" : { "name" : "florantier3head-recipe" }, "rarity" : 0.1 },
+      { "item" : { "name" : "florantier3pants-recipe" }, "rarity" : 0.1 },
+      { "item" : { "name" : "florantier4chest-recipe" }, "rarity" : 0.1 },
+      { "item" : { "name" : "florantier4head-recipe" }, "rarity" : 0.1 },
+      { "item" : { "name" : "florantier4pants-recipe" }, "rarity" : 0.1 }
+    ]],
+    [4.9, [
+      { "item" : { "name" : "florantier1chest-recipe" }, "rarity" : 0.1 },
+      { "item" : { "name" : "florantier1head-recipe" }, "rarity" : 0.1 },
+      { "item" : { "name" : "florantier1pants-recipe" }, "rarity" : 0.1 },
+      { "item" : { "name" : "florantier2chest-recipe" }, "rarity" : 0.1 },
+      { "item" : { "name" : "florantier2head-recipe" }, "rarity" : 0.1 },
+      { "item" : { "name" : "florantier2pants-recipe" }, "rarity" : 0.1 },
+      { "item" : { "name" : "florantier3chest-recipe" }, "rarity" : 0.1 },
+      { "item" : { "name" : "florantier3head-recipe" }, "rarity" : 0.1 },
+      { "item" : { "name" : "florantier3pants-recipe" }, "rarity" : 0.1 },
+      { "item" : { "name" : "florantier4chest-recipe" }, "rarity" : 0.1 },
+      { "item" : { "name" : "florantier4head-recipe" }, "rarity" : 0.1 },
+      { "item" : { "name" : "florantier4pants-recipe" }, "rarity" : 0.1 },
+      { "item" : { "name" : "florantier5achest-recipe" }, "rarity" : 0.1 },
+      { "item" : { "name" : "florantier5ahead-recipe" }, "rarity" : 0.1 },
+      { "item" : { "name" : "florantier5apants-recipe" }, "rarity" : 0.1 },
+      { "item" : { "name" : "florantier5mchest-recipe" }, "rarity" : 0.1 },
+      { "item" : { "name" : "florantier5mhead-recipe" }, "rarity" : 0.1 },
+      { "item" : { "name" : "florantier5mpants-recipe" }, "rarity" : 0.1 },
+      { "item" : { "name" : "florantier5schest-recipe" }, "rarity" : 0.1 },
+      { "item" : { "name" : "florantier5shead-recipe" }, "rarity" : 0.1 },
+      { "item" : { "name" : "florantier5spants-recipe" }, "rarity" : 0.1 }
+    ]]
+  ]
+ },
+ {
+  "op": "add",
+  "path": "/glitcharmourrecipes",
+  "value": [
+    [0, [
+      { "item" : { "name" : "glitchtier1chest-recipe" }, "rarity" : 0.1 },
+      { "item" : { "name" : "glitchtier1head-recipe" }, "rarity" : 0.1 },
+      { "item" : { "name" : "glitchtier1pants-recipe" }, "rarity" : 0.1 }
+    ]],
+    [1.9, [
+      { "item" : { "name" : "glitchtier1chest-recipe" }, "rarity" : 0.1 },
+      { "item" : { "name" : "glitchtier1head-recipe" }, "rarity" : 0.1 },
+      { "item" : { "name" : "glitchtier1pants-recipe" }, "rarity" : 0.1 },
+      { "item" : { "name" : "glitchtier2chest-recipe" }, "rarity" : 0.1 },
+      { "item" : { "name" : "glitchtier2head-recipe" }, "rarity" : 0.1 },
+      { "item" : { "name" : "glitchtier2pants-recipe" }, "rarity" : 0.1 }
+    ]],
+    [2.9, [
+      { "item" : { "name" : "glitchtier1chest-recipe" }, "rarity" : 0.1 },
+      { "item" : { "name" : "glitchtier1head-recipe" }, "rarity" : 0.1 },
+      { "item" : { "name" : "glitchtier1pants-recipe" }, "rarity" : 0.1 },
+      { "item" : { "name" : "glitchtier2chest-recipe" }, "rarity" : 0.1 },
+      { "item" : { "name" : "glitchtier2head-recipe" }, "rarity" : 0.1 },
+      { "item" : { "name" : "glitchtier2pants-recipe" }, "rarity" : 0.1 },
+      { "item" : { "name" : "glitchtier3chest-recipe" }, "rarity" : 0.1 },
+      { "item" : { "name" : "glitchtier3head-recipe" }, "rarity" : 0.1 },
+      { "item" : { "name" : "glitchtier3pants-recipe" }, "rarity" : 0.1 }
+    ]],
+    [3.9, [
+      { "item" : { "name" : "glitchtier1chest-recipe" }, "rarity" : 0.1 },
+      { "item" : { "name" : "glitchtier1head-recipe" }, "rarity" : 0.1 },
+      { "item" : { "name" : "glitchtier1pants-recipe" }, "rarity" : 0.1 },
+      { "item" : { "name" : "glitchtier2chest-recipe" }, "rarity" : 0.1 },
+      { "item" : { "name" : "glitchtier2head-recipe" }, "rarity" : 0.1 },
+      { "item" : { "name" : "glitchtier2pants-recipe" }, "rarity" : 0.1 },
+      { "item" : { "name" : "glitchtier3chest-recipe" }, "rarity" : 0.1 },
+      { "item" : { "name" : "glitchtier3head-recipe" }, "rarity" : 0.1 },
+      { "item" : { "name" : "glitchtier3pants-recipe" }, "rarity" : 0.1 },
+      { "item" : { "name" : "glitchtier4chest-recipe" }, "rarity" : 0.1 },
+      { "item" : { "name" : "glitchtier4head-recipe" }, "rarity" : 0.1 },
+      { "item" : { "name" : "glitchtier4pants-recipe" }, "rarity" : 0.1 }
+    ]],
+    [4.9, [
+      { "item" : { "name" : "glitchtier1chest-recipe" }, "rarity" : 0.1 },
+      { "item" : { "name" : "glitchtier1head-recipe" }, "rarity" : 0.1 },
+      { "item" : { "name" : "glitchtier1pants-recipe" }, "rarity" : 0.1 },
+      { "item" : { "name" : "glitchtier2chest-recipe" }, "rarity" : 0.1 },
+      { "item" : { "name" : "glitchtier2head-recipe" }, "rarity" : 0.1 },
+      { "item" : { "name" : "glitchtier2pants-recipe" }, "rarity" : 0.1 },
+      { "item" : { "name" : "glitchtier3chest-recipe" }, "rarity" : 0.1 },
+      { "item" : { "name" : "glitchtier3head-recipe" }, "rarity" : 0.1 },
+      { "item" : { "name" : "glitchtier3pants-recipe" }, "rarity" : 0.1 },
+      { "item" : { "name" : "glitchtier4chest-recipe" }, "rarity" : 0.1 },
+      { "item" : { "name" : "glitchtier4head-recipe" }, "rarity" : 0.1 },
+      { "item" : { "name" : "glitchtier4pants-recipe" }, "rarity" : 0.1 },
+      { "item" : { "name" : "glitchtier5achest-recipe" }, "rarity" : 0.1 },
+      { "item" : { "name" : "glitchtier5ahead-recipe" }, "rarity" : 0.1 },
+      { "item" : { "name" : "glitchtier5apants-recipe" }, "rarity" : 0.1 },
+      { "item" : { "name" : "glitchtier5mchest-recipe" }, "rarity" : 0.1 },
+      { "item" : { "name" : "glitchtier5mhead-recipe" }, "rarity" : 0.1 },
+      { "item" : { "name" : "glitchtier5mpants-recipe" }, "rarity" : 0.1 },
+      { "item" : { "name" : "glitchtier5schest-recipe" }, "rarity" : 0.1 },
+      { "item" : { "name" : "glitchtier5shead-recipe" }, "rarity" : 0.1 },
+      { "item" : { "name" : "glitchtier5spants-recipe" }, "rarity" : 0.1 }
+    ]]
+  ]
+ },
+ {
+  "op": "add",
+  "path": "/humanarmourrecipes",
+  "value": [
+    [0, [
+      { "item" : { "name" : "humantier1chest-recipe" }, "rarity" : 0.1 },
+      { "item" : { "name" : "humantier1head-recipe" }, "rarity" : 0.1 },
+      { "item" : { "name" : "humantier1pants-recipe" }, "rarity" : 0.1 }
+    ]],
+    [1.9, [
+      { "item" : { "name" : "humantier1chest-recipe" }, "rarity" : 0.1 },
+      { "item" : { "name" : "humantier1head-recipe" }, "rarity" : 0.1 },
+      { "item" : { "name" : "humantier1pants-recipe" }, "rarity" : 0.1 },
+      { "item" : { "name" : "humantier2chest-recipe" }, "rarity" : 0.1 },
+      { "item" : { "name" : "humantier2head-recipe" }, "rarity" : 0.1 },
+      { "item" : { "name" : "humantier2pants-recipe" }, "rarity" : 0.1 }
+    ]],
+    [2.9, [
+      { "item" : { "name" : "humantier1chest-recipe" }, "rarity" : 0.1 },
+      { "item" : { "name" : "humantier1head-recipe" }, "rarity" : 0.1 },
+      { "item" : { "name" : "humantier1pants-recipe" }, "rarity" : 0.1 },
+      { "item" : { "name" : "humantier2chest-recipe" }, "rarity" : 0.1 },
+      { "item" : { "name" : "humantier2head-recipe" }, "rarity" : 0.1 },
+      { "item" : { "name" : "humantier2pants-recipe" }, "rarity" : 0.1 },
+      { "item" : { "name" : "humantier3chest-recipe" }, "rarity" : 0.1 },
+      { "item" : { "name" : "humantier3head-recipe" }, "rarity" : 0.1 },
+      { "item" : { "name" : "humantier3pants-recipe" }, "rarity" : 0.1 }
+    ]],
+    [3.9, [
+      { "item" : { "name" : "humantier1chest-recipe" }, "rarity" : 0.1 },
+      { "item" : { "name" : "humantier1head-recipe" }, "rarity" : 0.1 },
+      { "item" : { "name" : "humantier1pants-recipe" }, "rarity" : 0.1 },
+      { "item" : { "name" : "humantier2chest-recipe" }, "rarity" : 0.1 },
+      { "item" : { "name" : "humantier2head-recipe" }, "rarity" : 0.1 },
+      { "item" : { "name" : "humantier2pants-recipe" }, "rarity" : 0.1 },
+      { "item" : { "name" : "humantier3chest-recipe" }, "rarity" : 0.1 },
+      { "item" : { "name" : "humantier3head-recipe" }, "rarity" : 0.1 },
+      { "item" : { "name" : "humantier3pants-recipe" }, "rarity" : 0.1 },
+      { "item" : { "name" : "humantier4chest-recipe" }, "rarity" : 0.1 },
+      { "item" : { "name" : "humantier4head-recipe" }, "rarity" : 0.1 },
+      { "item" : { "name" : "humantier4pants-recipe" }, "rarity" : 0.1 }
+    ]],
+    [4.9, [
+      { "item" : { "name" : "humantier1chest-recipe" }, "rarity" : 0.1 },
+      { "item" : { "name" : "humantier1head-recipe" }, "rarity" : 0.1 },
+      { "item" : { "name" : "humantier1pants-recipe" }, "rarity" : 0.1 },
+      { "item" : { "name" : "humantier2chest-recipe" }, "rarity" : 0.1 },
+      { "item" : { "name" : "humantier2head-recipe" }, "rarity" : 0.1 },
+      { "item" : { "name" : "humantier2pants-recipe" }, "rarity" : 0.1 },
+      { "item" : { "name" : "humantier3chest-recipe" }, "rarity" : 0.1 },
+      { "item" : { "name" : "humantier3head-recipe" }, "rarity" : 0.1 },
+      { "item" : { "name" : "humantier3pants-recipe" }, "rarity" : 0.1 },
+      { "item" : { "name" : "humantier4chest-recipe" }, "rarity" : 0.1 },
+      { "item" : { "name" : "humantier4head-recipe" }, "rarity" : 0.1 },
+      { "item" : { "name" : "humantier4pants-recipe" }, "rarity" : 0.1 },
+      { "item" : { "name" : "humantier5achest-recipe" }, "rarity" : 0.1 },
+      { "item" : { "name" : "humantier5ahead-recipe" }, "rarity" : 0.1 },
+      { "item" : { "name" : "humantier5apants-recipe" }, "rarity" : 0.1 },
+      { "item" : { "name" : "humantier5mchest-recipe" }, "rarity" : 0.1 },
+      { "item" : { "name" : "humantier5mhead-recipe" }, "rarity" : 0.1 },
+      { "item" : { "name" : "humantier5mpants-recipe" }, "rarity" : 0.1 },
+      { "item" : { "name" : "humantier5schest-recipe" }, "rarity" : 0.1 },
+      { "item" : { "name" : "humantier5shead-recipe" }, "rarity" : 0.1 },
+      { "item" : { "name" : "humantier5spants-recipe" }, "rarity" : 0.1 }
+    ]]
+  ]
+ },
+ {
+  "op": "add",
+  "path": "/hylotlarmourrecipes",
+  "value": [
+    [0, [
+      { "item" : { "name" : "hylotltier1chest-recipe" }, "rarity" : 0.1 },
+      { "item" : { "name" : "hylotltier1head-recipe" }, "rarity" : 0.1 },
+      { "item" : { "name" : "hylotltier1pants-recipe" }, "rarity" : 0.1 }
+    ]],
+    [1.9, [
+      { "item" : { "name" : "hylotltier1chest-recipe" }, "rarity" : 0.1 },
+      { "item" : { "name" : "hylotltier1head-recipe" }, "rarity" : 0.1 },
+      { "item" : { "name" : "hylotltier1pants-recipe" }, "rarity" : 0.1 },
+      { "item" : { "name" : "hylotltier2chest-recipe" }, "rarity" : 0.1 },
+      { "item" : { "name" : "hylotltier2head-recipe" }, "rarity" : 0.1 },
+      { "item" : { "name" : "hylotltier2pants-recipe" }, "rarity" : 0.1 }
+    ]],
+    [2.9, [
+      { "item" : { "name" : "hylotltier1chest-recipe" }, "rarity" : 0.1 },
+      { "item" : { "name" : "hylotltier1head-recipe" }, "rarity" : 0.1 },
+      { "item" : { "name" : "hylotltier1pants-recipe" }, "rarity" : 0.1 },
+      { "item" : { "name" : "hylotltier2chest-recipe" }, "rarity" : 0.1 },
+      { "item" : { "name" : "hylotltier2head-recipe" }, "rarity" : 0.1 },
+      { "item" : { "name" : "hylotltier2pants-recipe" }, "rarity" : 0.1 },
+      { "item" : { "name" : "hylotltier3chest-recipe" }, "rarity" : 0.1 },
+      { "item" : { "name" : "hylotltier3head-recipe" }, "rarity" : 0.1 },
+      { "item" : { "name" : "hylotltier3pants-recipe" }, "rarity" : 0.1 }
+    ]],
+    [3.9, [
+      { "item" : { "name" : "hylotltier1chest-recipe" }, "rarity" : 0.1 },
+      { "item" : { "name" : "hylotltier1head-recipe" }, "rarity" : 0.1 },
+      { "item" : { "name" : "hylotltier1pants-recipe" }, "rarity" : 0.1 },
+      { "item" : { "name" : "hylotltier2chest-recipe" }, "rarity" : 0.1 },
+      { "item" : { "name" : "hylotltier2head-recipe" }, "rarity" : 0.1 },
+      { "item" : { "name" : "hylotltier2pants-recipe" }, "rarity" : 0.1 },
+      { "item" : { "name" : "hylotltier3chest-recipe" }, "rarity" : 0.1 },
+      { "item" : { "name" : "hylotltier3head-recipe" }, "rarity" : 0.1 },
+      { "item" : { "name" : "hylotltier3pants-recipe" }, "rarity" : 0.1 },
+      { "item" : { "name" : "hylotltier4chest-recipe" }, "rarity" : 0.1 },
+      { "item" : { "name" : "hylotltier4head-recipe" }, "rarity" : 0.1 },
+      { "item" : { "name" : "hylotltier4pants-recipe" }, "rarity" : 0.1 }
+    ]],
+    [4.9, [
+      { "item" : { "name" : "hylotltier1chest-recipe" }, "rarity" : 0.1 },
+      { "item" : { "name" : "hylotltier1head-recipe" }, "rarity" : 0.1 },
+      { "item" : { "name" : "hylotltier1pants-recipe" }, "rarity" : 0.1 },
+      { "item" : { "name" : "hylotltier2chest-recipe" }, "rarity" : 0.1 },
+      { "item" : { "name" : "hylotltier2head-recipe" }, "rarity" : 0.1 },
+      { "item" : { "name" : "hylotltier2pants-recipe" }, "rarity" : 0.1 },
+      { "item" : { "name" : "hylotltier3chest-recipe" }, "rarity" : 0.1 },
+      { "item" : { "name" : "hylotltier3head-recipe" }, "rarity" : 0.1 },
+      { "item" : { "name" : "hylotltier3pants-recipe" }, "rarity" : 0.1 },
+      { "item" : { "name" : "hylotltier4chest-recipe" }, "rarity" : 0.1 },
+      { "item" : { "name" : "hylotltier4head-recipe" }, "rarity" : 0.1 },
+      { "item" : { "name" : "hylotltier4pants-recipe" }, "rarity" : 0.1 },
+      { "item" : { "name" : "hylotltier5achest-recipe" }, "rarity" : 0.1 },
+      { "item" : { "name" : "hylotltier5ahead-recipe" }, "rarity" : 0.1 },
+      { "item" : { "name" : "hylotltier5apants-recipe" }, "rarity" : 0.1 },
+      { "item" : { "name" : "hylotltier5mchest-recipe" }, "rarity" : 0.1 },
+      { "item" : { "name" : "hylotltier5mhead-recipe" }, "rarity" : 0.1 },
+      { "item" : { "name" : "hylotltier5mpants-recipe" }, "rarity" : 0.1 },
+      { "item" : { "name" : "hylotltier5schest-recipe" }, "rarity" : 0.1 },
+      { "item" : { "name" : "hylotltier5shead-recipe" }, "rarity" : 0.1 },
+      { "item" : { "name" : "hylotltier5spants-recipe" }, "rarity" : 0.1 }
+    ]]
+  ]
+ },
+ {
+  "op": "add",
+  "path": "/novakidarmourrecipes",
+  "value": [
+    [0, [
+      { "item" : { "name" : "novakidtier1chest-recipe" }, "rarity" : 0.1 },
+      { "item" : { "name" : "novakidtier1head-recipe" }, "rarity" : 0.1 },
+      { "item" : { "name" : "novakidtier1pants-recipe" }, "rarity" : 0.1 }
+    ]],
+    [1.9, [
+      { "item" : { "name" : "novakidtier1chest-recipe" }, "rarity" : 0.1 },
+      { "item" : { "name" : "novakidtier1head-recipe" }, "rarity" : 0.1 },
+      { "item" : { "name" : "novakidtier1pants-recipe" }, "rarity" : 0.1 },
+      { "item" : { "name" : "novakidtier2chest-recipe" }, "rarity" : 0.1 },
+      { "item" : { "name" : "novakidtier2head-recipe" }, "rarity" : 0.1 },
+      { "item" : { "name" : "novakidtier2pants-recipe" }, "rarity" : 0.1 }
+    ]],
+    [2.9, [
+      { "item" : { "name" : "novakidtier1chest-recipe" }, "rarity" : 0.1 },
+      { "item" : { "name" : "novakidtier1head-recipe" }, "rarity" : 0.1 },
+      { "item" : { "name" : "novakidtier1pants-recipe" }, "rarity" : 0.1 },
+      { "item" : { "name" : "novakidtier2chest-recipe" }, "rarity" : 0.1 },
+      { "item" : { "name" : "novakidtier2head-recipe" }, "rarity" : 0.1 },
+      { "item" : { "name" : "novakidtier2pants-recipe" }, "rarity" : 0.1 },
+      { "item" : { "name" : "novakidtier3chest-recipe" }, "rarity" : 0.1 },
+      { "item" : { "name" : "novakidtier3head-recipe" }, "rarity" : 0.1 },
+      { "item" : { "name" : "novakidtier3pants-recipe" }, "rarity" : 0.1 }
+    ]],
+    [3.9, [
+      { "item" : { "name" : "novakidtier1chest-recipe" }, "rarity" : 0.1 },
+      { "item" : { "name" : "novakidtier1head-recipe" }, "rarity" : 0.1 },
+      { "item" : { "name" : "novakidtier1pants-recipe" }, "rarity" : 0.1 },
+      { "item" : { "name" : "novakidtier2chest-recipe" }, "rarity" : 0.1 },
+      { "item" : { "name" : "novakidtier2head-recipe" }, "rarity" : 0.1 },
+      { "item" : { "name" : "novakidtier2pants-recipe" }, "rarity" : 0.1 },
+      { "item" : { "name" : "novakidtier3chest-recipe" }, "rarity" : 0.1 },
+      { "item" : { "name" : "novakidtier3head-recipe" }, "rarity" : 0.1 },
+      { "item" : { "name" : "novakidtier3pants-recipe" }, "rarity" : 0.1 },
+      { "item" : { "name" : "novakidtier4chest-recipe" }, "rarity" : 0.1 },
+      { "item" : { "name" : "novakidtier4head-recipe" }, "rarity" : 0.1 },
+      { "item" : { "name" : "novakidtier4pants-recipe" }, "rarity" : 0.1 }
+    ]],
+    [4.9, [
+      { "item" : { "name" : "novakidtier1chest-recipe" }, "rarity" : 0.1 },
+      { "item" : { "name" : "novakidtier1head-recipe" }, "rarity" : 0.1 },
+      { "item" : { "name" : "novakidtier1pants-recipe" }, "rarity" : 0.1 },
+      { "item" : { "name" : "novakidtier2chest-recipe" }, "rarity" : 0.1 },
+      { "item" : { "name" : "novakidtier2head-recipe" }, "rarity" : 0.1 },
+      { "item" : { "name" : "novakidtier2pants-recipe" }, "rarity" : 0.1 },
+      { "item" : { "name" : "novakidtier3chest-recipe" }, "rarity" : 0.1 },
+      { "item" : { "name" : "novakidtier3head-recipe" }, "rarity" : 0.1 },
+      { "item" : { "name" : "novakidtier3pants-recipe" }, "rarity" : 0.1 },
+      { "item" : { "name" : "novakidtier4chest-recipe" }, "rarity" : 0.1 },
+      { "item" : { "name" : "novakidtier4head-recipe" }, "rarity" : 0.1 },
+      { "item" : { "name" : "novakidtier4pants-recipe" }, "rarity" : 0.1 },
+      { "item" : { "name" : "novakidtier5achest-recipe" }, "rarity" : 0.1 },
+      { "item" : { "name" : "novakidtier5ahead-recipe" }, "rarity" : 0.1 },
+      { "item" : { "name" : "novakidtier5apants-recipe" }, "rarity" : 0.1 },
+      { "item" : { "name" : "novakidtier5mchest-recipe" }, "rarity" : 0.1 },
+      { "item" : { "name" : "novakidtier5mhead-recipe" }, "rarity" : 0.1 },
+      { "item" : { "name" : "novakidtier5mpants-recipe" }, "rarity" : 0.1 },
+      { "item" : { "name" : "novakidtier5schest-recipe" }, "rarity" : 0.1 },
+      { "item" : { "name" : "novakidtier5shead-recipe" }, "rarity" : 0.1 },
+      { "item" : { "name" : "novakidtier5spants-recipe" }, "rarity" : 0.1 }
+    ]]
+  ]
+ },
+ {
+  "op": "add",
+  "path": "/apexseeds",
+  "value": [
+    [0, [
+      { "item" : { "name" : "potatoseed" }, "rarity" : 0.05 },
+      { "item" : { "name" : "avesmingoseed" }, "rarity" : 0.05 },
+      { "item" : { "name" : "bananaseed" }, "rarity" : 0.05 },
+      { "item" : { "name" : "wheatseed" }, "rarity" : 0.05 },
+      { "item" : { "name" : "eggshootseed" }, "rarity" : 0.05 },
+      { "item" : { "name" : "grapesseed" }, "rarity" : 0.05 },
+      { "item" : { "name" : "kiwiseed" }, "rarity" : 0.05 },
+      { "item" : { "name" : "sugarseed" }, "rarity" : 0.05 },
+      { "item" : { "name" : "carrotseed" }, "rarity" : 0.05 },
+      { "item" : { "name" : "neonmelonseed" }, "rarity" : 0.05 },
+      { "item" : { "name" : "pineappleseed" }, "rarity" : 0.05 }
+    ]]
+  ]},
+ {
+  "op": "add",
+  "path": "/avianseeds",
+  "value": [
+    [0, [
+      { "item" : { "name" : "avesmingoseed" }, "rarity" : 0.05 },
+      { "item" : { "name" : "wartweedseed" }, "rarity" : 0.05 },
+      { "item" : { "name" : "carrotseed" }, "rarity" : 0.05 },
+      { "item" : { "name" : "tomatoseed" }, "rarity" : 0.05 },
+      { "item" : { "name" : "beakseedseed" }, "rarity" : 0.05 },
+      { "item" : { "name" : "feathercrownseed" }, "rarity" : 0.05 },
+      { "item" : { "name" : "pearlpeaseed" }, "rarity" : 0.05 },
+      { "item" : { "name" : "wheatseed" }, "rarity" : 0.05 },
+      { "item" : { "name" : "pineappleseed" }, "rarity" : 0.05 },
+      { "item" : { "name" : "eggshootseed" }, "rarity" : 0.05 },
+      { "item" : { "name" : "grapesseed" }, "rarity" : 0.05 },
+      { "item" : { "name" : "cornseed" }, "rarity" : 0.05 }
+    ]]
+  ]},
+ {
+  "op": "add",
+  "path": "/floranseeds",
+  "value": [
+    [0, [
+      { "item" : { "name" : "bonebooseed" }, "rarity" : 0.05 },
+      { "item" : { "name" : "oculemonseed" }, "rarity" : 0.05 },
+      { "item" : { "name" : "eggshootseed" }, "rarity" : 0.05 },
+      { "item" : { "name" : "pussplumseed" }, "rarity" : 0.05 },
+      { "item" : { "name" : "wheatseed" }, "rarity" : 0.05 },
+      { "item" : { "name" : "chiliseed" }, "rarity" : 0.05 },
+      { "item" : { "name" : "sugarseed" }, "rarity" : 0.05 },
+      { "item" : { "name" : "grapesseed" }, "rarity" : 0.05 },
+      { "item" : { "name" : "toxictopseed" }, "rarity" : 0.05 }
+    ]]
+  ]
+  },
+ {
+  "op": "add",
+  "path": "/glitchseeds",
+  "value":[
+    [0, [
+      { "item" : { "name" : "automatoseed" }, "rarity" : 0.05 },
+      { "item" : { "name" : "currentcornseed" }, "rarity" : 0.05 },
+      { "item" : { "name" : "wheatseed" }, "rarity" : 0.05 },
+      { "item" : { "name" : "diodiaseed" }, "rarity" : 0.05 },
+      { "item" : { "name" : "boltbulbseed" }, "rarity" : 0.05 },
+      { "item" : { "name" : "riceseed" }, "rarity" : 0.05 },
+      { "item" : { "name" : "eggshootseed" }, "rarity" : 0.05 },
+      { "item" : { "name" : "kiwiseed" }, "rarity" : 0.05 },
+      { "item" : { "name" : "sugarseed" }, "rarity" : 0.05 },
+      { "item" : { "name" : "oculemonseed" }, "rarity" : 0.05 }
+    ]]
+  ]
+  },
+ {
+  "op": "add",
+  "path": "/humanseeds",
+  "value": [
+    [0, [
+      { "item" : { "name" : "tomatoseed" }, "rarity" : 0.05 },
+      { "item" : { "name" : "chiliseed" }, "rarity" : 0.05 },
+      { "item" : { "name" : "potatoseed" }, "rarity" : 0.05 },
+      { "item" : { "name" : "wheatseed" }, "rarity" : 0.05 },
+      { "item" : { "name" : "carrotseed" }, "rarity" : 0.05 },
+      { "item" : { "name" : "eggshootseed" }, "rarity" : 0.05 },
+      { "item" : { "name" : "cornseed" }, "rarity" : 0.05 },
+      { "item" : { "name" : "sugarseed" }, "rarity" : 0.05 },
+      { "item" : { "name" : "grapesseed" }, "rarity" : 0.05 },
+      { "item" : { "name" : "kiwiseed" }, "rarity" : 0.05 },
+      { "item" : { "name" : "pineappleseed" }, "rarity" : 0.05 }
+    ]]
+  ]
+  },
+ {
+  "op": "add",
+  "path": "/hylotlseeds",
+  "value": [
+    [0, [
+      { "item" : { "name" : "wartweedseed" }, "rarity" : 0.05 },
+      { "item" : { "name" : "riceseed" }, "rarity" : 0.05 },
+      { "item" : { "name" : "avesmingoseed" }, "rarity" : 0.05 },
+      { "item" : { "name" : "coralcreepseed" }, "rarity" : 0.05 },
+      { "item" : { "name" : "chiliseed" }, "rarity" : 0.05 },
+      { "item" : { "name" : "pearlpeaseed" }, "rarity" : 0.05 },
+      { "item" : { "name" : "dirturchinseed" }, "rarity" : 0.05 },
+      { "item" : { "name" : "eggshootseed" }, "rarity" : 0.05 },
+      { "item" : { "name" : "oculemonseed" }, "rarity" : 0.05 },
+      { "item" : { "name" : "reefpodseed" }, "rarity" : 0.05 },
+      { "item" : { "name" : "cornseed" }, "rarity" : 0.05 },
+      { "item" : { "name" : "sugarseed" }, "rarity" : 0.05 },
+      { "item" : { "name" : "pineappleseed" }, "rarity" : 0.05 }
+    ]]
+  ]
+  },
+ {
+  "op": "add",
+  "path": "/novakidseeds",
+  "value": [
+    [0, [
+      { "item" : { "name" : "tomatoseed" }, "rarity" : 0.05 },
+      { "item" : { "name" : "chiliseed" }, "rarity" : 0.05 },
+      { "item" : { "name" : "potatoseed" }, "rarity" : 0.05 },
+      { "item" : { "name" : "wheatseed" }, "rarity" : 0.05 },
+      { "item" : { "name" : "carrotseed" }, "rarity" : 0.05 },
+      { "item" : { "name" : "eggshootseed" }, "rarity" : 0.05 },
+      { "item" : { "name" : "cornseed" }, "rarity" : 0.05 },
+      { "item" : { "name" : "sugarseed" }, "rarity" : 0.05 },
+      { "item" : { "name" : "grapesseed" }, "rarity" : 0.05 },
+      { "item" : { "name" : "kiwiseed" }, "rarity" : 0.05 },
+      { "item" : { "name" : "pineappleseed" }, "rarity" : 0.05 }
+    ]]
+  ]
+  },
+ {
+  "op": "add",
+  "path": "/shipquartermaster",
+  "value": [
+    [0, [
+      { "item" : { "name" : "tradingcrate" } },
+      { "item" : { "name" : "smalltradingcrate" } }
+    ]]
+  ]
+  }
+]

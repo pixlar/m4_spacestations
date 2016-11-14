@@ -1,0 +1,46 @@
+{
+  "smallTradeCrate" : [
+    [1, {
+      "fill" : [
+        {"item" : [ "outpostcargocrateshort", 1 ]}
+      ]
+    } ]
+  ],
+  "largeTradeCrate" : [
+    [1, {
+      "fill" : [
+        {"item" : [ "outpostcargocrate", 1 ]}
+      ]
+    } ]
+  ],
+  "fillTradeCrate" : [
+    [1, {
+      "pool" : [
+        {"weight" : 0.60, "pool" : "valuableTreasure"},
+        {"weight" : 0.20, "pool" : "goodWeapon"},
+        {"weight" : 0.01, "pool" : "uniqueWeapon"},
+        {"weight" : 0.80, "pool" : "weapon"},
+        {"weight" : 0.70, "pool" : "healingItem"},
+        {"weight" : 0.90, "pool" : "basicTreasure"},
+        {"weight" : 0.01, "pool" : "valuableTechTreasure"},
+        {"weight" : 0.20, "pool" : "geodeRewards"},
+        {"weight" : 0.10, "pool" : "rarefurniture"},
+        {"weight" : 0.50, "pool" : "costume"},
+        {"weight" : 0.70, "pool" : "produce"},
+        {"weight" : 0.60, "pool" : "ore"},
+        {"weight" : 0.40, "pool" : "petcollars"},
+        {"weight" : 0.10, "pool" : "augments"},
+        {"weight" : 0.30, "pool" : "petcollars"},
+        {"weight" : 0.60, "pool" : "seed"},
+        {"weight" : 0.3, "item" : "soggypaper"},
+        {"weight" : 0.3, "item" : "rottenfood"}
+      ],
+      "poolRounds" : [
+        [0.55, 26],
+        [0.40, 22],
+        [0.05, 18]
+      ],
+      "allowDuplication" : true
+    }]
+  ]
+}

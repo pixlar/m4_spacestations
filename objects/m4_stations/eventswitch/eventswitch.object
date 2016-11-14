@@ -1,0 +1,25 @@
+{
+  "objectName" : "eventswitch",
+  "rarity" : "Common",
+  "category" : "decorative",
+  "price" : 50,
+  "scannable" : false,
+  "printable" : false,
+
+  "description" : "a switch that is activated by coded events",
+  "shortdescription" : "Event Switch",
+  "race" : "protectorate",
+  
+  "scripts" : [ "switch.lua" ],
+
+  "inventoryIcon" : "eveentswitchicon.png",
+  "outputNodes" : [ [0, 0] ],
+  "orientations" : [
+    {
+      "image" : "eventswitch.png:default.min",
+      "imagePosition" : [0, 0],
+      "spaceScan" : 0.1,
+      "anchors" : []
+    }
+  ]
+}

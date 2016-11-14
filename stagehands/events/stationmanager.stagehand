@@ -1,0 +1,13 @@
+{
+  // stationevents will spawn an event stagehand that handles the event
+  // at event end, the event resets the timer on the stationevents stagehand and kills itself
+  "type" : "stationmanager",
+  "events" : ["avianraiders", "calm"],
+  //time between possible events in seconds
+  "eventPeriod" : 600,
+
+  "scripts" : ["/stagehands/events/stationmanager.lua"],
+  "scriptDelta" : 30,
+
+  "broadcastArea" : [-30, -30, 30, 30]
+}

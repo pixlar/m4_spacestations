@@ -1,0 +1,46 @@
+{
+  "type" : "shipsmerchant",
+  "baseType" : "merchant",
+
+  "scriptConfig" : {
+    "questGenerator" : {
+      "pools" : []
+    },
+
+    "merchant" : {
+      "waitTime" : 10,
+      "storeRadius" : -1,
+      "categories" : {
+        "default" : ["shipquartermaster"],
+        "apex" : ["shipquartermaster" ],
+        "avian" : ["shipquartermaster" ],
+        "floran" : ["shipquartermaster" ],
+        "glitch" : ["shipquartermaster" ],
+        "human" : ["shipquartermaster" ],
+        "hylotl" : ["shipquartermaster" ],
+        "novakid" : ["shipquartermaster" ]
+      },
+      "buyFactorRange" : [ 1.5, 3.0 ],
+      "sellFactorRange" : [ 0.1, 0.4 ],
+      "numItems" : 7,
+      "paneLayoutOverride" : {
+        "windowtitle" : {
+          "title" : "  Quartermaster",
+          "subtitle" : "  Sells cargo!"
+        }
+      }
+    }
+  },
+
+  "items" : {
+    "override" : [
+      [0, [
+          {
+            "head" : [ "symbiotehead" ],
+            "chest" : [ "neochest" ],
+            "legs" : [ "neolegs" ]
+          }
+        ] ]
+    ]
+  }
+}

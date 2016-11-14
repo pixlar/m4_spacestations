@@ -23,13 +23,13 @@
   "orientations" : [
     {
       "image" : "humanship.png",
-      "imagePosition" : [-96, 0],
+      "imagePosition" : [-328, 0],
 
       "metaBoundBox" : [-20, -10, 20, 10],
       "anchors" : []
     }
   ],
-  "visitTime" : 50,
+  "visitTime" : 4200,
   "shipTypes" : [
   	{
   		"shipType" : "human",
@@ -38,7 +38,7 @@
   			["human", "basicshipcrew"],
   			["human", "basicshipcrew"],
   			["human", "protectoratecrew"],
-  			["human", "basicshipcrew"]
+  			["human", "shipsmerchant"]
   		]
   	},
   	{
@@ -48,7 +48,7 @@
   			["avian", "basicshipcrew"],
   			["avian", "basicshipcrew"],
   			["avian", "stargazer"],
-  			["avian", "basicshipcrew"]
+  			["avian", "shipsmerchant"]
   		]
   	},
   	{
@@ -58,7 +58,7 @@
   			["apex", "basicshipcrew"],
   			["apex", "basicshipcrew"],
   			["apex", "apexresearchlab"],
-  			["apex", "basicshipcrew"]
+  			["apex", "shipsmerchant"]
   		]
   	},
   	{
@@ -68,7 +68,7 @@
   			["floran", "basicshipcrew"],
   			["floran", "basicshipcrew"],
   			["floran", "tar"],
-  			["floran", "basicshipcrew"]
+  			["floran", "shipsmerchant"]
   		]
   	},
   	{
@@ -78,7 +78,7 @@
   			["glitch", "basicshipcrew"],
   			["glitch", "basicshipcrew"],
   			["glitch", "glitchsewer"],
-  			["glitch", "basicshipcrew"]
+  			["glitch", "shipsmerchant"]
   		]
   	},
   	{
@@ -88,7 +88,7 @@
   			["hylotl", "basicshipcrew"],
   			["hylotl", "basicshipcrew"],
   			["hylotl", "merchant"],
-  			["hylotl", "basicshipcrew"]
+  			["hylotl", "shipsmerchant"]
   		]
   	},
   	{
@@ -98,8 +98,16 @@
   			["novakid", "basicshipcrew"],
   			["novakid", "basicshipcrew"],
   			["novakid", "cabin"],
-  			["novakid", "basicshipcrew"]
+  			["novakid", "shipsmerchant"]
   		]
+  	},
+  	{
+  		"shipType" : "none",
+  		"crew" : [ ]
+  	},
+  	{
+  		"shipType" : "none",
+  		"crew" : [ ]
   	},
   	{
   		"shipType" : "none",
@@ -108,7 +116,7 @@
   ],
 
   "animation" : "visitingship.animation",
-  "animationPosition" : [-96, 0],
+  "animationPosition" : [-328, 0],
 
   "scripts" : ["visitingship.lua"],
   "scriptDelta" : 5
