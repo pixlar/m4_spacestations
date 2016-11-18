@@ -11,6 +11,9 @@ function init()
   message.setHandler("stationlasers", function(_, _, toggle) 
 	stationlasers(toggle)
   end)
+  message.setHandler("enemylasers", function(_, _, toggle) 
+	enemylasers(toggle)
+  end)
   message.setHandler("alarms", function(_, _, toggle) 
 	alarms(toggle)
   end)
@@ -31,14 +34,19 @@ function update()
 
 -- fire random station lasers
 	if (storage.stationlaserswitch) then
-		sb.logInfo("lasers are on")
+--		sb.logInfo("lasers are on")
 		local defenselasers = world.objectQuery(entity.position(), 4000, { name="stationlaser" })
 		shuffle(defenselasers)
 		world.sendEntityMessage(defenselasers[1], "switch", storage.stationlaserswitch)
 	end
 	
--- fire random lasers facing directions that are turned on
-	if type(storage.enemylasers) == "table" then
+-- fire random lasers
+	if (storage.enemylaserswitch) then
+		sb.logInfo("enemy lasers are on")
+		local enemylasers = world.objectQuery(entity.position(), 4000, { name="enemylaser" })
+		shuffle(enemylasers)
+		world.sendEntityMessage(enemylasers[1], "switch", true)
+		world.sendEntityMessage(enemylasers[2], "switch", true)
 	end
 end
 
@@ -51,11 +59,10 @@ end
 -- toggles enemy lasers on/off (true/false) from a certain direction
 -- directions : 1 = north, 2 = east, 3 = south, 4 = west
 -- if no direction is specified, all lasers are toggled
---function enemylasers(toggle, direction)
---	if direction ~= nil then
---		storage.enemylasers[direction] = toggle
---	end
---end
+function enemylasers(toggle)
+	storage.enemylaserswitch = toggle
+	sb.logInfo("Toggling enemy lasers")
+end
 
 --toggles alarms on/off
 function alarms(toggle)
@@ -92,7 +99,7 @@ end
 function clearEvents()
 	storage.currentEvent = nil
 	local stagehands = world.entityQuery(entity.position(), 20, { includedTypes = {"stagehand"}, withoutEntityId = entity.id()})
-	for _,entityId in pairs(stagehands) do
+	for _,entityId in ipairs(stagehands) do
 		world.sendEntityMessage(entityID, "endEvent")
 	end
 end

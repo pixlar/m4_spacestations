@@ -1,5 +1,5 @@
 {
-  "objectName" : "raiderlaser",
+  "objectName" : "enemylaser",
   "colonyTags" : ["evil"],
   "printable" : false,
   "rarity" : "Common",
@@ -218,7 +218,7 @@
   "smashSounds" : [ "/sfx/objects/rock_break1.ogg", "/sfx/objects/rock_break2.ogg", "/sfx/objects/rock_break3.ogg", "/sfx/objects/rock_break4.ogg", "/sfx/objects/rock_break5.ogg", "/sfx/objects/rock_crumble1.ogg", "/sfx/objects/rock_crumble2.ogg", "/sfx/objects/rock_crumble3.ogg", "/sfx/objects/rock_crumble4.ogg", "/sfx/objects/rock_crumble5.ogg" ],
   "smashParticles" : [ { "count" : 10, "particle" : "potshard" } ],
 
-  "scripts" : [ "beamtrap.lua" ],
+  "scripts" : [ "/objects/m4_stations/beamtrap.lua" ],
   "scriptDelta" : 5,
 
   "soundEffect" : "/sfx/objects/crystaltrap_loop.ogg",

@@ -35,6 +35,9 @@ function update()
   findEnd()
   self.state:update()
   if storage.active then
+  	if self.shottimer == nil then
+  		self.shottimer = os.time()
+  	end
   	if (os.time() - self.shottimer) >=1 then
   		switch(false)
   	end
@@ -179,9 +182,6 @@ function stopState()
 end
 
 function switch(toggle)
-  if not storage.active then
-  	self.shottimer = os.time()
-  end
   storage.active = toggle
   self.state:update()
   self.shottimer = os.time()

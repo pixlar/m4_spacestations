@@ -9,6 +9,14 @@
     "commandcenter" : {
       "name" : "station command",
       "tags" : [ "station", "friendly" ]
+    },
+    "greenhouse" : {
+      "name" : "station greenhouse",
+      "tags" : [ "station", "friendly" ]
+    },
+    "teleporter" : {
+      "name" : "teleporter room",
+      "tags" : [ "station", "friendly" ]
     }
 }
 }]

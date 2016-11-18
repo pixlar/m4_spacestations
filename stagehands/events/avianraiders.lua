@@ -65,8 +65,13 @@ function update(dt)
 			broadcast("Attention! We have an unidentified incoming vessel.")
 			self.announced = 1
 		end
-		if self.timer > 30 and storage.lasers == false then
+		if self.timer > 30 and storage.lasers ~= true then
 			lasers(true)
+			storage.lasers = true
+		end
+		if self.timer > 20 and storage.enemylasers ~= true then
+			enemylasers(true)
+			storage.enemylasers = true
 		end
 		if self.timer > 25 and self.announced < 2 then
 			broadcast("We're taking incoming fire! All personel to battle stations!")
@@ -97,6 +102,7 @@ function update(dt)
 	elseif storage.stage >= 3 then
 		broadcast("The raiders' ship is leaving, time to mop up")
 		lasers(false)
+		enemylasers(false)
 		alarms(false)
 		stagehand.die()
 	end
@@ -134,10 +140,12 @@ function spawnRaidersAtLoc(numRaiders, location)
 	sb.logInfo("Spawning raiders")
 	local raider = config.getParameter("raider")
 	for i=1, numRaiders do
-		wiggle = {2-math.random(3),2-math.random(3)}
+		wiggle = {3-math.random(5),3-math.random(5)}
 		loc = {location[1]+wiggle[1],location[2]+wiggle[2]}
 		local hostile = world.spawnNpc(loc, raider[1], raider[2],world.threatLevel())
-		table.insert(storage.hostiles, hostile)
+		hostileUID = sb.makeUuid()
+		world.setUniqueId(hostile, hostileUID)
+		table.insert(storage.hostiles, hostileUID)
 	end
 end
 
@@ -171,13 +179,30 @@ function lasers(toggle)
 	world.sendEntityMessage(stationmaster(), "stationlasers", toggle)
 end
 
+function enemylasers(toggle)
+	world.sendEntityMessage(stationmaster(), "enemylasers", toggle)
+end
+
 function alarms(toggle)
 	world.sendEntityMessage(stationmaster(), "alarms", toggle)
+end
+
+function clearRaiders()
+	if storage.hostiles == nil then
+		return nil
+	end
+	for _,raider in ipairs(storage.hostiles) do
+      local entityId = world.loadUniqueEntity(raider)
+      if entityId ~= 0 then
+		world.sendEntityMessage(raider, "tenant.evictTenant")
+      end
+	end
 end
 
 function endEvent()
 	sb.logInfo("Clearing old event")
 	lasers(false)
 	alarms(false)
+	clearRaiders()
 	stagehand.die()
 end
