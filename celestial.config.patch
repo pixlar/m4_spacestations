@@ -1,4 +1,1698 @@
 [
+  [
+ {
+            "op" : "test",
+            "path" : "/systemTypeBins/0",
+            "value" : [-1.00, "White"]
+},
+    {
+      "op": "add",
+      "path": "/systemTypes/White/orbitRegions/0/planetaryTypes/-",
+      "value": {"weight" : 0.03, "item" : "Tier1SpaceStation"}
+    },
+    {
+      "op": "add",
+      "path": "/systemTypes/White/orbitRegions/0/planetaryTypes/-",
+      "value": {"weight" : 0.05, "item" : "Tier2SpaceStation"}
+    },
+    {
+      "op": "add",
+      "path": "/systemTypes/White/orbitRegions/0/satelliteTypes/-",
+      "value": {"weight" : 0.3, "item" : "Tier1SpaceStation"}
+    },
+    {
+      "op": "add",
+      "path": "/systemTypes/White/orbitRegions/0/satelliteTypes/-",
+      "value": {"weight" : 0.5, "item" : "Tier2SpaceStation"}
+    },
+
+    {
+      "op": "add",
+      "path": "/systemTypes/White/orbitRegions/1/satelliteTypes/-",
+      "value": {"weight" : 0.2, "item" : "Tier1SpaceStation"}
+    },
+    {
+      "op": "add",
+      "path": "/systemTypes/White/orbitRegions/1/satelliteTypes/-",
+      "value": {"weight" : 0.5, "item" : "Tier2SpaceStation"}
+    },
+
+    {
+      "op": "add",
+      "path": "/systemTypes/White/orbitRegions/2/planetaryTypes/-",
+      "value": {"weight" : 0.03, "item" : "Tier1SpaceStation"}
+    },
+    {
+      "op": "add",
+      "path": "/systemTypes/White/orbitRegions/2/planetaryTypes/-",
+      "value": {"weight" : 0.05, "item" : "Tier2SpaceStation"}
+    },
+    {
+      "op": "add",
+      "path": "/systemTypes/White/orbitRegions/2/satelliteTypes/-",
+      "value": {"weight" : 0.3, "item" : "Tier1SpaceStation"}
+    },
+    {
+      "op": "add",
+      "path": "/systemTypes/White/orbitRegions/2/satelliteTypes/-",
+      "value": {"weight" : 0.5, "item" : "Tier2SpaceStation"}
+    },
+
+    {
+      "op": "add",
+      "path": "/systemTypes/White/orbitRegions/3/planetaryTypes/-",
+      "value": {"weight" : 0.03, "item" : "Tier1SpaceStation"}
+    },
+    {
+      "op": "add",
+      "path": "/systemTypes/White/orbitRegions/3/planetaryTypes/-",
+      "value": {"weight" : 0.05, "item" : "Tier2SpaceStation"}
+    },
+    {
+      "op": "add",
+      "path": "/systemTypes/White/orbitRegions/3/satelliteTypes/-",
+      "value": {"weight" : 0.3, "item" : "Tier1SpaceStation"}
+    },
+    {
+      "op": "add",
+      "path": "/systemTypes/White/orbitRegions/3/satelliteTypes/-",
+      "value": {"weight" : 0.5, "item" : "Tier2SpaceStation"}
+    },
+
+
+    {
+      "op": "add",
+      "path": "/systemTypes/Orange/orbitRegions/0/planetaryTypes/-",
+      "value": {"weight" : 0.03, "item" : "Tier2SpaceStation"}
+    },
+    {
+      "op": "add",
+      "path": "/systemTypes/Orange/orbitRegions/0/planetaryTypes/-",
+      "value": {"weight" : 0.05, "item" : "Tier3SpaceStation"}
+    },
+    {
+      "op": "add",
+      "path": "/systemTypes/Orange/orbitRegions/0/satelliteTypes/-",
+      "value": {"weight" : 0.3, "item" : "Tier2SpaceStation"}
+    },
+    {
+      "op": "add",
+      "path": "/systemTypes/Orange/orbitRegions/0/satelliteTypes/-",
+      "value": {"weight" : 0.5, "item" : "Tier3SpaceStation"}
+    },
+
+    {
+      "op": "add",
+      "path": "/systemTypes/Orange/orbitRegions/1/satelliteTypes/-",
+      "value": {"weight" : 0.2, "item" : "Tier2SpaceStation"}
+    },
+    {
+      "op": "add",
+      "path": "/systemTypes/Orange/orbitRegions/1/satelliteTypes/-",
+      "value": {"weight" : 0.5, "item" : "Tier3SpaceStation"}
+    },
+
+    {
+      "op": "add",
+      "path": "/systemTypes/Orange/orbitRegions/2/planetaryTypes/-",
+      "value": {"weight" : 0.03, "item" : "Tier2SpaceStation"}
+    },
+    {
+      "op": "add",
+      "path": "/systemTypes/Orange/orbitRegions/2/planetaryTypes/-",
+      "value": {"weight" : 0.05, "item" : "Tier3SpaceStation"}
+    },
+    {
+      "op": "add",
+      "path": "/systemTypes/Orange/orbitRegions/2/satelliteTypes/-",
+      "value": {"weight" : 0.3, "item" : "Tier2SpaceStation"}
+    },
+    {
+      "op": "add",
+      "path": "/systemTypes/Orange/orbitRegions/2/satelliteTypes/-",
+      "value": {"weight" : 0.5, "item" : "Tier3SpaceStation"}
+    },
+
+    {
+      "op": "add",
+      "path": "/systemTypes/Orange/orbitRegions/3/planetaryTypes/-",
+      "value": {"weight" : 0.03, "item" : "Tier2SpaceStation"}
+    },
+    {
+      "op": "add",
+      "path": "/systemTypes/Orange/orbitRegions/3/planetaryTypes/-",
+      "value": {"weight" : 0.05, "item" : "Tier3SpaceStation"}
+    },
+    {
+      "op": "add",
+      "path": "/systemTypes/Orange/orbitRegions/3/satelliteTypes/-",
+      "value": {"weight" : 0.3, "item" : "Tier2SpaceStation"}
+    },
+    {
+      "op": "add",
+      "path": "/systemTypes/Orange/orbitRegions/3/satelliteTypes/-",
+      "value": {"weight" : 0.5, "item" : "Tier3SpaceStation"}
+    },
+
+
+
+
+    {
+      "op": "add",
+      "path": "/systemTypes/Yellow/orbitRegions/0/planetaryTypes/-",
+      "value": {"weight" : 0.01, "item" : "Tier2SpaceStation"}
+    },
+    {
+      "op": "add",
+      "path": "/systemTypes/Yellow/orbitRegions/0/planetaryTypes/-",
+      "value": {"weight" : 0.04, "item" : "Tier3SpaceStation"}
+    },
+    {
+      "op": "add",
+      "path": "/systemTypes/Yellow/orbitRegions/0/planetaryTypes/-",
+      "value": {"weight" : 0.07, "item" : "Tier4SpaceStation"}
+    },
+
+    {
+      "op": "add",
+      "path": "/systemTypes/Yellow/orbitRegions/0/satelliteTypes/-",
+      "value": {"weight" : 0.1, "item" : "Tier2SpaceStation"}
+    },
+    {
+      "op": "add",
+      "path": "/systemTypes/Yellow/orbitRegions/0/satelliteTypes/-",
+      "value": {"weight" : 0.3, "item" : "Tier3SpaceStation"}
+    },
+    {
+      "op": "add",
+      "path": "/systemTypes/Yellow/orbitRegions/0/satelliteTypes/-",
+      "value": {"weight" : 0.5, "item" : "Tier4SpaceStation"}
+    },
+
+    {
+      "op": "add",
+      "path": "/systemTypes/Yellow/orbitRegions/1/satelliteTypes/-",
+      "value": {"weight" : 0.03, "item" : "Tier2SpaceStation"}
+    },
+    {
+      "op": "add",
+      "path": "/systemTypes/Yellow/orbitRegions/1/satelliteTypes/-",
+      "value": {"weight" : 0.1, "item" : "Tier3SpaceStation"}
+    },
+    {
+      "op": "add",
+      "path": "/systemTypes/Yellow/orbitRegions/1/satelliteTypes/-",
+      "value": {"weight" : 0.2, "item" : "Tier3SpaceStation"}
+  },
+
+    {
+      "op": "add",
+      "path": "/systemTypes/Yellow/orbitRegions/2/planetaryTypes/-",
+      "value": {"weight" : 0.03, "item" : "Tier2SpaceStation"}
+    },
+    {
+      "op": "add",
+      "path": "/systemTypes/Yellow/orbitRegions/2/planetaryTypes/-",
+      "value": {"weight" : 0.05, "item" : "Tier3SpaceStation"}
+    },
+    {
+      "op": "add",
+      "path": "/systemTypes/Yellow/orbitRegions/2/planetaryTypes/-",
+      "value": {"weight" : 0.07, "item" : "Tier4SpaceStation"}
+    },
+    {
+      "op": "add",
+      "path": "/systemTypes/Yellow/orbitRegions/2/satelliteTypes/-",
+      "value": {"weight" : 0.3, "item" : "Tier2SpaceStation"}
+    },
+    {
+      "op": "add",
+      "path": "/systemTypes/Yellow/orbitRegions/2/satelliteTypes/-",
+      "value": {"weight" : 0.4, "item" : "Tier3SpaceStation"}
+    },
+    {
+      "op": "add",
+      "path": "/systemTypes/Yellow/orbitRegions/2/satelliteTypes/-",
+      "value": {"weight" : 0.5, "item" : "Tier4SpaceStation"}
+    },
+
+    {
+      "op": "add",
+      "path": "/systemTypes/Yellow/orbitRegions/3/planetaryTypes/-",
+      "value": {"weight" : 0.05, "item" : "Tier2SpaceStation"}
+    },
+    {
+      "op": "add",
+      "path": "/systemTypes/Yellow/orbitRegions/3/planetaryTypes/-",
+      "value": {"weight" : 0.07, "item" : "Tier3SpaceStation"}
+    },
+    {
+      "op": "add",
+      "path": "/systemTypes/Yellow/orbitRegions/3/planetaryTypes/-",
+      "value": {"weight" : 0.08, "item" : "Tier4SpaceStation"}
+    },
+    {
+      "op": "add",
+      "path": "/systemTypes/Yellow/orbitRegions/3/satelliteTypes/-",
+      "value": {"weight" : 0.2, "item" : "Tier2SpaceStation"}
+    },
+    {
+      "op": "add",
+      "path": "/systemTypes/Yellow/orbitRegions/3/satelliteTypes/-",
+      "value": {"weight" : 0.4, "item" : "Tier3SpaceStation"}
+    },
+    {
+      "op": "add",
+      "path": "/systemTypes/Yellow/orbitRegions/3/satelliteTypes/-",
+      "value": {"weight" : 0.5, "item" : "Tier4SpaceStation"}
+    },
+    {
+      "op": "add",
+      "path": "/systemTypes/Blue/orbitRegions/0/planetaryTypes/-",
+      "value": {"weight" : 0.01, "item" : "Tier3SpaceStation"}
+    },
+    {
+      "op": "add",
+      "path": "/systemTypes/Blue/orbitRegions/0/planetaryTypes/-",
+      "value": {"weight" : 0.04, "item" : "Tier4SpaceStation"}
+    },
+    {
+      "op": "add",
+      "path": "/systemTypes/Blue/orbitRegions/0/planetaryTypes/-",
+      "value": {"weight" : 0.07, "item" : "Tier5SpaceStation"}
+    },
+
+    {
+      "op": "add",
+      "path": "/systemTypes/Blue/orbitRegions/0/satelliteTypes/-",
+      "value": {"weight" : 0.1, "item" : "Tier3SpaceStation"}
+    },
+    {
+      "op": "add",
+      "path": "/systemTypes/Blue/orbitRegions/0/satelliteTypes/-",
+      "value": {"weight" : 0.3, "item" : "Tier4SpaceStation"}
+    },
+    {
+      "op": "add",
+      "path": "/systemTypes/Blue/orbitRegions/0/satelliteTypes/-",
+      "value": {"weight" : 0.5, "item" : "Tier5SpaceStation"}
+    },
+
+    {
+      "op": "add",
+      "path": "/systemTypes/Blue/orbitRegions/1/satelliteTypes/-",
+      "value": {"weight" : 0.03, "item" : "Tier3SpaceStation"}
+    },
+    {
+      "op": "add",
+      "path": "/systemTypes/Blue/orbitRegions/1/satelliteTypes/-",
+      "value": {"weight" : 0.1, "item" : "Tier4SpaceStation"}
+    },
+    {
+      "op": "add",
+      "path": "/systemTypes/Blue/orbitRegions/1/satelliteTypes/-",
+      "value": {"weight" : 0.2, "item" : "Tier4SpaceStation"}
+    },
+
+    {
+      "op": "add",
+      "path": "/systemTypes/Blue/orbitRegions/2/planetaryTypes/-",
+      "value": {"weight" : 0.03, "item" : "Tier3SpaceStation"}
+    },
+    {
+      "op": "add",
+      "path": "/systemTypes/Blue/orbitRegions/2/planetaryTypes/-",
+      "value": {"weight" : 0.05, "item" : "Tier4SpaceStation"}
+    },
+    {
+      "op": "add",
+      "path": "/systemTypes/Blue/orbitRegions/2/planetaryTypes/-",
+      "value": {"weight" : 0.07, "item" : "Tier5SpaceStation"}
+    },
+    {
+      "op": "add",
+      "path": "/systemTypes/Blue/orbitRegions/2/satelliteTypes/-",
+      "value": {"weight" : 0.3, "item" : "Tier3SpaceStation"}
+    },
+    {
+      "op": "add",
+      "path": "/systemTypes/Blue/orbitRegions/2/satelliteTypes/-",
+      "value": {"weight" : 0.4, "item" : "Tier4SpaceStation"}
+    },
+    {
+      "op": "add",
+      "path": "/systemTypes/Blue/orbitRegions/2/satelliteTypes/-",
+      "value": {"weight" : 0.5, "item" : "Tier5SpaceStation"}
+    },
+
+    {
+      "op": "add",
+      "path": "/systemTypes/Blue/orbitRegions/3/planetaryTypes/-",
+      "value": {"weight" : 0.05, "item" : "Tier3SpaceStation"}
+    },
+    {
+      "op": "add",
+      "path": "/systemTypes/Blue/orbitRegions/3/planetaryTypes/-",
+      "value": {"weight" : 0.07, "item" : "Tier4SpaceStation"}
+    },
+    {
+      "op": "add",
+      "path": "/systemTypes/Blue/orbitRegions/3/planetaryTypes/-",
+      "value": {"weight" : 0.08, "item" : "Tier5SpaceStation"}
+    },
+    {
+      "op": "add",
+      "path": "/systemTypes/Blue/orbitRegions/3/satelliteTypes/-",
+      "value": {"weight" : 0.2, "item" : "Tier3SpaceStation"}
+    },
+    {
+      "op": "add",
+      "path": "/systemTypes/Blue/orbitRegions/3/satelliteTypes/-",
+      "value": {"weight" : 0.4, "item" : "Tier4SpaceStation"}
+    },
+    {
+      "op": "add",
+      "path": "/systemTypes/Blue/orbitRegions/3/satelliteTypes/-",
+      "value": {"weight" : 0.5, "item" : "Tier5SpaceStation"}
+    },
+
+    {
+      "op": "add",
+      "path": "/systemTypes/Red/orbitRegions/0/planetaryTypes/-",
+      "value": {"weight" : 0.01, "item" : "Tier4SpaceStation"}
+    },
+    {
+      "op": "add",
+      "path": "/systemTypes/Red/orbitRegions/0/planetaryTypes/-",
+      "value": {"weight" : 0.04, "item" : "Tier5SpaceStation"}
+    },
+    {
+    "op": "add",
+      "path": "/systemTypes/Red/orbitRegions/0/planetaryTypes/-",
+      "value": {"weight" : 0.07, "item" : "Tier6SpaceStation"}
+    },
+
+    {
+      "op": "add",
+      "path": "/systemTypes/Red/orbitRegions/0/satelliteTypes/-",
+      "value": {"weight" : 0.1, "item" : "Tier4SpaceStation"}
+    },
+    {
+      "op": "add",
+    "path": "/systemTypes/Red/orbitRegions/0/satelliteTypes/-",
+      "value": {"weight" : 0.3, "item" : "Tier5SpaceStation"}
+    },
+    {
+      "op": "add",
+      "path": "/systemTypes/Red/orbitRegions/0/satelliteTypes/-",
+      "value": {"weight" : 0.5, "item" : "Tier6SpaceStation"}
+    },
+
+    {
+      "op": "add",
+      "path": "/systemTypes/Red/orbitRegions/1/satelliteTypes/-",
+      "value": {"weight" : 0.03, "item" : "Tier4SpaceStation"}
+    },
+    {
+      "op": "add",
+      "path": "/systemTypes/Red/orbitRegions/1/satelliteTypes/-",
+      "value": {"weight" : 0.1, "item" : "Tier5SpaceStation"}
+    },
+    {
+      "op": "add",
+      "path": "/systemTypes/Red/orbitRegions/1/satelliteTypes/-",
+      "value": {"weight" : 0.2, "item" : "Tier5SpaceStation"}
+    },
+
+    {
+      "op": "add",
+      "path": "/systemTypes/Red/orbitRegions/2/planetaryTypes/-",
+      "value": {"weight" : 0.03, "item" : "Tier4SpaceStation"}
+    },
+    {
+      "op": "add",
+      "path": "/systemTypes/Red/orbitRegions/2/planetaryTypes/-",
+      "value": {"weight" : 0.05, "item" : "Tier5SpaceStation"}
+    },
+    {
+      "op": "add",
+      "path": "/systemTypes/Red/orbitRegions/2/planetaryTypes/-",
+      "value": {"weight" : 0.07, "item" : "Tier6SpaceStation"}
+    },
+    {
+      "op": "add",
+      "path": "/systemTypes/Red/orbitRegions/2/satelliteTypes/-",
+      "value": {"weight" : 0.3, "item" : "Tier4SpaceStation"}
+    },
+    {
+      "op": "add",
+      "path": "/systemTypes/Red/orbitRegions/2/satelliteTypes/-",
+      "value": {"weight" : 0.4, "item" : "Tier5SpaceStation"}
+    },
+    {
+      "op": "add",
+      "path": "/systemTypes/Red/orbitRegions/2/satelliteTypes/-",
+      "value": {"weight" : 0.5, "item" : "Tier6SpaceStation"}
+    },
+
+    {
+      "op": "add",
+      "path": "/systemTypes/Red/orbitRegions/3/planetaryTypes/-",
+      "value": {"weight" : 0.05, "item" : "Tier4SpaceStation"}
+    },
+    {
+      "op": "add",
+      "path": "/systemTypes/Red/orbitRegions/3/planetaryTypes/-",
+      "value": {"weight" : 0.07, "item" : "Tier5SpaceStation"}
+    },
+    {
+      "op": "add",
+      "path": "/systemTypes/Red/orbitRegions/3/planetaryTypes/-",
+      "value": {"weight" : 0.08, "item" : "Tier6SpaceStation"}
+    },
+    {
+      "op": "add",
+      "path": "/systemTypes/Red/orbitRegions/3/satelliteTypes/-",
+      "value": {"weight" : 0.2, "item" : "Tier4SpaceStation"}
+    },
+    {
+      "op": "add",
+      "path": "/systemTypes/Red/orbitRegions/3/satelliteTypes/-",
+      "value": {"weight" : 0.4, "item" : "Tier5SpaceStation"}
+    },
+    {
+      "op": "add",
+      "path": "/systemTypes/Red/orbitRegions/3/satelliteTypes/-",
+      "value": {"weight" : 0.5, "item" : "Tier6SpaceStation"}
+    }
+  ],
+  //end of systemTypes
+  //start of Truespace
+  [
+ {
+            "op" : "test",
+            "path" : "/systemTypeBins/0",
+            "value" : [-0.60, "ClassBStar"]
+},
+    {
+      "op": "add",
+      "path": "/systemTypes/ClassBStar/orbitRegions/0/satelliteTypes/-",
+      "value": {"weight" : 0.01, "item" : "Tier1SpaceStation"}
+    },
+    {
+      "op": "add",
+      "path": "/systemTypes/ClassBStar/orbitRegions/0/satelliteTypes/-",
+      "value": {"weight" : 0.01, "item" : "Tier2SpaceStation"}
+    },
+    {
+      "op": "add",
+      "path": "/systemTypes/ClassBStar/orbitRegions/0/satelliteTypes/-",
+      "value": {"weight" : 0.01, "item" : "Tier3SpaceStation"}
+    },
+    {
+      "op": "add",
+      "path": "/systemTypes/ClassBStar/orbitRegions/0/satelliteTypes/-",
+      "value": {"weight" : 0.01, "item" : "Tier4SpaceStation"}
+    },
+    {
+      "op": "add",
+      "path": "/systemTypes/ClassBStar/orbitRegions/0/satelliteTypes/-",
+      "value": {"weight" : 0.01, "item" : "Tier5SpaceStation"}
+    },
+    {
+      "op": "add",
+      "path": "/systemTypes/ClassBStar/orbitRegions/0/satelliteTypes/-",
+      "value": {"weight" : 0.01, "item" : "Tier6SpaceStation"}
+    },
+
+    {
+      "op": "add",
+      "path": "/systemTypes/ClassBStar/orbitRegions/1/satelliteTypes/-",
+      "value": {"weight" : 0.01, "item" : "Tier1SpaceStation"}
+    },
+    {
+      "op": "add",
+      "path": "/systemTypes/ClassBStar/orbitRegions/1/satelliteTypes/-",
+      "value": {"weight" : 0.01, "item" : "Tier2SpaceStation"}
+    },
+    {
+      "op": "add",
+      "path": "/systemTypes/ClassBStar/orbitRegions/1/satelliteTypes/-",
+      "value": {"weight" : 0.01, "item" : "Tier3SpaceStation"}
+    },
+    {
+      "op": "add",
+      "path": "/systemTypes/ClassBStar/orbitRegions/1/satelliteTypes/-",
+      "value": {"weight" : 0.01, "item" : "Tier4SpaceStation"}
+    },
+    {
+      "op": "add",
+      "path": "/systemTypes/ClassBStar/orbitRegions/1/satelliteTypes/-",
+      "value": {"weight" : 0.01, "item" : "Tier5SpaceStation"}
+    },
+    {
+      "op": "add",
+      "path": "/systemTypes/ClassBStar/orbitRegions/1/satelliteTypes/-",
+      "value": {"weight" : 0.01, "item" : "Tier6SpaceStation"}
+    },
+
+    {
+      "op": "add",
+      "path": "/systemTypes/ClassBStar/orbitRegions/2/satelliteTypes/-",
+      "value": {"weight" : 0.01, "item" : "Tier1SpaceStation"}
+    },
+    {
+      "op": "add",
+      "path": "/systemTypes/ClassBStar/orbitRegions/2/satelliteTypes/-",
+      "value": {"weight" : 0.01, "item" : "Tier2SpaceStation"}
+    },
+    {
+      "op": "add",
+      "path": "/systemTypes/ClassBStar/orbitRegions/2/satelliteTypes/-",
+      "value": {"weight" : 0.01, "item" : "Tier3SpaceStation"}
+    },
+    {
+      "op": "add",
+      "path": "/systemTypes/ClassBStar/orbitRegions/2/satelliteTypes/-",
+      "value": {"weight" : 0.01, "item" : "Tier4SpaceStation"}
+    },
+    {
+      "op": "add",
+      "path": "/systemTypes/ClassBStar/orbitRegions/2/satelliteTypes/-",
+      "value": {"weight" : 0.01, "item" : "Tier5SpaceStation"}
+    },
+    {
+      "op": "add",
+      "path": "/systemTypes/ClassBStar/orbitRegions/2/satelliteTypes/-",
+      "value": {"weight" : 0.01, "item" : "Tier6SpaceStation"}
+    },
+
+    {
+      "op": "add",
+      "path": "/systemTypes/ClassBStar/orbitRegions/3/satelliteTypes/-",
+      "value": {"weight" : 0.01, "item" : "Tier1SpaceStation"}
+    },
+    {
+      "op": "add",
+      "path": "/systemTypes/ClassBStar/orbitRegions/3/satelliteTypes/-",
+      "value": {"weight" : 0.01, "item" : "Tier2SpaceStation"}
+    },
+    {
+      "op": "add",
+      "path": "/systemTypes/ClassBStar/orbitRegions/3/satelliteTypes/-",
+      "value": {"weight" : 0.01, "item" : "Tier3SpaceStation"}
+    },
+    {
+      "op": "add",
+      "path": "/systemTypes/ClassBStar/orbitRegions/3/satelliteTypes/-",
+      "value": {"weight" : 0.01, "item" : "Tier4SpaceStation"}
+    },
+    {
+      "op": "add",
+      "path": "/systemTypes/ClassBStar/orbitRegions/3/satelliteTypes/-",
+      "value": {"weight" : 0.01, "item" : "Tier5SpaceStation"}
+    },
+    {
+      "op": "add",
+      "path": "/systemTypes/ClassBStar/orbitRegions/3/satelliteTypes/-",
+      "value": {"weight" : 0.01, "item" : "Tier6SpaceStation"}
+    },
+
+    {
+      "op": "add",
+      "path": "/systemTypes/ClassBStar/orbitRegions/4/satelliteTypes/-",
+      "value": {"weight" : 0.01, "item" : "Tier1SpaceStation"}
+    },
+    {
+      "op": "add",
+      "path": "/systemTypes/ClassBStar/orbitRegions/4/satelliteTypes/-",
+      "value": {"weight" : 0.01, "item" : "Tier2SpaceStation"}
+    },
+    {
+      "op": "add",
+      "path": "/systemTypes/ClassBStar/orbitRegions/4/satelliteTypes/-",
+      "value": {"weight" : 0.01, "item" : "Tier3SpaceStation"}
+    },
+    {
+      "op": "add",
+      "path": "/systemTypes/ClassBStar/orbitRegions/4/satelliteTypes/-",
+      "value": {"weight" : 0.01, "item" : "Tier4SpaceStation"}
+    },
+    {
+      "op": "add",
+      "path": "/systemTypes/ClassBStar/orbitRegions/4/satelliteTypes/-",
+      "value": {"weight" : 0.01, "item" : "Tier5SpaceStation"}
+    },
+    {
+      "op": "add",
+      "path": "/systemTypes/ClassBStar/orbitRegions/4/satelliteTypes/-",
+      "value": {"weight" : 0.01, "item" : "Tier6SpaceStation"}
+    },
+
+
+
+    {
+      "op": "add",
+      "path": "/systemTypes/ClassAStar/orbitRegions/0/satelliteTypes/-",
+      "value": {"weight" : 0.01, "item" : "Tier1SpaceStation"}
+    },
+    {
+      "op": "add",
+      "path": "/systemTypes/ClassAStar/orbitRegions/0/satelliteTypes/-",
+      "value": {"weight" : 0.01, "item" : "Tier2SpaceStation"}
+    },
+    {
+      "op": "add",
+      "path": "/systemTypes/ClassAStar/orbitRegions/0/satelliteTypes/-",
+      "value": {"weight" : 0.01, "item" : "Tier3SpaceStation"}
+    },
+    {
+      "op": "add",
+      "path": "/systemTypes/ClassAStar/orbitRegions/0/satelliteTypes/-",
+      "value": {"weight" : 0.01, "item" : "Tier4SpaceStation"}
+    },
+    {
+      "op": "add",
+      "path": "/systemTypes/ClassAStar/orbitRegions/0/satelliteTypes/-",
+      "value": {"weight" : 0.01, "item" : "Tier5SpaceStation"}
+    },
+    {
+      "op": "add",
+      "path": "/systemTypes/ClassAStar/orbitRegions/0/satelliteTypes/-",
+      "value": {"weight" : 0.01, "item" : "Tier6SpaceStation"}
+    },
+
+    {
+      "op": "add",
+      "path": "/systemTypes/ClassAStar/orbitRegions/1/satelliteTypes/-",
+      "value": {"weight" : 0.01, "item" : "Tier1SpaceStation"}
+    },
+    {
+      "op": "add",
+      "path": "/systemTypes/ClassAStar/orbitRegions/1/satelliteTypes/-",
+      "value": {"weight" : 0.01, "item" : "Tier2SpaceStation"}
+    },
+    {
+      "op": "add",
+      "path": "/systemTypes/ClassAStar/orbitRegions/1/satelliteTypes/-",
+      "value": {"weight" : 0.01, "item" : "Tier3SpaceStation"}
+    },
+    {
+      "op": "add",
+      "path": "/systemTypes/ClassAStar/orbitRegions/1/satelliteTypes/-",
+      "value": {"weight" : 0.01, "item" : "Tier4SpaceStation"}
+    },
+    {
+      "op": "add",
+      "path": "/systemTypes/ClassAStar/orbitRegions/1/satelliteTypes/-",
+      "value": {"weight" : 0.01, "item" : "Tier5SpaceStation"}
+    },
+    {
+      "op": "add",
+      "path": "/systemTypes/ClassAStar/orbitRegions/1/satelliteTypes/-",
+      "value": {"weight" : 0.01, "item" : "Tier6SpaceStation"}
+    },
+
+    {
+      "op": "add",
+      "path": "/systemTypes/ClassAStar/orbitRegions/2/satelliteTypes/-",
+      "value": {"weight" : 0.01, "item" : "Tier1SpaceStation"}
+    },
+    {
+      "op": "add",
+      "path": "/systemTypes/ClassAStar/orbitRegions/2/satelliteTypes/-",
+      "value": {"weight" : 0.01, "item" : "Tier2SpaceStation"}
+    },
+    {
+      "op": "add",
+      "path": "/systemTypes/ClassAStar/orbitRegions/2/satelliteTypes/-",
+      "value": {"weight" : 0.01, "item" : "Tier3SpaceStation"}
+    },
+    {
+      "op": "add",
+      "path": "/systemTypes/ClassAStar/orbitRegions/2/satelliteTypes/-",
+      "value": {"weight" : 0.01, "item" : "Tier4SpaceStation"}
+    },
+    {
+      "op": "add",
+      "path": "/systemTypes/ClassAStar/orbitRegions/2/satelliteTypes/-",
+      "value": {"weight" : 0.01, "item" : "Tier5SpaceStation"}
+    },
+    {
+      "op": "add",
+      "path": "/systemTypes/ClassAStar/orbitRegions/2/satelliteTypes/-",
+      "value": {"weight" : 0.01, "item" : "Tier6SpaceStation"}
+    },
+
+    {
+      "op": "add",
+      "path": "/systemTypes/ClassAStar/orbitRegions/3/satelliteTypes/-",
+      "value": {"weight" : 0.01, "item" : "Tier1SpaceStation"}
+    },
+    {
+      "op": "add",
+      "path": "/systemTypes/ClassAStar/orbitRegions/3/satelliteTypes/-",
+      "value": {"weight" : 0.01, "item" : "Tier2SpaceStation"}
+    },
+    {
+      "op": "add",
+      "path": "/systemTypes/ClassAStar/orbitRegions/3/satelliteTypes/-",
+      "value": {"weight" : 0.01, "item" : "Tier3SpaceStation"}
+    },
+    {
+      "op": "add",
+      "path": "/systemTypes/ClassAStar/orbitRegions/3/satelliteTypes/-",
+      "value": {"weight" : 0.01, "item" : "Tier4SpaceStation"}
+    },
+    {
+      "op": "add",
+      "path": "/systemTypes/ClassAStar/orbitRegions/3/satelliteTypes/-",
+      "value": {"weight" : 0.01, "item" : "Tier5SpaceStation"}
+    },
+    {
+      "op": "add",
+      "path": "/systemTypes/ClassAStar/orbitRegions/3/satelliteTypes/-",
+      "value": {"weight" : 0.01, "item" : "Tier6SpaceStation"}
+    },
+
+    {
+      "op": "add",
+      "path": "/systemTypes/ClassAStar/orbitRegions/4/satelliteTypes/-",
+      "value": {"weight" : 0.01, "item" : "Tier1SpaceStation"}
+    },
+    {
+      "op": "add",
+      "path": "/systemTypes/ClassAStar/orbitRegions/4/satelliteTypes/-",
+      "value": {"weight" : 0.01, "item" : "Tier2SpaceStation"}
+    },
+    {
+      "op": "add",
+      "path": "/systemTypes/ClassAStar/orbitRegions/4/satelliteTypes/-",
+      "value": {"weight" : 0.01, "item" : "Tier3SpaceStation"}
+    },
+    {
+      "op": "add",
+      "path": "/systemTypes/ClassAStar/orbitRegions/4/satelliteTypes/-",
+      "value": {"weight" : 0.01, "item" : "Tier4SpaceStation"}
+    },
+
+    {
+      "op": "add",
+      "path": "/systemTypes/ClassAStar/orbitRegions/4/satelliteTypes/-",
+      "value": {"weight" : 0.01, "item" : "Tier5SpaceStation"}
+    },
+    {
+      "op": "add",
+      "path": "/systemTypes/ClassAStar/orbitRegions/4/satelliteTypes/-",
+      "value": {"weight" : 0.01, "item" : "Tier6SpaceStation"}
+    },
+
+
+
+    {
+      "op": "add",
+      "path": "/systemTypes/ClassMStar/orbitRegions/0/satelliteTypes/-",
+      "value": {"weight" : 0.01, "item" : "Tier1SpaceStation"}
+    },
+    {
+      "op": "add",
+      "path": "/systemTypes/ClassMStar/orbitRegions/0/satelliteTypes/-",
+      "value": {"weight" : 0.01, "item" : "Tier2SpaceStation"}
+    },
+    {
+      "op": "add",
+      "path": "/systemTypes/ClassMStar/orbitRegions/0/satelliteTypes/-",
+      "value": {"weight" : 0.01, "item" : "Tier3SpaceStation"}
+    },
+    {
+      "op": "add",
+      "path": "/systemTypes/ClassMStar/orbitRegions/0/satelliteTypes/-",
+      "value": {"weight" : 0.01, "item" : "Tier4SpaceStation"}
+    },
+    {
+      "op": "add",
+      "path": "/systemTypes/ClassMStar/orbitRegions/0/satelliteTypes/-",
+      "value": {"weight" : 0.01, "item" : "Tier5SpaceStation"}
+    },
+    {
+      "op": "add",
+      "path": "/systemTypes/ClassMStar/orbitRegions/0/satelliteTypes/-",
+      "value": {"weight" : 0.01, "item" : "Tier6SpaceStation"}
+    },
+
+    {
+      "op": "add",
+      "path": "/systemTypes/ClassMStar/orbitRegions/1/satelliteTypes/-",
+      "value": {"weight" : 0.01, "item" : "Tier1SpaceStation"}
+    },
+    {
+      "op": "add",
+      "path": "/systemTypes/ClassMStar/orbitRegions/1/satelliteTypes/-",
+      "value": {"weight" : 0.01, "item" : "Tier2SpaceStation"}
+    },
+    {
+      "op": "add",
+      "path": "/systemTypes/ClassMStar/orbitRegions/1/satelliteTypes/-",
+      "value": {"weight" : 0.01, "item" : "Tier3SpaceStation"}
+    },
+    {
+      "op": "add",
+      "path": "/systemTypes/ClassMStar/orbitRegions/1/satelliteTypes/-",
+      "value": {"weight" : 0.01, "item" : "Tier4SpaceStation"}
+    },
+    {
+      "op": "add",
+      "path": "/systemTypes/ClassMStar/orbitRegions/1/satelliteTypes/-",
+      "value": {"weight" : 0.01, "item" : "Tier5SpaceStation"}
+    },
+    {
+      "op": "add",
+      "path": "/systemTypes/ClassMStar/orbitRegions/1/satelliteTypes/-",
+      "value": {"weight" : 0.01, "item" : "Tier6SpaceStation"}
+    },
+
+    {
+      "op": "add",
+      "path": "/systemTypes/ClassMStar/orbitRegions/2/satelliteTypes/-",
+      "value": {"weight" : 0.01, "item" : "Tier1SpaceStation"}
+    },
+    {
+      "op": "add",
+      "path": "/systemTypes/ClassMStar/orbitRegions/2/satelliteTypes/-",
+      "value": {"weight" : 0.01, "item" : "Tier2SpaceStation"}
+    },
+    {
+      "op": "add",
+      "path": "/systemTypes/ClassMStar/orbitRegions/2/satelliteTypes/-",
+      "value": {"weight" : 0.01, "item" : "Tier3SpaceStation"}
+    },
+    {
+      "op": "add",
+      "path": "/systemTypes/ClassMStar/orbitRegions/2/satelliteTypes/-",
+      "value": {"weight" : 0.01, "item" : "Tier4SpaceStation"}
+    },
+    {
+      "op": "add",
+      "path": "/systemTypes/ClassMStar/orbitRegions/2/satelliteTypes/-",
+      "value": {"weight" : 0.01, "item" : "Tier5SpaceStation"}
+    },
+    {
+      "op": "add",
+      "path": "/systemTypes/ClassMStar/orbitRegions/2/satelliteTypes/-",
+      "value": {"weight" : 0.01, "item" : "Tier6SpaceStation"}
+    },
+
+    {
+      "op": "add",
+      "path": "/systemTypes/ClassMStar/orbitRegions/3/satelliteTypes/-",
+      "value": {"weight" : 0.01, "item" : "Tier1SpaceStation"}
+    },
+    {
+      "op": "add",
+      "path": "/systemTypes/ClassMStar/orbitRegions/3/satelliteTypes/-",
+      "value": {"weight" : 0.01, "item" : "Tier2SpaceStation"}
+    },
+    {
+      "op": "add",
+      "path": "/systemTypes/ClassMStar/orbitRegions/3/satelliteTypes/-",
+      "value": {"weight" : 0.01, "item" : "Tier3SpaceStation"}
+    },
+    {
+      "op": "add",
+      "path": "/systemTypes/ClassMStar/orbitRegions/3/satelliteTypes/-",
+      "value": {"weight" : 0.01, "item" : "Tier4SpaceStation"}
+    },
+    {
+      "op": "add",
+      "path": "/systemTypes/ClassMStar/orbitRegions/3/satelliteTypes/-",
+      "value": {"weight" : 0.01, "item" : "Tier5SpaceStation"}
+    },
+    {
+      "op": "add",
+      "path": "/systemTypes/ClassMStar/orbitRegions/3/satelliteTypes/-",
+      "value": {"weight" : 0.01, "item" : "Tier6SpaceStation"}
+    },
+
+    {
+      "op": "add",
+      "path": "/systemTypes/ClassMStar/orbitRegions/4/satelliteTypes/-",
+      "value": {"weight" : 0.01, "item" : "Tier1SpaceStation"}
+    },
+    {
+      "op": "add",
+      "path": "/systemTypes/ClassMStar/orbitRegions/4/satelliteTypes/-",
+      "value": {"weight" : 0.01, "item" : "Tier2SpaceStation"}
+    },
+    {
+      "op": "add",
+      "path": "/systemTypes/ClassMStar/orbitRegions/4/satelliteTypes/-",
+      "value": {"weight" : 0.01, "item" : "Tier3SpaceStation"}
+    },
+    {
+      "op": "add",
+      "path": "/systemTypes/ClassMStar/orbitRegions/4/satelliteTypes/-",
+      "value": {"weight" : 0.01, "item" : "Tier4SpaceStation"}
+    },
+
+    {
+      "op": "add",
+      "path": "/systemTypes/ClassMStar/orbitRegions/4/satelliteTypes/-",
+      "value": {"weight" : 0.01, "item" : "Tier5SpaceStation"}
+    },
+    {
+      "op": "add",
+      "path": "/systemTypes/ClassMStar/orbitRegions/4/satelliteTypes/-",
+      "value": {"weight" : 0.01, "item" : "Tier6SpaceStation"}
+    },
+
+
+
+    {
+      "op": "add",
+      "path": "/systemTypes/ClassLStar/orbitRegions/0/satelliteTypes/-",
+      "value": {"weight" : 0.01, "item" : "Tier1SpaceStation"}
+    },
+    {
+      "op": "add",
+      "path": "/systemTypes/ClassLStar/orbitRegions/0/satelliteTypes/-",
+      "value": {"weight" : 0.01, "item" : "Tier2SpaceStation"}
+    },
+    {
+      "op": "add",
+      "path": "/systemTypes/ClassLStar/orbitRegions/0/satelliteTypes/-",
+      "value": {"weight" : 0.01, "item" : "Tier3SpaceStation"}
+    },
+    {
+      "op": "add",
+      "path": "/systemTypes/ClassLStar/orbitRegions/0/satelliteTypes/-",
+      "value": {"weight" : 0.01, "item" : "Tier4SpaceStation"}
+    },
+    {
+      "op": "add",
+      "path": "/systemTypes/ClassLStar/orbitRegions/0/satelliteTypes/-",
+      "value": {"weight" : 0.01, "item" : "Tier5SpaceStation"}
+    },
+    {
+      "op": "add",
+      "path": "/systemTypes/ClassLStar/orbitRegions/0/satelliteTypes/-",
+      "value": {"weight" : 0.01, "item" : "Tier6SpaceStation"}
+    },
+
+    {
+      "op": "add",
+      "path": "/systemTypes/ClassLStar/orbitRegions/1/satelliteTypes/-",
+      "value": {"weight" : 0.01, "item" : "Tier1SpaceStation"}
+    },
+    {
+      "op": "add",
+      "path": "/systemTypes/ClassLStar/orbitRegions/1/satelliteTypes/-",
+      "value": {"weight" : 0.01, "item" : "Tier2SpaceStation"}
+    },
+    {
+      "op": "add",
+      "path": "/systemTypes/ClassLStar/orbitRegions/1/satelliteTypes/-",
+      "value": {"weight" : 0.01, "item" : "Tier3SpaceStation"}
+    },
+    {
+      "op": "add",
+      "path": "/systemTypes/ClassLStar/orbitRegions/1/satelliteTypes/-",
+      "value": {"weight" : 0.01, "item" : "Tier4SpaceStation"}
+    },
+    {
+      "op": "add",
+      "path": "/systemTypes/ClassLStar/orbitRegions/1/satelliteTypes/-",
+      "value": {"weight" : 0.01, "item" : "Tier5SpaceStation"}
+    },
+    {
+      "op": "add",
+      "path": "/systemTypes/ClassLStar/orbitRegions/1/satelliteTypes/-",
+      "value": {"weight" : 0.01, "item" : "Tier6SpaceStation"}
+    },
+
+    {
+      "op": "add",
+      "path": "/systemTypes/ClassLStar/orbitRegions/2/satelliteTypes/-",
+      "value": {"weight" : 0.01, "item" : "Tier1SpaceStation"}
+    },
+    {
+      "op": "add",
+      "path": "/systemTypes/ClassLStar/orbitRegions/2/satelliteTypes/-",
+      "value": {"weight" : 0.01, "item" : "Tier2SpaceStation"}
+    },
+    {
+      "op": "add",
+      "path": "/systemTypes/ClassLStar/orbitRegions/2/satelliteTypes/-",
+      "value": {"weight" : 0.01, "item" : "Tier3SpaceStation"}
+    },
+    {
+      "op": "add",
+      "path": "/systemTypes/ClassLStar/orbitRegions/2/satelliteTypes/-",
+      "value": {"weight" : 0.01, "item" : "Tier4SpaceStation"}
+    },
+    {
+      "op": "add",
+      "path": "/systemTypes/ClassLStar/orbitRegions/2/satelliteTypes/-",
+      "value": {"weight" : 0.01, "item" : "Tier5SpaceStation"}
+    },
+    {
+      "op": "add",
+      "path": "/systemTypes/ClassLStar/orbitRegions/2/satelliteTypes/-",
+      "value": {"weight" : 0.01, "item" : "Tier6SpaceStation"}
+    },
+
+    {
+      "op": "add",
+      "path": "/systemTypes/ClassLStar/orbitRegions/3/satelliteTypes/-",
+      "value": {"weight" : 0.01, "item" : "Tier1SpaceStation"}
+    },
+    {
+      "op": "add",
+      "path": "/systemTypes/ClassLStar/orbitRegions/3/satelliteTypes/-",
+      "value": {"weight" : 0.01, "item" : "Tier2SpaceStation"}
+    },
+    {
+      "op": "add",
+      "path": "/systemTypes/ClassLStar/orbitRegions/3/satelliteTypes/-",
+      "value": {"weight" : 0.01, "item" : "Tier3SpaceStation"}
+    },
+    {
+      "op": "add",
+      "path": "/systemTypes/ClassLStar/orbitRegions/3/satelliteTypes/-",
+      "value": {"weight" : 0.01, "item" : "Tier4SpaceStation"}
+    },
+    {
+      "op": "add",
+      "path": "/systemTypes/ClassLStar/orbitRegions/3/satelliteTypes/-",
+      "value": {"weight" : 0.01, "item" : "Tier5SpaceStation"}
+    },
+    {
+      "op": "add",
+      "path": "/systemTypes/ClassLStar/orbitRegions/3/satelliteTypes/-",
+      "value": {"weight" : 0.01, "item" : "Tier6SpaceStation"}
+    },
+
+    {
+      "op": "add",
+      "path": "/systemTypes/ClassLStar/orbitRegions/4/satelliteTypes/-",
+      "value": {"weight" : 0.01, "item" : "Tier1SpaceStation"}
+    },
+    {
+      "op": "add",
+      "path": "/systemTypes/ClassLStar/orbitRegions/4/satelliteTypes/-",
+      "value": {"weight" : 0.01, "item" : "Tier2SpaceStation"}
+    },
+    {
+      "op": "add",
+      "path": "/systemTypes/ClassLStar/orbitRegions/4/satelliteTypes/-",
+      "value": {"weight" : 0.01, "item" : "Tier3SpaceStation"}
+    },
+    {
+      "op": "add",
+      "path": "/systemTypes/ClassLStar/orbitRegions/4/satelliteTypes/-",
+      "value": {"weight" : 0.01, "item" : "Tier4SpaceStation"}
+    },
+
+    {
+      "op": "add",
+      "path": "/systemTypes/ClassLStar/orbitRegions/4/satelliteTypes/-",
+      "value": {"weight" : 0.01, "item" : "Tier5SpaceStation"}
+    },
+    {
+      "op": "add",
+      "path": "/systemTypes/ClassLStar/orbitRegions/4/satelliteTypes/-",
+      "value": {"weight" : 0.01, "item" : "Tier6SpaceStation"}
+    },
+
+
+
+    {
+      "op": "add",
+      "path": "/systemTypes/ClassFStar/orbitRegions/0/satelliteTypes/-",
+      "value": {"weight" : 0.01, "item" : "Tier1SpaceStation"}
+    },
+    {
+      "op": "add",
+      "path": "/systemTypes/ClassFStar/orbitRegions/0/satelliteTypes/-",
+      "value": {"weight" : 0.01, "item" : "Tier2SpaceStation"}
+    },
+    {
+      "op": "add",
+      "path": "/systemTypes/ClassFStar/orbitRegions/0/satelliteTypes/-",
+      "value": {"weight" : 0.01, "item" : "Tier3SpaceStation"}
+    },
+    {
+      "op": "add",
+      "path": "/systemTypes/ClassFStar/orbitRegions/0/satelliteTypes/-",
+      "value": {"weight" : 0.01, "item" : "Tier4SpaceStation"}
+    },
+    {
+      "op": "add",
+      "path": "/systemTypes/ClassFStar/orbitRegions/0/satelliteTypes/-",
+      "value": {"weight" : 0.01, "item" : "Tier5SpaceStation"}
+    },
+    {
+      "op": "add",
+      "path": "/systemTypes/ClassFStar/orbitRegions/0/satelliteTypes/-",
+      "value": {"weight" : 0.01, "item" : "Tier6SpaceStation"}
+    },
+
+    {
+      "op": "add",
+      "path": "/systemTypes/ClassFStar/orbitRegions/1/satelliteTypes/-",
+      "value": {"weight" : 0.01, "item" : "Tier1SpaceStation"}
+    },
+    {
+      "op": "add",
+      "path": "/systemTypes/ClassFStar/orbitRegions/1/satelliteTypes/-",
+      "value": {"weight" : 0.01, "item" : "Tier2SpaceStation"}
+    },
+    {
+      "op": "add",
+      "path": "/systemTypes/ClassFStar/orbitRegions/1/satelliteTypes/-",
+      "value": {"weight" : 0.01, "item" : "Tier3SpaceStation"}
+    },
+    {
+      "op": "add",
+      "path": "/systemTypes/ClassFStar/orbitRegions/1/satelliteTypes/-",
+      "value": {"weight" : 0.01, "item" : "Tier4SpaceStation"}
+    },
+    {
+      "op": "add",
+      "path": "/systemTypes/ClassFStar/orbitRegions/1/satelliteTypes/-",
+      "value": {"weight" : 0.01, "item" : "Tier5SpaceStation"}
+    },
+    {
+      "op": "add",
+      "path": "/systemTypes/ClassFStar/orbitRegions/1/satelliteTypes/-",
+      "value": {"weight" : 0.01, "item" : "Tier6SpaceStation"}
+    },
+
+    {
+      "op": "add",
+      "path": "/systemTypes/ClassFStar/orbitRegions/2/satelliteTypes/-",
+      "value": {"weight" : 0.01, "item" : "Tier1SpaceStation"}
+    },
+    {
+      "op": "add",
+      "path": "/systemTypes/ClassFStar/orbitRegions/2/satelliteTypes/-",
+      "value": {"weight" : 0.01, "item" : "Tier2SpaceStation"}
+    },
+    {
+      "op": "add",
+      "path": "/systemTypes/ClassFStar/orbitRegions/2/satelliteTypes/-",
+      "value": {"weight" : 0.01, "item" : "Tier3SpaceStation"}
+    },
+    {
+      "op": "add",
+      "path": "/systemTypes/ClassFStar/orbitRegions/2/satelliteTypes/-",
+      "value": {"weight" : 0.01, "item" : "Tier4SpaceStation"}
+    },
+    {
+      "op": "add",
+      "path": "/systemTypes/ClassFStar/orbitRegions/2/satelliteTypes/-",
+      "value": {"weight" : 0.01, "item" : "Tier5SpaceStation"}
+    },
+    {
+      "op": "add",
+      "path": "/systemTypes/ClassFStar/orbitRegions/2/satelliteTypes/-",
+      "value": {"weight" : 0.01, "item" : "Tier6SpaceStation"}
+    },
+
+    {
+      "op": "add",
+      "path": "/systemTypes/ClassFStar/orbitRegions/3/satelliteTypes/-",
+      "value": {"weight" : 0.01, "item" : "Tier1SpaceStation"}
+    },
+    {
+      "op": "add",
+      "path": "/systemTypes/ClassFStar/orbitRegions/3/satelliteTypes/-",
+      "value": {"weight" : 0.01, "item" : "Tier2SpaceStation"}
+    },
+    {
+      "op": "add",
+      "path": "/systemTypes/ClassFStar/orbitRegions/3/satelliteTypes/-",
+      "value": {"weight" : 0.01, "item" : "Tier3SpaceStation"}
+    },
+    {
+      "op": "add",
+      "path": "/systemTypes/ClassFStar/orbitRegions/3/satelliteTypes/-",
+      "value": {"weight" : 0.01, "item" : "Tier4SpaceStation"}
+    },
+    {
+      "op": "add",
+      "path": "/systemTypes/ClassFStar/orbitRegions/3/satelliteTypes/-",
+      "value": {"weight" : 0.01, "item" : "Tier5SpaceStation"}
+    },
+    {
+      "op": "add",
+      "path": "/systemTypes/ClassFStar/orbitRegions/3/satelliteTypes/-",
+      "value": {"weight" : 0.01, "item" : "Tier6SpaceStation"}
+    },
+
+    {
+      "op": "add",
+      "path": "/systemTypes/ClassFStar/orbitRegions/4/satelliteTypes/-",
+      "value": {"weight" : 0.01, "item" : "Tier1SpaceStation"}
+    },
+    {
+      "op": "add",
+      "path": "/systemTypes/ClassFStar/orbitRegions/4/satelliteTypes/-",
+      "value": {"weight" : 0.01, "item" : "Tier2SpaceStation"}
+    },
+    {
+      "op": "add",
+      "path": "/systemTypes/ClassFStar/orbitRegions/4/satelliteTypes/-",
+      "value": {"weight" : 0.01, "item" : "Tier3SpaceStation"}
+    },
+    {
+      "op": "add",
+      "path": "/systemTypes/ClassFStar/orbitRegions/4/satelliteTypes/-",
+      "value": {"weight" : 0.01, "item" : "Tier4SpaceStation"}
+    },
+
+    {
+      "op": "add",
+      "path": "/systemTypes/ClassFStar/orbitRegions/4/satelliteTypes/-",
+      "value": {"weight" : 0.01, "item" : "Tier5SpaceStation"}
+    },
+    {
+      "op": "add",
+      "path": "/systemTypes/ClassFStar/orbitRegions/4/satelliteTypes/-",
+      "value": {"weight" : 0.01, "item" : "Tier6SpaceStation"}
+    },
+
+    {
+      "op": "add",
+      "path": "/systemTypes/ClassFStar/orbitRegions/5/satelliteTypes/-",
+      "value": {"weight" : 0.01, "item" : "Tier1SpaceStation"}
+    },
+    {
+      "op": "add",
+      "path": "/systemTypes/ClassFStar/orbitRegions/5/satelliteTypes/-",
+      "value": {"weight" : 0.01, "item" : "Tier2SpaceStation"}
+    },
+    {
+      "op": "add",
+      "path": "/systemTypes/ClassFStar/orbitRegions/5/satelliteTypes/-",
+      "value": {"weight" : 0.01, "item" : "Tier3SpaceStation"}
+    },
+    {
+      "op": "add",
+      "path": "/systemTypes/ClassFStar/orbitRegions/5/satelliteTypes/-",
+      "value": {"weight" : 0.01, "item" : "Tier4SpaceStation"}
+    },
+    {
+      "op": "add",
+      "path": "/systemTypes/ClassFStar/orbitRegions/5/satelliteTypes/-",
+      "value": {"weight" : 0.01, "item" : "Tier5SpaceStation"}
+    },
+    {
+      "op": "add",
+      "path": "/systemTypes/ClassFStar/orbitRegions/5/satelliteTypes/-",
+      "value": {"weight" : 0.01, "item" : "Tier6SpaceStation"}
+    },
+
+
+
+    {
+      "op": "add",
+      "path": "/systemTypes/ClassGStar/orbitRegions/0/satelliteTypes/-",
+      "value": {"weight" : 0.01, "item" : "Tier1SpaceStation"}
+    },
+    {
+      "op": "add",
+      "path": "/systemTypes/ClassGStar/orbitRegions/0/satelliteTypes/-",
+      "value": {"weight" : 0.01, "item" : "Tier2SpaceStation"}
+    },
+    {
+      "op": "add",
+      "path": "/systemTypes/ClassGStar/orbitRegions/0/satelliteTypes/-",
+      "value": {"weight" : 0.01, "item" : "Tier3SpaceStation"}
+    },
+    {
+      "op": "add",
+      "path": "/systemTypes/ClassGStar/orbitRegions/0/satelliteTypes/-",
+      "value": {"weight" : 0.01, "item" : "Tier4SpaceStation"}
+    },
+    {
+      "op": "add",
+      "path": "/systemTypes/ClassGStar/orbitRegions/0/satelliteTypes/-",
+      "value": {"weight" : 0.01, "item" : "Tier5SpaceStation"}
+    },
+    {
+      "op": "add",
+      "path": "/systemTypes/ClassGStar/orbitRegions/0/satelliteTypes/-",
+      "value": {"weight" : 0.01, "item" : "Tier6SpaceStation"}
+    },
+
+    {
+      "op": "add",
+      "path": "/systemTypes/ClassGStar/orbitRegions/1/satelliteTypes/-",
+      "value": {"weight" : 0.01, "item" : "Tier1SpaceStation"}
+    },
+    {
+      "op": "add",
+      "path": "/systemTypes/ClassGStar/orbitRegions/1/satelliteTypes/-",
+      "value": {"weight" : 0.01, "item" : "Tier2SpaceStation"}
+    },
+    {
+      "op": "add",
+      "path": "/systemTypes/ClassGStar/orbitRegions/1/satelliteTypes/-",
+      "value": {"weight" : 0.01, "item" : "Tier3SpaceStation"}
+    },
+    {
+      "op": "add",
+      "path": "/systemTypes/ClassGStar/orbitRegions/1/satelliteTypes/-",
+      "value": {"weight" : 0.01, "item" : "Tier4SpaceStation"}
+    },
+    {
+      "op": "add",
+      "path": "/systemTypes/ClassGStar/orbitRegions/1/satelliteTypes/-",
+      "value": {"weight" : 0.01, "item" : "Tier5SpaceStation"}
+    },
+    {
+      "op": "add",
+      "path": "/systemTypes/ClassGStar/orbitRegions/1/satelliteTypes/-",
+      "value": {"weight" : 0.01, "item" : "Tier6SpaceStation"}
+    },
+
+    {
+      "op": "add",
+      "path": "/systemTypes/ClassGStar/orbitRegions/2/satelliteTypes/-",
+      "value": {"weight" : 0.01, "item" : "Tier1SpaceStation"}
+    },
+    {
+      "op": "add",
+      "path": "/systemTypes/ClassGStar/orbitRegions/2/satelliteTypes/-",
+      "value": {"weight" : 0.01, "item" : "Tier2SpaceStation"}
+    },
+    {
+      "op": "add",
+      "path": "/systemTypes/ClassGStar/orbitRegions/2/satelliteTypes/-",
+      "value": {"weight" : 0.01, "item" : "Tier3SpaceStation"}
+    },
+    {
+      "op": "add",
+      "path": "/systemTypes/ClassGStar/orbitRegions/2/satelliteTypes/-",
+      "value": {"weight" : 0.01, "item" : "Tier4SpaceStation"}
+    },
+    {
+      "op": "add",
+      "path": "/systemTypes/ClassGStar/orbitRegions/2/satelliteTypes/-",
+      "value": {"weight" : 0.01, "item" : "Tier5SpaceStation"}
+    },
+    {
+      "op": "add",
+      "path": "/systemTypes/ClassGStar/orbitRegions/2/satelliteTypes/-",
+      "value": {"weight" : 0.01, "item" : "Tier6SpaceStation"}
+    },
+
+    {
+      "op": "add",
+      "path": "/systemTypes/ClassGStar/orbitRegions/3/satelliteTypes/-",
+      "value": {"weight" : 0.01, "item" : "Tier1SpaceStation"}
+    },
+    {
+      "op": "add",
+      "path": "/systemTypes/ClassGStar/orbitRegions/3/satelliteTypes/-",
+      "value": {"weight" : 0.01, "item" : "Tier2SpaceStation"}
+    },
+    {
+      "op": "add",
+      "path": "/systemTypes/ClassGStar/orbitRegions/3/satelliteTypes/-",
+      "value": {"weight" : 0.01, "item" : "Tier3SpaceStation"}
+    },
+    {
+      "op": "add",
+      "path": "/systemTypes/ClassGStar/orbitRegions/3/satelliteTypes/-",
+      "value": {"weight" : 0.01, "item" : "Tier4SpaceStation"}
+    },
+    {
+      "op": "add",
+      "path": "/systemTypes/ClassGStar/orbitRegions/3/satelliteTypes/-",
+      "value": {"weight" : 0.01, "item" : "Tier5SpaceStation"}
+    },
+    {
+      "op": "add",
+      "path": "/systemTypes/ClassGStar/orbitRegions/3/satelliteTypes/-",
+      "value": {"weight" : 0.01, "item" : "Tier6SpaceStation"}
+    },
+
+    {
+      "op": "add",
+      "path": "/systemTypes/ClassGStar/orbitRegions/4/satelliteTypes/-",
+      "value": {"weight" : 0.01, "item" : "Tier1SpaceStation"}
+    },
+    {
+      "op": "add",
+      "path": "/systemTypes/ClassGStar/orbitRegions/4/satelliteTypes/-",
+      "value": {"weight" : 0.01, "item" : "Tier2SpaceStation"}
+    },
+    {
+      "op": "add",
+      "path": "/systemTypes/ClassGStar/orbitRegions/4/satelliteTypes/-",
+      "value": {"weight" : 0.01, "item" : "Tier3SpaceStation"}
+    },
+    {
+      "op": "add",
+      "path": "/systemTypes/ClassGStar/orbitRegions/4/satelliteTypes/-",
+      "value": {"weight" : 0.01, "item" : "Tier4SpaceStation"}
+    },
+
+    {
+      "op": "add",
+      "path": "/systemTypes/ClassGStar/orbitRegions/4/satelliteTypes/-",
+      "value": {"weight" : 0.01, "item" : "Tier5SpaceStation"}
+    },
+    {
+      "op": "add",
+      "path": "/systemTypes/ClassGStar/orbitRegions/4/satelliteTypes/-",
+      "value": {"weight" : 0.01, "item" : "Tier6SpaceStation"}
+    },
+
+    {
+      "op": "add",
+      "path": "/systemTypes/ClassGStar/orbitRegions/5/satelliteTypes/-",
+      "value": {"weight" : 0.01, "item" : "Tier1SpaceStation"}
+    },
+    {
+      "op": "add",
+      "path": "/systemTypes/ClassGStar/orbitRegions/5/satelliteTypes/-",
+      "value": {"weight" : 0.01, "item" : "Tier2SpaceStation"}
+    },
+    {
+      "op": "add",
+      "path": "/systemTypes/ClassGStar/orbitRegions/5/satelliteTypes/-",
+      "value": {"weight" : 0.01, "item" : "Tier3SpaceStation"}
+    },
+    {
+      "op": "add",
+      "path": "/systemTypes/ClassGStar/orbitRegions/5/satelliteTypes/-",
+      "value": {"weight" : 0.01, "item" : "Tier4SpaceStation"}
+    },
+    {
+      "op": "add",
+      "path": "/systemTypes/ClassGStar/orbitRegions/5/satelliteTypes/-",
+      "value": {"weight" : 0.01, "item" : "Tier5SpaceStation"}
+    },
+    {
+      "op": "add",
+      "path": "/systemTypes/ClassGStar/orbitRegions/5/satelliteTypes/-",
+      "value": {"weight" : 0.01, "item" : "Tier6SpaceStation"}
+    },
+
+
+
+    {
+      "op": "add",
+      "path": "/systemTypes/ClassKStar/orbitRegions/0/satelliteTypes/-",
+      "value": {"weight" : 0.01, "item" : "Tier1SpaceStation"}
+    },
+    {
+      "op": "add",
+      "path": "/systemTypes/ClassKStar/orbitRegions/0/satelliteTypes/-",
+      "value": {"weight" : 0.01, "item" : "Tier2SpaceStation"}
+    },
+    {
+      "op": "add",
+      "path": "/systemTypes/ClassKStar/orbitRegions/0/satelliteTypes/-",
+      "value": {"weight" : 0.01, "item" : "Tier3SpaceStation"}
+    },
+    {
+      "op": "add",
+      "path": "/systemTypes/ClassKStar/orbitRegions/0/satelliteTypes/-",
+      "value": {"weight" : 0.01, "item" : "Tier4SpaceStation"}
+    },
+    {
+      "op": "add",
+      "path": "/systemTypes/ClassKStar/orbitRegions/0/satelliteTypes/-",
+      "value": {"weight" : 0.01, "item" : "Tier5SpaceStation"}
+    },
+    {
+      "op": "add",
+      "path": "/systemTypes/ClassKStar/orbitRegions/0/satelliteTypes/-",
+      "value": {"weight" : 0.01, "item" : "Tier6SpaceStation"}
+    },
+
+    {
+      "op": "add",
+      "path": "/systemTypes/ClassKStar/orbitRegions/1/satelliteTypes/-",
+      "value": {"weight" : 0.01, "item" : "Tier1SpaceStation"}
+    },
+    {
+      "op": "add",
+      "path": "/systemTypes/ClassKStar/orbitRegions/1/satelliteTypes/-",
+      "value": {"weight" : 0.01, "item" : "Tier2SpaceStation"}
+    },
+    {
+      "op": "add",
+      "path": "/systemTypes/ClassKStar/orbitRegions/1/satelliteTypes/-",
+      "value": {"weight" : 0.01, "item" : "Tier3SpaceStation"}
+    },
+    {
+      "op": "add",
+      "path": "/systemTypes/ClassKStar/orbitRegions/1/satelliteTypes/-",
+      "value": {"weight" : 0.01, "item" : "Tier4SpaceStation"}
+    },
+    {
+      "op": "add",
+      "path": "/systemTypes/ClassKStar/orbitRegions/1/satelliteTypes/-",
+      "value": {"weight" : 0.01, "item" : "Tier5SpaceStation"}
+    },
+    {
+      "op": "add",
+      "path": "/systemTypes/ClassKStar/orbitRegions/1/satelliteTypes/-",
+      "value": {"weight" : 0.01, "item" : "Tier6SpaceStation"}
+    },
+
+    {
+      "op": "add",
+      "path": "/systemTypes/ClassKStar/orbitRegions/2/satelliteTypes/-",
+      "value": {"weight" : 0.01, "item" : "Tier1SpaceStation"}
+    },
+    {
+      "op": "add",
+      "path": "/systemTypes/ClassKStar/orbitRegions/2/satelliteTypes/-",
+      "value": {"weight" : 0.01, "item" : "Tier2SpaceStation"}
+    },
+    {
+      "op": "add",
+      "path": "/systemTypes/ClassKStar/orbitRegions/2/satelliteTypes/-",
+      "value": {"weight" : 0.01, "item" : "Tier3SpaceStation"}
+    },
+    {
+      "op": "add",
+      "path": "/systemTypes/ClassKStar/orbitRegions/2/satelliteTypes/-",
+      "value": {"weight" : 0.01, "item" : "Tier4SpaceStation"}
+    },
+    {
+      "op": "add",
+      "path": "/systemTypes/ClassKStar/orbitRegions/2/satelliteTypes/-",
+      "value": {"weight" : 0.01, "item" : "Tier5SpaceStation"}
+    },
+    {
+      "op": "add",
+      "path": "/systemTypes/ClassKStar/orbitRegions/2/satelliteTypes/-",
+      "value": {"weight" : 0.01, "item" : "Tier6SpaceStation"}
+    },
+
+    {
+      "op": "add",
+      "path": "/systemTypes/ClassKStar/orbitRegions/3/satelliteTypes/-",
+      "value": {"weight" : 0.01, "item" : "Tier1SpaceStation"}
+    },
+    {
+      "op": "add",
+      "path": "/systemTypes/ClassKStar/orbitRegions/3/satelliteTypes/-",
+      "value": {"weight" : 0.01, "item" : "Tier2SpaceStation"}
+    },
+    {
+      "op": "add",
+      "path": "/systemTypes/ClassKStar/orbitRegions/3/satelliteTypes/-",
+      "value": {"weight" : 0.01, "item" : "Tier3SpaceStation"}
+    },
+    {
+      "op": "add",
+      "path": "/systemTypes/ClassKStar/orbitRegions/3/satelliteTypes/-",
+      "value": {"weight" : 0.01, "item" : "Tier4SpaceStation"}
+    },
+    {
+      "op": "add",
+      "path": "/systemTypes/ClassKStar/orbitRegions/3/satelliteTypes/-",
+      "value": {"weight" : 0.01, "item" : "Tier5SpaceStation"}
+    },
+    {
+      "op": "add",
+      "path": "/systemTypes/ClassKStar/orbitRegions/3/satelliteTypes/-",
+      "value": {"weight" : 0.01, "item" : "Tier6SpaceStation"}
+    },
+
+    {
+      "op": "add",
+      "path": "/systemTypes/ClassKStar/orbitRegions/4/satelliteTypes/-",
+      "value": {"weight" : 0.01, "item" : "Tier1SpaceStation"}
+    },
+    {
+      "op": "add",
+      "path": "/systemTypes/ClassKStar/orbitRegions/4/satelliteTypes/-",
+      "value": {"weight" : 0.01, "item" : "Tier2SpaceStation"}
+    },
+    {
+      "op": "add",
+      "path": "/systemTypes/ClassKStar/orbitRegions/4/satelliteTypes/-",
+      "value": {"weight" : 0.01, "item" : "Tier3SpaceStation"}
+    },
+    {
+      "op": "add",
+      "path": "/systemTypes/ClassKStar/orbitRegions/4/satelliteTypes/-",
+      "value": {"weight" : 0.01, "item" : "Tier4SpaceStation"}
+    },
+
+    {
+      "op": "add",
+      "path": "/systemTypes/ClassKStar/orbitRegions/4/satelliteTypes/-",
+      "value": {"weight" : 0.01, "item" : "Tier5SpaceStation"}
+    },
+    {
+      "op": "add",
+      "path": "/systemTypes/ClassKStar/orbitRegions/4/satelliteTypes/-",
+      "value": {"weight" : 0.01, "item" : "Tier6SpaceStation"}
+    },
+
+    {
+      "op": "add",
+      "path": "/systemTypes/ClassKStar/orbitRegions/5/satelliteTypes/-",
+      "value": {"weight" : 0.01, "item" : "Tier1SpaceStation"}
+    },
+    {
+      "op": "add",
+      "path": "/systemTypes/ClassKStar/orbitRegions/5/satelliteTypes/-",
+      "value": {"weight" : 0.01, "item" : "Tier2SpaceStation"}
+    },
+    {
+      "op": "add",
+      "path": "/systemTypes/ClassKStar/orbitRegions/5/satelliteTypes/-",
+      "value": {"weight" : 0.01, "item" : "Tier3SpaceStation"}
+    },
+    {
+      "op": "add",
+      "path": "/systemTypes/ClassKStar/orbitRegions/5/satelliteTypes/-",
+      "value": {"weight" : 0.01, "item" : "Tier4SpaceStation"}
+    },
+    {
+      "op": "add",
+      "path": "/systemTypes/ClassKStar/orbitRegions/5/satelliteTypes/-",
+      "value": {"weight" : 0.01, "item" : "Tier5SpaceStation"}
+    },
+    {
+      "op": "add",
+      "path": "/systemTypes/ClassKStar/orbitRegions/5/satelliteTypes/-",
+      "value": {"weight" : 0.01, "item" : "Tier6SpaceStation"}
+    }
+  ],
+  //end of Truespace
+  //contribution by bk3k
+  [
 {
 	"op": "add",
 	"path": "/systemTypes/White/orbitRegions/0/planetaryTypes/-",
@@ -1065,4 +2759,5 @@
   "worldSize" : "mazetechspace7",
   "atmosphere" : false
 }}
+]
 ]
