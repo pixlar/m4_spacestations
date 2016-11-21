@@ -78,7 +78,11 @@ end
 -- stationevents calls this function BEFORE every event just to make sure
 function resetStation()
 	stationlasers(false)
-	storage.currentEvent = nil
+	enemylasers(false)
+	alarms(false)
+	if  storage.currentEvent ~= nil then
+		clearEvents()
+	end
 --	enemylasers(false, "north")
 --	enemylasers(false, "east")
 --	enemylasers(false, "south")
@@ -110,6 +114,7 @@ end
 
 function awayEffects(cycles)
 	sb.logInfo("You were gone so long :(")
+	resetStation()
 	storage.lastSeen = nil
 end
 

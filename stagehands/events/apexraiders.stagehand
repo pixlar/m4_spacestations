@@ -1,0 +1,9 @@
+{
+  "type" : "apexraiders",
+  "raider" : ["apex","miniknogagent"],
+
+  "scripts" : ["/stagehands/events/raiders.lua"],
+  "scriptDelta" : 30,
+
+  "broadcastArea" : [-30, -30, 30, 30]
+}

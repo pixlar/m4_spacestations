@@ -4,7 +4,7 @@
   "type" : "avianraiders",
   "raider" : ["avian","bandit"],
 
-  "scripts" : ["/stagehands/events/avianraiders.lua"],
+  "scripts" : ["/stagehands/events/raiders.lua"],
   "scriptDelta" : 30,
 
   "broadcastArea" : [-30, -30, 30, 30]

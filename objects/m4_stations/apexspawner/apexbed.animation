@@ -1,0 +1,35 @@
+{
+  "animatedParts" : {
+    "stateTypes" : {
+      "occupied" : {
+        "default" : "true",
+        "priority" : 1,
+        "states" : {
+          "true" : {
+          },
+          "false" : {
+          }
+		}
+	  }
+	},
+    "parts" : {
+	  "bed" : {
+        "partStates" : {
+          "owned" : {
+            "true" : {
+              "properties" : {
+                "image" : "<partImage>:default"
+              }
+            },
+
+            "false" : {
+              "properties" : {
+                "image" : "<partImage>:broken"
+              }
+			}
+		  }
+		}
+	  }
+	}
+  }
+}

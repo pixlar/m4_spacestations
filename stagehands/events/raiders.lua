@@ -36,7 +36,9 @@ function init()
 --  local eventType = config.getParameter("eventType")
   
   if not storage.starttime then
-  	startTimers()
+	sb.logInfo("starting timers. Start Time: "..os.time())
+	storage.starttime = os.time()
+	storage.stage = 1
   end
   sb.logInfo("event started at "..storage.starttime..". Ends at"..storage.starttime+440)
   if not storage.spawnpoints then
@@ -48,6 +50,7 @@ function init()
   end
   -- if this event was abandoned, do stuff and die
 	if os.time() >= (storage.starttime + 440) then
+		sb.logInfo("This is an old event")
 		endEvent()
 	end
   message.setHandler("endEvent", function(_, _) 
@@ -170,9 +173,6 @@ function broadcast(msg)
 end
 
 function startTimers()
-	sb.logInfo("starting timers. Start Time: "..os.time())
-	storage.starttime = os.time()
-	storage.stage = 1
 end
 
 function lasers(toggle)
