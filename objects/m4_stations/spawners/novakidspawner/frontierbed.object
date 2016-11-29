@@ -1,0 +1,53 @@
+{
+  "objectName" : "m4_novakidspawner",
+  "colonyTags" : ["novakid","novakidvillage","misc"],
+  "rarity" : "Common",
+  "category" : "furniture",
+  "price" : 125,
+  "description" : "A sturdy wooden bed with mooshi hide sheets.",
+  "shortdescription" : "Frontier Bed",
+  "race" : "novakid",
+
+  "apexDescription" : "I'm sure these hide sheets keep you warm while you sleep.",
+  "avianDescription" : "Sleeping in leather sheets? I'd much prefer a bed of straw.",
+  "floranDescription" : "A bed made from hunting trophiesss? Floran impresssed, good idea.",
+  "glitchDescription" : "Confused. Are these sheets actually made from animal hide?",
+  "humanDescription" : "I... Wonder if this is real animal hide?",
+  "hylotlDescription" : "I can tell that little thought was put into the making of this bed.",
+  "novakidDescription" : "Now this is a bed I can really get some shut-eye in.",
+
+  "inventoryIcon" : "frontierbedicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "frontierbed.png:default",
+      "imagePosition" : [-24, 0],
+      "animationParts" : {
+        "image" : "/objects/m4_stations/spawners/novakidspawner/frontierbed.png"
+      },
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+  ],
+  
+  "scripts" : ["/objects/m4_stations/respawner.lua"],
+  "scriptDelta" : 60,
+  "spawnraces" : [ "novakid" ],
+  "spawnnpctype" : [ "stationcivilian" ],
+  "respawnTimer" : 300,
+
+  "animation" : "/objects/m4_stations/spawners/bedspawner.animation",
+  "animationPosition" : [-24, 0],
+  
+  "objectType" : "loungeable",
+  "sitFlipDirection" : true,
+  "sitPosition" : [-9, 14],
+  "sitOrientation" : "lay",
+  "sitAngle" : 90,
+  "sitCoverImage" : "/objects/novakid/frontierbed/frontierbedcover.png",
+  "sitEmote" : "sleep",
+  "sitStatusEffects" : [
+    "bed1"
+  ],
+  "sitEffectEmitters" : [ "sleepbubbles" ]
+}

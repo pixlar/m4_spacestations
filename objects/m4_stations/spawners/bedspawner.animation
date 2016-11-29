@@ -1,0 +1,43 @@
+{
+  "animatedParts" : {
+    "stateTypes" : {
+      "bed" : {
+        "default" : "default",
+        "states" : {
+          "broken" : {
+            "frames" : 1
+          },
+          "default" : {
+            "frames" : 1
+          }
+        }
+      }
+    },
+
+    "parts" : {
+      "image" : {
+        "properties" : {
+          "centered" : false,
+          "zLevel" : 1
+        },
+
+        "partStates" : {
+          "bed" : {
+            "broken" : {
+              "properties" : {
+                "image" : "<partImage>:broken"
+              }
+            },
+
+            "default" : {
+              "properties" : {
+                "image" : "<partImage>:default"
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+
+}

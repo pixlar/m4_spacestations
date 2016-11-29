@@ -103,8 +103,10 @@ end
 function clearEvents()
 	storage.currentEvent = nil
 	local stagehands = world.entityQuery(entity.position(), 20, { includedTypes = {"stagehand"}, withoutEntityId = entity.id()})
-	for _,entityId in ipairs(stagehands) do
-		world.sendEntityMessage(entityID, "endEvent")
+	if stagehands ~= nil and #stagehands >= 1 then
+		for _,entityId in ipairs(stagehands) do
+			world.sendEntityMessage(entityID, "endEvent")
+		end
 	end
 end
 

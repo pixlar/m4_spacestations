@@ -26,18 +26,23 @@
   ],
   "sitEffectEmitters" : [ "sleepbubbles" ],
   
-  "scripts" : [ "/objects/m4_stations/respawner.lua" ],
-  "spawnraces" : [ "apex" ],
-  "spawnnpctype" : [ "stationcivilian" ],
-  "npc" : [ "apex", "stationcivilian" ],
+  "scripts" : ["/objects/m4_stations/respawner.lua"],
+  "scriptDelta" : 60,
+  "spawnraces" : "apex",
+  "spawnnpctype" : "stationcivilian",
   "respawnTimer" : 300,
 
-  "inventoryIcon" : "apexbedicon.png",
+  "inventoryIcon" : "/objects/apex/apexbed/apexbedicon.png",
+  "animation" : "/objects/m4_stations/spawners/apexspawner/apexbed.animation",
+  "animationPosition" : [-24, 0],
   "orientations" : [
     
     {
-      "image" : "apexbed.png:<color>",
+      "image" : "/objects/m4_stations/spawners/apexspawner/apexbed.png:default",
       "sitCoverImage" : "/objects/apex/apexbed/apexbedcover.png",
+      "animationParts" : {
+        "image" : "/objects/m4_stations/spawners/apexspawner/apexbed.png"
+      },
       "flipImages" : true,
       "imagePosition" : [-24, 0],
       "spaceScan" : 0.1,
@@ -46,8 +51,11 @@
       "sitPosition" : [-8, 15]
     },
     {
-      "image" : "apexbed.png:<color>",
+      "image" : "/objects/m4_stations/spawners/apexspawner/apexbed.png:default",
       "sitCoverImage" : "/objects/apex/apexbed/apexbedcover.png",
+      "animationParts" : {
+        "image" : "/objects/m4_stations/spawners/apexspawner/apexbed.png"
+      },
       "imagePosition" : [-24, 0],
       "spaceScan" : 0.1,
       "anchors" : [ "bottom" ],

@@ -1,0 +1,51 @@
+{
+  "objectName" : "m4_stationcrew",
+  "colonyTags" : ["outpost"],
+  "rarity" : "Common",
+  "description" : "A chair. You sit in it. Yes.",
+  "shortdescription" : "Padded Metal Chair",
+  "race" : "generic",
+  "category" : "furniture",
+  "printable" : true,
+  "price" : 75,
+
+  "apexDescription" : "A standard chair.",
+  "avianDescription" : "A simple chair.",
+  "floranDescription" : "Sssit!",
+  "glitchDescription" : "Appreciative. A chair. The Glitch occasionally like to sit.",
+  "humanDescription" : "A decent chair.",
+  "hylotlDescription" : "A basic chair, it serves its purpose.",
+  "novakidDescription" : "A functionin' chair.",
+
+  "scripts" : ["/objects/m4_stations/respawner.lua"],
+  "scriptDelta" : 60,
+  "spawnraces" : [ "apex", "avian", "floran", "glitch", "human", "hylotl", "novakid" ],
+  "spawnnpctype" : [ "stationcrew" ],
+  "respawnTimer" : 300,
+
+  "animation" : "/objects/m4_stations/spawners/bedspawner.animation",
+  "animationPosition" : [-8, 0],
+  
+  "inventoryIcon" : "icon.png",
+  "orientations" : [
+    {
+      "dualImage" : "outpostchair.png:default",
+      "animationParts" : {
+        "image" : "/objects/m4_stations/spawners/crewspawner1/outpostchair.png"
+      },
+
+      "imagePosition" : [-8, 0],
+      "frames" : 1,
+      "animationCycle" : 1.0,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+
+    }
+  ],
+
+  "objectType" : "loungeable",
+  "sitFlipDirection" : false,
+  "sitPosition" : [2, 22]
+
+}

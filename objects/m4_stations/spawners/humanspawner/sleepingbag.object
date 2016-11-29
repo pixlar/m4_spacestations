@@ -1,0 +1,57 @@
+{
+  "objectName" : "m4_humanspawner",
+  "colonyTags" : ["human","explorer"],
+  "rarity" : "Common",
+  "description" : "It's a sleeping bag. It's not the comfiest, but it'll do.",
+  "shortdescription" : "Blue Sleeping Bag",
+  "race" : "generic",
+  "category" : "furniture",
+  "price" : 105,
+
+  "apexDescription" : "Rebel Apex spend many nights sleeping in these.",
+  "avianDescription" : "Sleeping here would be uncomfortable on the feathers.",
+  "floranDescription" : "Floran does not like sssleeping in bag.",
+  "glitchDescription" : "Sarcasm. Oh how wonderful.",
+  "humanDescription" : "A sleeping bag. Good protection against the elements in a pinch.",
+  "hylotlDescription" : "Do these work underwater?",
+  "novakidDescription" : "It won't get me the best night's sleep, but it'll do in a pinch.",
+  
+  "scripts" : ["/objects/m4_stations/respawner.lua"],
+  "scriptDelta" : 60,
+  "spawnraces" : [ "human" ],
+  "spawnnpctype" : [ "stationcivilian" ],
+  "respawnTimer" : 300,
+  
+  "animation" : "/objects/m4_stations/spawners/bedspawner.animation",
+  "animationPosition" : [-24, 0],
+
+  "objectType" : "loungeable",
+  "sitFlipDirection" : true,
+  "sitPosition" : [14, 5],
+  "sitOrientation" : "lay",
+  "sitAngle" : -90,
+  "sitCoverImage" : "/objects/generic/sleepingbag/sleepingbagcover.png",
+  "sitEmote" : "sleep",
+  "sitStatusEffects" : [
+    "bed1"
+  ],
+  "sitEffectEmitters" : [ "sleepbubbles" ],
+
+  "inventoryIcon" : "sleepingbagicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "sleepingbag.png:default",
+      "animationParts" : {
+        "image" : "/objects/m4_stations/spawners/humanspawner/sleepingbag.png"
+      },
+
+      "imagePosition" : [-24, 0],
+      "frames" : 1,
+      "animationCycle" : 1.0,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+
+    }
+  ]
+}

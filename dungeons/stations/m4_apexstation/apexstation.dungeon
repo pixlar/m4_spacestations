@@ -1,0 +1,116 @@
+{
+  "metadata" : {
+    "name" : "m4_apexstation",
+    "species" : "apex",
+    "rules" : [
+    ],
+    "anchor" : [ "apexbase2" ],
+    "gravity" : 60,
+    "maxRadius" : 1000000,
+    "maxParts" : 100,
+    "protected" : true
+  },
+
+  "parts" : [
+
+    // STATION LAYOUTS
+    {
+      "name" : "apexbase2",
+      "rules" : [
+        [ "doNotCombineWith", [ "apexbase2" ] ]
+      ],
+      "def" : [ "tmx", "apexbase2.json" ],
+      "chance" : 1
+    },
+    
+    // ROOMS
+    {
+      "name" : "apexMetalworkRoom",
+      "rules" : [
+        [ "maxSpawnCount", [1] ]
+      ],
+      "def" : [ "tmx", "apexMetalworkRoom.json" ],
+      "chance" : 1
+    },
+    {
+      "name" : "apexKitchenRoom",
+      "rules" : [
+        [ "maxSpawnCount", [1] ]
+      ],
+      "def" : [ "tmx", "apexKitchenRoom.json" ],
+      "chance" : 1
+    },
+    {
+      "name" : "apexGuardRoom",
+      "rules" : [
+        [ "maxSpawnCount", [3] ]
+      ],
+      "def" : [ "tmx", "apexGuardRoom.json" ],
+      "chance" : 1
+    },
+    {
+      "name" : "apexStorageRoom",
+      "rules" : [
+        [ "maxSpawnCount", [1] ]
+      ],
+      "def" : [ "tmx", "apexStorageRoom.json" ],
+      "chance" : 1
+    },
+    {
+      "name" : "apexMutantRoom",
+      "rules" : [
+        [ "maxSpawnCount", [2] ]
+      ],
+      "def" : [ "tmx", "apexMutantRoom.json" ],
+      "chance" : 1
+    },
+    {
+      "name" : "apexApexRoom",
+      "rules" : [
+        [ "maxSpawnCount", [5] ]
+      ],
+      "def" : [ "tmx", "apexApexRoom.json" ],
+      "chance" : 1
+    },
+    {
+      "name" : "apexHumanRoom",
+      "rules" : [
+        [ "maxSpawnCount", [1] ]
+      ],
+      "def" : [ "tmx", "apexHumanRoom.json" ],
+      "chance" : 1
+    },
+    {
+      "name" : "apexMerchantRoom1",
+      "rules" : [
+        [ "maxSpawnCount", [1] ]
+      ],
+      "def" : [ "tmx", "apexMerchantRoom1.json" ],
+      "chance" : 1
+    },
+    {
+      "name" : "apexMerchantRoom2",
+      "rules" : [
+        [ "maxSpawnCount", [1] ]
+      ],
+      "def" : [ "tmx", "apexMerchantRoom2.json" ],
+      "chance" : 1
+    },
+    {
+      "name" : "apexLabRoom1",
+      "rules" : [
+        [ "maxSpawnCount", [3] ]
+      ],
+      "def" : [ "tmx", "apexLabRoom1.json" ],
+      "chance" : 1
+    },
+    {
+      "name" : "apexEmptyRoom",
+      "rules" : [
+        [ "maxSpawnCount", [10] ]
+      ],
+      "def" : [ "tmx", "apexEmptyRoom.json" ],
+      "chance" : 1
+    }
+  ]
+}

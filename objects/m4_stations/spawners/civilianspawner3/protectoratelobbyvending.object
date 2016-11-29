@@ -1,0 +1,68 @@
+{
+  "objectName" : "m4_civilianspawner3",
+  "rarity" : "Common",
+  "category" : "decorative",
+  "price" : 50,
+  "printable" : false,
+
+  "description" : "A vending machine from the Protectorate Lobby.",
+  "shortdescription" : "Protectorate Vending Machine",
+  "race" : "protectorate",
+
+  "apexDescription" : "This vending machine sells drinks and snacks.",
+  "avianDescription" : "You can buy energising drinks from this machine.",
+  "floranDescription" : "Energy drinksss help Floran ssstudy for exams!",
+  "glitchDescription" : "Disappointed. These energy drinks do little for Glitch.",
+  "humanDescription" : "Oh man. I've drunk way too many of these energy drinks.",
+  "hylotlDescription" : "A vending machine for purchasing sugary drinks and snacks.",
+  "novakidDescription" : "These energy drinks can keep you up all night. Crazy, I tell ye.",
+
+  "interactAction" : "OpenMerchantInterface",
+  "interactData" : {
+    "config" : "/interface/windowconfig/vendingmachine.config",
+    "paneLayoutOverride" : {
+      "windowtitle" : {
+        "title" : " Vending Machine",
+        "subtitle" : " Tasty Snacks"
+      }
+    },
+    "buyFactor" : 0.5,
+    "sellFactor" : 0.2,
+    "items" : [
+      { "item" : "oculemonade" },
+      { "item" : "soda" },
+      { "item" : "chocolate" },
+      { "item" : "bottledwater" }
+    ]
+  },
+
+  
+  "scripts" : ["/objects/m4_stations/respawner.lua"],
+  "scriptDelta" : 60,
+  "spawnraces" : [ "apex", "avian", "floran", "glitch", "human", "hylotl", "novakid" ],
+  "spawnnpctype" : [ "stationcivilian" ],
+  "respawnTimer" : 300,
+
+  "animation" : "/objects/m4_stations/spawners/bedspawner.animation",
+  "animationPosition" : [-14, 0],
+  
+  "inventoryIcon" : "protectoratelobbyvendingicon.png",
+  "orientations" : [
+    {
+      "image" : "protectoratelobbyvending.png:default",
+      "animationParts" : {
+        "image" : "/objects/m4_stations/spawners/civilianspawner3/protectoratelobbyvending.png"
+      },
+      "imagePosition" : [-14, -0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : ["bottom"]
+
+    }
+  ],
+
+  "soundEffect" : "/sfx/objects/fluorescent_light_loud.ogg",
+  "soundEffectRangeMultiplier" : 0.5
+}

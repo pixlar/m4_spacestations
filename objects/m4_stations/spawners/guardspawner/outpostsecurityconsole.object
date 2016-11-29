@@ -1,0 +1,65 @@
+{
+  "objectName" : "m4_guardspawner",
+  "colonyTags" : ["outpost","electronic"],
+  "rarity" : "Common",
+  "description" : "A security console. For keeping things secure.",
+  "shortdescription" : "Standing Security Console",
+  "race" : "generic",
+  "category" : "decorative",
+  "printable" : true,
+  "price" : 70,
+  "lightColor" : [22, 31, 36],
+
+  "apexDescription" : "A security console.",
+  "avianDescription" : "A security console...",
+  "floranDescription" : "A ssecurity console... But how can a console make Floran sssecure?",
+  "glitchDescription" : "Uneasy. Not sure I should touch this security console.",
+  "humanDescription" : "A security console. I can turn it on and off again.",
+  "hylotlDescription" : "This console is part of the security system.",
+  "novakidDescription" : "If I press enough buttons it might do somethin'.",
+
+  "inventoryIcon" : "icon.png",
+
+  "scripts" : ["/objects/m4_stations/respawner.lua"],
+  "scriptDelta" : 60,
+  "spawnraces" : [ "apex", "avian", "floran", "glitch", "human", "hylotl", "novakid" ],
+  "spawnnpctype" : [ "villageguard" ],
+  "respawnTimer" : 300,
+
+  "animation" : "/objects/m4_stations/spawners/bedspawner.animation",
+  "animationPosition" : [-16, 0],
+  
+  "orientations" : [
+    {
+      "image" : "outpostsecurityconsoleold.png:default",
+      "animationParts" : {
+        "image" : "/objects/m4_stations/spawners/guardspawner/outpostsecurityconsoleold.png"
+      },
+      "flipImages" : true,
+      "direction" : "left",
+      "lightPosition" : [0, 1],
+      
+      "imagePosition" : [-16, 0],
+      "frames" : 1,
+      "animationCycle" : 1.0,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    },
+    {
+      "image" : "outpostsecurityconsoleold.png:default",
+      "animationParts" : {
+        "image" : "/objects/m4_stations/spawners/guardspawner/outpostsecurityconsoleold.png"
+      },
+      "direction" : "right",
+      "lightPosition" : [0, 1],
+      
+      "imagePosition" : [-16, 0],
+      "frames" : 1,
+      "animationCycle" : 1.0,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+  ]
+}
