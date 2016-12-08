@@ -14,6 +14,36 @@
       "name" : "station greenhouse",
       "tags" : [ "station", "friendly" ]
     },
+    "engineroom" : {
+      "name" : "station engine room",
+      "tags" : [ "station", "friendly" ]
+    },
+    "teleporter" : {
+      "name" : "teleporter room",
+      "tags" : [ "station", "friendly" ]
+    }
+}
+},
+{
+	"op": "add",
+	"path": "/m4_apexstation",
+	"value": {
+    "dockingbay1" : {
+      "name" : "entrance to docking bay one",
+      "tags" : [ "station", "friendly" ]
+    },
+    "commandcenter" : {
+      "name" : "station command",
+      "tags" : [ "station", "friendly" ]
+    },
+    "greenhouse" : {
+      "name" : "station greenhouse",
+      "tags" : [ "station", "friendly" ]
+    },
+    "engineroom" : {
+      "name" : "station engine room",
+      "tags" : [ "station", "friendly" ]
+    },
     "teleporter" : {
       "name" : "teleporter room",
       "tags" : [ "station", "friendly" ]

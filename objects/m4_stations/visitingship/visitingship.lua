@@ -17,6 +17,7 @@ function init()
 		local newship = selectShip()
 		storage.currentship = newship
 		setDeparture()
+		storage.dock = nearestDock()
 		if storage.dock ~= nil then
 			spawnAllCrew()
 		end
@@ -24,13 +25,15 @@ function init()
 	displayShip(storage.currentship.shipType)
 	sb.logInfo("ship in: "..storage.currentship.shipType)
 	self.crewIDs = {}
-	updateCrew()
 end
 
 function update(dt)
 	rotationTime = config.getParameter("visitTime")
 	if storage.currentState == "idle" then
 		animator.resetTransformationGroup("shiptransform")
+		if #storage.crew < 1 then
+			spawnAllCrew()
+		end
 		if os.time() >= storage.shipDepart then
 			recallAllCrewmembers()
 			departShip()
@@ -99,7 +102,7 @@ end
 function nearestDock()
 	local stagehands = world.entityQuery(entity.position(), 200, { includedTypes = {"stagehand"}, order = "nearest" })
 	for _,entityId in pairs(stagehands) do
-		if world.stagehandType(entityId) == "questlocation" then
+		if world.stagehandType(entityId) == "questlocation" or world.stagehandType(entityId) == "stationlocation" then
 			location = world.entityPosition(entityId)
 			sb.logInfo(util.tableToString(location))
 			dock = {location[1]-4,location[2]-4,location[1]+4,location[2]+4}
@@ -140,10 +143,6 @@ function spawnCrewmember(species, npcType, location)
 end
 
 function recallAllCrewmembers()
-	if self.crewIDs == {} then 
-		updateCrew()
-	end
-	nearbyNPCs = world.npcQuery(entity.position(), 400)
 	for _,crewID in ipairs(storage.crew) do
       local entityId = world.loadUniqueEntity(crewID)
       if entityId ~= 0 then
@@ -151,19 +150,4 @@ function recallAllCrewmembers()
       end
 	end
 	storage.crew = {}
-end
-
---stores current crew IDs, instead of UIDs
-function updateCrew()
-	self.crewIDs = {}
-	nearbyNPCs = world.npcQuery(entity.position(), 300)
-	for crewUID in ipairs(storage.crew) do
-		for _,npc in ipairs(nearbyNPCs) do
-			if world.entityUniqueId(npc) == crewUID then
-				table.insert(self.crewIDs, npc)
-				break
-			end
-		end
-	end
-	return self.crewIDs
 end

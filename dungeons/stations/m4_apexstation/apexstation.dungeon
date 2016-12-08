@@ -20,7 +20,7 @@
         [ "doNotCombineWith", [ "apexbase2" ] ]
       ],
       "def" : [ "tmx", "apexbase2.json" ],
-      "chance" : 1
+      "chance" : 5
     },
     
     // ROOMS
@@ -30,7 +30,7 @@
         [ "maxSpawnCount", [1] ]
       ],
       "def" : [ "tmx", "apexMetalworkRoom.json" ],
-      "chance" : 1
+      "chance" : 5
     },
     {
       "name" : "apexKitchenRoom",
@@ -38,7 +38,7 @@
         [ "maxSpawnCount", [1] ]
       ],
       "def" : [ "tmx", "apexKitchenRoom.json" ],
-      "chance" : 1
+      "chance" : 5
     },
     {
       "name" : "apexGuardRoom",
@@ -46,7 +46,7 @@
         [ "maxSpawnCount", [3] ]
       ],
       "def" : [ "tmx", "apexGuardRoom.json" ],
-      "chance" : 1
+      "chance" : 5
     },
     {
       "name" : "apexStorageRoom",
@@ -54,7 +54,7 @@
         [ "maxSpawnCount", [1] ]
       ],
       "def" : [ "tmx", "apexStorageRoom.json" ],
-      "chance" : 1
+      "chance" : 5
     },
     {
       "name" : "apexMutantRoom",
@@ -62,7 +62,7 @@
         [ "maxSpawnCount", [2] ]
       ],
       "def" : [ "tmx", "apexMutantRoom.json" ],
-      "chance" : 1
+      "chance" : 5
     },
     {
       "name" : "apexApexRoom",
@@ -70,7 +70,7 @@
         [ "maxSpawnCount", [5] ]
       ],
       "def" : [ "tmx", "apexApexRoom.json" ],
-      "chance" : 1
+      "chance" : 5
     },
     {
       "name" : "apexHumanRoom",
@@ -78,7 +78,7 @@
         [ "maxSpawnCount", [1] ]
       ],
       "def" : [ "tmx", "apexHumanRoom.json" ],
-      "chance" : 1
+      "chance" : 5
     },
     {
       "name" : "apexMerchantRoom1",
@@ -86,7 +86,7 @@
         [ "maxSpawnCount", [1] ]
       ],
       "def" : [ "tmx", "apexMerchantRoom1.json" ],
-      "chance" : 1
+      "chance" : 5
     },
     {
       "name" : "apexMerchantRoom2",
@@ -94,7 +94,7 @@
         [ "maxSpawnCount", [1] ]
       ],
       "def" : [ "tmx", "apexMerchantRoom2.json" ],
-      "chance" : 1
+      "chance" : 5
     },
     {
       "name" : "apexLabRoom1",
@@ -102,7 +102,7 @@
         [ "maxSpawnCount", [3] ]
       ],
       "def" : [ "tmx", "apexLabRoom1.json" ],
-      "chance" : 1
+      "chance" : 5
     },
     {
       "name" : "apexEmptyRoom",

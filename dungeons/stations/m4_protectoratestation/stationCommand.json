@@ -589,22 +589,6 @@
                  "width":40,
                  "x":296,
                  "y":96
-                }, 
-                {
-                 "height":128,
-                 "id":1000,
-                 "name":"",
-                 "properties":
-                    {
-                     "properties":"{\"locationType\":\"m4_protectoratestation.commandcenter\"}",
-                     "stagehand":"questlocation"
-                    },
-                 "rotation":0,
-                 "type":"",
-                 "visible":true,
-                 "width":352,
-                 "x":144,
-                 "y":128
                 }],
          "opacity":1,
          "type":"objectgroup",
@@ -760,6 +744,22 @@
                  "width":8,
                  "x":600,
                  "y":264
+                }, 
+                {
+                 "height":128,
+                 "id":1000,
+                 "name":"",
+                 "properties":
+                    {
+                     "properties":"{\"locationType\":\"m4_protectoratestation.commandcenter\"}",
+                     "stagehand":"stationlocation"
+                    },
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":352,
+                 "x":144,
+                 "y":128
                 }],
          "opacity":1,
          "type":"objectgroup",

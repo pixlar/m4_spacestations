@@ -228,6 +228,44 @@
   "value": ["A Hylotl Space Base."]
 },
 //-------------------------------------------------------------------------------------------
+//M4 Apex Station
+//-------------------------------------------------------------------------------------------
+{
+  "op": "add",
+  "path": "/planetTypeToDescription/m4_apexstation1",
+  "value": ["A Miniknog Space Base."]
+},
+{
+  "op": "add",
+  "path": "/planetTypeToDescription/m4_apexstation2",
+  "value": ["This station is broadcasting Big Ape propaganda."]
+},
+{
+  "op": "add",
+  "path": "/planetTypeToDescription/m4_apexstation3",
+  "value": ["A Miniknog Space Base."]
+},
+{
+  "op": "add",
+  "path": "/planetTypeToDescription/m4_apexstation4",
+  "value": ["This station is broadcasting Big Ape propaganda."]
+},
+{
+  "op": "add",
+  "path": "/planetTypeToDescription/m4_apexstation5",
+  "value": ["A Miniknog Space Base."]
+},
+{
+  "op": "add",
+  "path": "/planetTypeToDescription/m4_apexstation6",
+  "value": ["This station is broadcasting Big Ape propaganda."]
+},
+{
+  "op": "add",
+  "path": "/planetTypeToDescription/m4_apexstation7",
+  "value": ["A Miniknog Space Base."]
+},
+//-------------------------------------------------------------------------------------------
 //M4 Glitch Station
 //-------------------------------------------------------------------------------------------
 {

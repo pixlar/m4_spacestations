@@ -2,7 +2,6 @@
   // stationevents will spawn an event stagehand that handles the event
   // at event end, the event resets the timer on the stationevents stagehand and kills itself
   "type" : "stationmanager",
-  "events" : ["apexraiders", "avianraiders", "floranraiders", "calm"],
   //time between possible events in seconds
   "eventPeriod" : 600,
 

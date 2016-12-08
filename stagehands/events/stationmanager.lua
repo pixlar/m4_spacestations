@@ -2,7 +2,7 @@ require "/scripts/util.lua"
 
 function init()
 	self.eventPeriod = config.getParameter("eventPeriod")
-	self.events = config.getParameter("events")
+	self.events = config.getParameter("events", {"apexraiders", "avianraiders", "floranraiders", "calm"})
 	if storage.lastSeen ~= nil and (os.time() - storage.lastSeen) >= 14400 then
 		awayCycles = math.floor((os.time() - storage.lastSeen)/self.eventPeriod)
 		awayEffects(awayCycles)
@@ -105,9 +105,10 @@ function clearEvents()
 	local stagehands = world.entityQuery(entity.position(), 20, { includedTypes = {"stagehand"}, withoutEntityId = entity.id()})
 	if stagehands ~= nil and #stagehands >= 1 then
 		for _,entityId in ipairs(stagehands) do
-			world.sendEntityMessage(entityID, "endEvent")
+			world.sendEntityMessage(entityId, "endEvent")
 		end
 	end
+	resetStation()
 end
 
 function uninit()

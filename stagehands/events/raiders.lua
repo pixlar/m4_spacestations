@@ -115,8 +115,8 @@ function spawnLocations()
 	local spawnpoints ={}
 	local stagehands = world.entityQuery(entity.position(), 200, { includedTypes = {"stagehand"}})
 	for _,entityId in pairs(stagehands) do
-		if world.stagehandType(entityId) == "questlocation" then
-			sb.logInfo("spawnpoint found: ")
+		if world.stagehandType(entityId) == "questlocation" or world.stagehandType(entityId) == "stationlocation" then
+--			sb.logInfo("spawnpoint found: ")
 			location = world.entityPosition(entityId)
 			table.insert(spawnpoints,location)
 		end

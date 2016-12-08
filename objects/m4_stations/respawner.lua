@@ -8,7 +8,7 @@ function update()
 	local owner = inhabitant()
 	
 	if storage.owner ~= nil and not world.entityExists(owner)then
-		sb.logInfo("I have an owner and he is dead")
+--		sb.logInfo("I have an owner and he is dead")
 		setRespawn()
 		state(false)
 	end
@@ -20,7 +20,7 @@ function update()
 end
 
 function spawnInhabitant()
-	sb.logInfo("spawning owner")
+--	sb.logInfo("spawning owner")
 --	local npc = config.getParameter("npc")
 	local npcRace = config.getParameter("spawnraces")
 	local npcType = config.getParameter("spawnnpctype")
@@ -35,14 +35,13 @@ function spawnInhabitant()
 	pos = entity.position()
 	pos = {pos[1],pos[2]+2}
 	owner = world.spawnNpc(pos, npcRace, npcType, world.threatLevel())
-	sb.logInfo("setting unique id")
+--	sb.logInfo("setting unique id")
 	newUID = sb.makeUuid()
 	world.setUniqueId(owner, newUID)
 	storage.owner = newUID
-	if storage.owner ~= nil then 
-		sb.logInfo(storage.owner)
-	end
---	state(true)
+--	if storage.owner ~= nil then 
+--		sb.logInfo(storage.owner)
+--	end
 end
 
 function setRespawn()

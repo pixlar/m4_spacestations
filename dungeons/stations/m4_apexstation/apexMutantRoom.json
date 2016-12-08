@@ -84,28 +84,13 @@
                  "name":"",
                  "properties":
                     {
-                     "object":"m4_humanspawner"
+                     "object":"m4_civilianspawner"
                     },
                  "rotation":0,
                  "type":"",
                  "visible":true,
                  "width":8,
                  "x":48,
-                 "y":112
-                }, 
-                {
-                 "height":8,
-                 "id":795,
-                 "name":"",
-                 "properties":
-                    {
-                     "object":"m4_humanspawner"
-                    },
-                 "rotation":0,
-                 "type":"",
-                 "visible":true,
-                 "width":8,
-                 "x":176,
                  "y":112
                 }, 
                 {
@@ -187,6 +172,21 @@
                  "width":11,
                  "x":152,
                  "y":40
+                }, 
+                {
+                 "height":8,
+                 "id":812,
+                 "name":"",
+                 "properties":
+                    {
+                     "object":"m4_civilianspawner2"
+                    },
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":8,
+                 "x":152,
+                 "y":112
                 }],
          "opacity":1,
          "type":"objectgroup",
@@ -227,7 +227,7 @@
                  "visible":true,
                  "width":32,
                  "x":96,
-                 "y":56
+                 "y":40
                 }],
          "opacity":1,
          "type":"objectgroup",
@@ -285,7 +285,7 @@
          "x":0,
          "y":0
         }],
- "nextobjectid":812,
+ "nextobjectid":813,
  "orientation":"orthogonal",
  "properties":
     {

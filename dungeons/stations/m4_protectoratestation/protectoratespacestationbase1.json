@@ -3710,22 +3710,6 @@
                  "y":1120
                 }, 
                 {
-                 "height":104,
-                 "id":1663,
-                 "name":"",
-                 "properties":
-                    {
-                     "parameters":"{\"locationType\":\"m4_protectoratestation.greenhouse\"}",
-                     "stagehand":"questlocation"
-                    },
-                 "rotation":0,
-                 "type":"",
-                 "visible":true,
-                 "width":128,
-                 "x":2088,
-                 "y":624
-                }, 
-                {
                  "height":8,
                  "id":1665,
                  "name":"",
@@ -4970,6 +4954,7 @@
                  "name":"",
                  "properties":
                     {
+                     "parameters":"{\"events\" : [\"apexraiders\", \"avianraiders\", \"floranraiders\", \"calm\"]}",
                      "stagehand":"stationmanager"
                     },
                  "rotation":0,
@@ -4986,7 +4971,7 @@
                  "properties":
                     {
                      "parameters":"{\"locationType\":\"m4_protectoratestation.dockingbay1\"}",
-                     "stagehand":"questlocation"
+                     "stagehand":"stationlocation"
                     },
                  "rotation":0,
                  "type":"",
@@ -5002,7 +4987,7 @@
                  "properties":
                     {
                      "parameters":"{\"locationType\":\"m4_protectoratestation.teleporter\"}",
-                     "stagehand":"questlocation"
+                     "stagehand":"stationlocation"
                     },
                  "rotation":0,
                  "type":"",
@@ -5010,10 +4995,26 @@
                  "width":128,
                  "x":1456,
                  "y":1080
+                }, 
+                {
+                 "height":104,
+                 "id":1663,
+                 "name":"",
+                 "properties":
+                    {
+                     "parameters":"{\"locationType\":\"m4_protectoratestation.greenhouse\"}",
+                     "stagehand":"stationlocation"
+                    },
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":128,
+                 "x":2088,
+                 "y":624
                 }],
          "opacity":1,
          "type":"objectgroup",
-         "visible":false,
+         "visible":true,
          "width":0,
          "x":0,
          "y":0
