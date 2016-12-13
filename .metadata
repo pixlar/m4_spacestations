@@ -1,0 +1,11 @@
+{
+  "author" : "magewish4",
+  "description" : "Space Stations for every race, with events.",
+  "friendlyName" : "M4's Space Stations",
+  "link" : "",
+  "name" : "m4_spacestations",
+  "includes" : ["TrueSpace"],
+  "path" : ".",
+  "steamContentId" : "",
+  "version" : ".6"
+}
