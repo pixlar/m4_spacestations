@@ -31,7 +31,7 @@ function update(dt)
 	rotationTime = config.getParameter("visitTime")
 	if storage.currentState == "idle" then
 		animator.resetTransformationGroup("shiptransform")
-		if #storage.crew < 1 then
+		if #storage.crew < 1 and storage.currentship ~= "none" then
 			spawnAllCrew()
 		end
 		if os.time() >= storage.shipDepart then

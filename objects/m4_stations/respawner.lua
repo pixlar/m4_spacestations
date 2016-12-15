@@ -24,6 +24,13 @@ function spawnInhabitant()
 --	local npc = config.getParameter("npc")
 	local npcRace = config.getParameter("spawnraces")
 	local npcType = config.getParameter("spawnnpctype")
+	self.stationSpecies = world.getProperty("species", nil)
+	if self.stationSpecies ~= nil and (object.name() == "m4_guardspawner" or object.name() == "m4_stationcrew") then
+		local roll = math.random(10)
+		if roll > 2 then
+			npcRace = self.stationSpecies
+		end
+	end
 	if type(npcRace) == "table" then 
 		shuffle(npcRace)
 		npcRace = npcRace[1]

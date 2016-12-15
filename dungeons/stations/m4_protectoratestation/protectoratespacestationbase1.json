@@ -4954,7 +4954,7 @@
                  "name":"",
                  "properties":
                     {
-                     "parameters":"{\"events\" : [\"apexraiders\", \"avianraiders\", \"floranraiders\", \"calm\"]}",
+                     "parameters":"{\"stationType\" : \"protectorate\"}",
                      "stagehand":"stationmanager"
                     },
                  "rotation":0,

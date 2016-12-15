@@ -2875,7 +2875,7 @@
                  "name":"",
                  "properties":
                     {
-                     "parameters":"{\"events\" : [\"apexraiders\", \"avianraiders\", \"floranraiders\", \"calm\"]}",
+                     "parameters":"{\"stationType\" : \"apexminiknog\"}",
                      "stagehand":"stationmanager"
                     },
                  "rotation":0,

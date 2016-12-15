@@ -2,12 +2,23 @@ require "/scripts/util.lua"
 
 function init()
 	self.eventPeriod = config.getParameter("eventPeriod")
-	self.events = config.getParameter("events", {"apexraiders", "avianraiders", "floranraiders", "calm"})
+	
+	storage.stationType = config.getParameter("stationType", nil)
+	if storage.stationType ~= nil then
+		self.station = root.assetJson("/stagehands/events/stations.config:" .. storage.stationType)
+		self.events = self.station.events
+		world.setProperty("species", self.station.species)
+	else
+		self.events = config.getParameter("events", {"apexraiders", "avianraiders", "floranraiders", "calm"})
+	end
+	
 	if storage.lastSeen ~= nil and (os.time() - storage.lastSeen) >= 14400 then
 		awayCycles = math.floor((os.time() - storage.lastSeen)/self.eventPeriod)
 		awayEffects(awayCycles)
 	end
-	resetStation()
+	
+	storage.needsCleanup = true
+	
   message.setHandler("stationlasers", function(_, _, toggle) 
 	stationlasers(toggle)
   end)
@@ -26,6 +37,12 @@ function init()
 end
 
 function update()
+
+	if storage.needsCleanup then
+		resetStation()
+		storage.needsCleanup = false
+	end
+	
 -- every 20 minutes, start a new event
 	if os.time() % self.eventPeriod == 0 and storage.eventStart ~= os.time() and storage.currentEvent == nil then
 		clearEvents()
@@ -42,7 +59,7 @@ function update()
 	
 -- fire random lasers
 	if (storage.enemylaserswitch) then
-		sb.logInfo("enemy lasers are on")
+--		sb.logInfo("enemy lasers are on")
 		local enemylasers = world.objectQuery(entity.position(), 4000, { name="enemylaser" })
 		shuffle(enemylasers)
 		world.sendEntityMessage(enemylasers[1], "switch", true)

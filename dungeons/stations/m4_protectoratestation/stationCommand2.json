@@ -260,7 +260,7 @@
                  "name":"",
                  "properties":
                     {
-                     "object":"m4_stationcrew"
+                     "object":"m4_guardspawner"
                     },
                  "rotation":0,
                  "type":"",
@@ -327,6 +327,21 @@
                  "visible":true,
                  "width":8,
                  "x":352,
+                 "y":256
+                }, 
+                {
+                 "height":8,
+                 "id":1029,
+                 "name":"",
+                 "properties":
+                    {
+                     "object":"m4_guardspawner"
+                    },
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":8,
+                 "x":400,
                  "y":256
                 }],
          "opacity":1,
@@ -443,7 +458,7 @@
          "x":0,
          "y":0
         }],
- "nextobjectid":1029,
+ "nextobjectid":1030,
  "orientation":"orthogonal",
  "properties":
     {

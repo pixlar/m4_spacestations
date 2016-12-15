@@ -7,5 +7,5 @@
   "includes" : ["TrueSpace"],
   "path" : ".",
   "steamContentId" : "",
-  "version" : ".6"
+  "version" : ".6.1"
 }

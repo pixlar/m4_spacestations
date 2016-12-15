@@ -1,6 +1,4 @@
---station events
 
--- The Dread Parrot Roberts attacks the station
 -- WARNING PHASE
 -- lasts 60 seconds
 -- loudspeakers announce incoming ship
@@ -10,23 +8,8 @@
 
 -- RAIDER SPAWNING PHASE
 -- raider spawning lasts 60 seconds
--- spawn avian raiders at questlocations every 20 seconds
--- number of avian raiders per spawn = threat level/2 + 1 (rounded up)
-
--- DREAD ROBERTS BATTLE
--- after 130 seconds, Dread Pirate Roberts spawns at a random player's location
--- players have 90 seconds to defeat him, or he teleports away
--- if all players die, DPR wins
--- if DPR is defeated, he flees to his ship
--- stationcaptain offers players the chance to follow for 40 seconds
-
--- BOARDING THE PIRATE SHIP
--- players teleport to pirate ship dungeon
--- clear as normal dungeon
-
--- RESET PHASE
--- set respawn timers for dead npcs
--- turn off lasers
+-- spawn raiders at questlocations every 20 seconds
+-- number of raiders per spawn = threat level/2 + 1 (rounded up)
 
 function init()
 --  if not entity.uniqueId() then
@@ -34,7 +17,7 @@ function init()
 --  end
   
 --  local eventType = config.getParameter("eventType")
-  
+  self.raiderspawnperiods = { [1] = 40, [2] = 30, [3] = 30, [4] = 20, [5] = 20, [6] = 20, [7] = 15}
   if not storage.starttime then
 	sb.logInfo("starting timers. Start Time: "..os.time())
 	storage.starttime = os.time()
@@ -50,7 +33,7 @@ function init()
   end
   -- if this event was abandoned, do stuff and die
 	if os.time() >= (storage.starttime + 440) then
-		sb.logInfo("This is an old event")
+--		sb.logInfo("This is an old event")
 		endEvent()
 	end
   message.setHandler("endEvent", function(_, _) 
@@ -92,15 +75,16 @@ function update(dt)
 			storage.stage = 2
 		end
 	elseif storage.stage == 2 then
-		--spawn raiders every 20 seconds
-		if self.timer % 20 == 0 and storage.lastSpawn ~= os.time() then
+		-- spawn raiders every x seconds
+		-- determined by station threat level
+		local spawnperiod = self.raiderspawnperiods[world.threatLevel()]
+		if self.timer % spawnperiod == 0 and storage.lastSpawn ~= os.time() then
 			broadcast("Raiders teleporting in")
 			storage.lastSpawn = os.time()
 			spawnRaiders()
 		end
 		if self.timer >= 120 then
 			storage.stage = 3
-			spawnDPR()
 		end
 	elseif storage.stage >= 3 then
 		broadcast("The raiders' ship is leaving, time to mop up")
@@ -140,12 +124,13 @@ function stationmaster()
 end
 
 function spawnRaidersAtLoc(numRaiders, location)
-	sb.logInfo("Spawning raiders")
+--	sb.logInfo("Spawning raiders")
 	local raider = config.getParameter("raider")
 	for i=1, numRaiders do
 		wiggle = {3-math.random(5),3-math.random(5)}
 		loc = {location[1]+wiggle[1],location[2]+wiggle[2]}
-		local hostile = world.spawnNpc(loc, raider[1], raider[2],world.threatLevel())
+		local raiderlevel = math.max(world.threatLevel()-1, 1)
+		local hostile = world.spawnNpc(loc, raider[1], raider[2], raiderlevel)
 		hostileUID = sb.makeUuid()
 		world.setUniqueId(hostile, hostileUID)
 		table.insert(storage.hostiles, hostileUID)
@@ -154,18 +139,37 @@ end
 
 function spawnRaiders()
 	local numRaiders = math.ceil(world.threatLevel()/2) + 1
-	sb.logInfo("raiders per spawn: "..numRaiders)
-	if storage.spawnpoints == nil or storage.spawnpoints == {} then
-		sb.logInfo("I have no spawnpoints")
-		storage.spawnpoints = spawnLocations()
-	end	
+--	sb.logInfo("raiders per spawn: "..numRaiders)
+	
+	storage.spawnpoints = spawnLocations()
+		
+-- if the station threatlevel is 3 or lower, only spawn raiders at one location for each player present. Choose the locations closest to players
+	if world.threatLevel() <= 3 then
+		local localPlayers = world.playerQuery(entity.position(), 200)
+		sb.logInfo("There are this many players on the station: " .. #localPlayers)
+		if #storage.spawnpoints > #localPlayers then
+			local shortenedLocations = {}
+			for _,player in ipairs(localPlayers) do
+				local closestLocation = nil
+				local currentDist = 9000
+				local playerPos = world.entityPosition(player)
+				for key,location in pairs(storage.spawnpoints) do
+					if world.magnitude(playerPos, location) < currentDist then
+						closestLocation = location
+						keyLoc = key
+						currentDist = world.magnitude(playerPos, location)
+					end
+				end 
+				table.insert(shortenedLocations,closestLocation)
+				table.remove(storage.spawnpoints,keyLoc)
+			end
+			storage.spawnpoints = shortenedLocations
+		end
+	end
+	
 	for _,location in ipairs(storage.spawnpoints) do
 		spawnRaidersAtLoc(numRaiders, location)
 	end
-end
-
-function spawnDPR()
-	sb.logInfo("boss spawns near player")
 end
 
 function broadcast(msg)
