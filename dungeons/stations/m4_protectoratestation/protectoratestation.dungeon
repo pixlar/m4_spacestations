@@ -160,6 +160,14 @@
       "def" : [ "tmx", "stationRoomCrafting.json" ],
       "chance" : 1
     },
+        {
+      "name" : "stationRoomFill",
+      "rules" : [
+        [ "ignorePartMaximumRule" ]
+      ],
+      "def" : [ "tmx", "stationRoomEmpty.json" ],
+      "chance" : 0
+    },
     
     // STATION COMMAND
     {
@@ -195,6 +203,14 @@
       ],
       "def" : [ "tmx", "protectoratespacestationdock2.json" ],
       "chance" : 3
+    },
+    {
+      "name" : "protectoratespacestationcapext",
+      "rules" : [
+        [ "ignorePartMaximumRule" ]
+      ],
+      "def" : [ "tmx", "protectoratespacestationext1.json" ],
+      "chance" : 0
     }
   ]
 }
