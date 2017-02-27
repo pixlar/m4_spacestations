@@ -36,9 +36,10 @@
     {
       "name" : "stationRoomEmpty",
       "rules" : [
+        ["ignorePartMaximumRule"]
       ],
       "def" : [ "tmx", "/dungeons/stations/m4_protectoratestation/stationRoomEmpty.json" ],
-      "chance" : 3
+      "chance" : 0
     },
     {
       "name" : "stationRoomHylotl",
@@ -200,6 +201,7 @@
     {
       "name" : "hylotlbottom1",
       "rules" : [
+        ["ignorePartMaximumRule"]
       ],
       "def" : [ "tmx", "hylotlbottom1.json" ],
       "chance" : 1
@@ -207,6 +209,7 @@
     {
       "name" : "hylotltop1",
       "rules" : [
+        ["ignorePartMaximumRule"]
       ],
       "def" : [ "tmx", "hylotltop1.json" ],
       "chance" : 1
@@ -221,6 +224,7 @@
     {
       "name" : "hylotlend1",
       "rules" : [
+        ["ignorePartMaximumRule"]
       ],
       "def" : [ "tmx", "hylotlend1.json" ],
       "chance" : 1
@@ -228,6 +232,7 @@
     {
       "name" : "hylotlend2",
       "rules" : [
+        ["ignorePartMaximumRule"]
       ],
       "def" : [ "tmx", "hylotlend2.json" ],
       "chance" : 1
