@@ -10,6 +10,11 @@ function init()
 		world.setProperty("species", self.station.species)
 	else
 		self.events = config.getParameter("events", {"apexraiders", "avianraiders", "floranraiders", "calm"})
+		local extracalm = 10
+		extracalm = math.max(extracalm - world.threatlevel(),0)
+		for i=0,extracalm do
+			table.insert(self.events,"calm")
+		end
 	end
 	
 	if storage.lastSeen ~= nil and (os.time() - storage.lastSeen) >= 14400 then
